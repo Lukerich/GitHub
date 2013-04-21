@@ -20,4 +20,4 @@
 
    // Output the fuel cost of the trip
 console.log("The fuel will cost " + "$" + [trpExp] + " for your trip");
-// alert("The fuel will cost " + "$" [trpExp] + " for your trip");
+alert("The fuel will cost " + "$" [trpExp] + " for your trip");
