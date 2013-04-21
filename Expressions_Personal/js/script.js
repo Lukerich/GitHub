@@ -11,7 +11,7 @@
     // Miles per gallon of vehicle - mpg
 
     var miles = prompt ("Enter the Distance in Mile", "1"); // Prompt for trip distance
-    var ppg = prompt ("Enter the Price of fuel/gallon", "1");
+    var ppg = prompt ("Enter the Price of fuel/gallon", "1"); // Prompt for price per gallon of fuel
     var mpg = prompt("Enter the vehicle's MPG", "1");
 
 
