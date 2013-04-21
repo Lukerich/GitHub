@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="052c918e-a9a2-456d-ac12-3bfa5f6ae598" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/script.js" afterPath="$PROJECT_DIR$/js/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Expressions_Personal.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="052c918e-a9a2-456d-ac12-3bfa5f6ae598" time="1366579266303" ignored="false" />
-    <file path="/script.js" changelist="052c918e-a9a2-456d-ac12-3bfa5f6ae598" time="1366579445573" ignored="false" />
+    <file path="/Dummy.txt" changelist="052c918e-a9a2-456d-ac12-3bfa5f6ae598" time="1366579596126" ignored="false" />
+    <file path="/script.js" changelist="052c918e-a9a2-456d-ac12-3bfa5f6ae598" time="1366579497085" ignored="false" />
+    <file path="/index.html" changelist="052c918e-a9a2-456d-ac12-3bfa5f6ae598" time="1366579849891" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,19 +29,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="6" column="62" selection-start="176" selection-end="176" vertical-scroll-proportion="0.1388889">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="69" selection-start="590" selection-end="590" vertical-scroll-proportion="0.42410713">
+            <state line="20" column="62" selection-start="653" selection-end="653" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -64,9 +65,9 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/script.js" />
         <option value="$PROJECT_DIR$/js/script.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -163,6 +164,13 @@
       <option name="testName" />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -205,7 +213,15 @@
       <created>1366579270295</created>
       <updated>1366579270295</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update">
+      <created>1366579489647</created>
+      <updated>1366579489647</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update">
+      <created>1366579598579</created>
+      <updated>1366579598579</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -321,16 +337,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="20" column="62" selection-start="653" selection-end="653" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/script.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="69" selection-start="590" selection-end="590" vertical-scroll-proportion="0.42410713">
+        <state line="6" column="62" selection-start="176" selection-end="176" vertical-scroll-proportion="0.1388889">
           <folding />
         </state>
       </provider>
