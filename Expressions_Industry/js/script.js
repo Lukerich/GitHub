@@ -14,3 +14,6 @@
         var charSze = prompt("Enter size of characters in pixels", "1"); // Prompt for character size in pixels
 
             var numChr = webAlen * webAdep / charSze ;
+
+    console.log("The number of characters you web page area can hold is " + [numChr]);
+    alert()
