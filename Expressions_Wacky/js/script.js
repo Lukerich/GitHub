@@ -10,4 +10,5 @@
     shovel full of dirt in pounds (converted to area cubic feet)
  */
 
-var coffin = prompt ()
+
+var coffin = prompt ("")
