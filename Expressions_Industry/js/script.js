@@ -15,5 +15,5 @@
 
             var numChr = webAlen * webAdep / charSze ;
 
-    console.log("The number of characters you web page area can hold is " + [numChr]);
-    alert()
+    console.log("The number of characters you can fit in your web page area is " + [numChr]);
+    alert("The number of characters you can fit in your web page area is " + [numChr]);
