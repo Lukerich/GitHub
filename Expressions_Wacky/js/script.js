@@ -12,4 +12,4 @@
  */
 
     var grtStr = prompt("What is your name?", "Igor?");
-    var coffin = prompt ("")
+    var coffin = prompt ("What are the dimensions of the coffin \n in cubic feet \n ex. a 6' tall medium build \n person would need \n a coffin of 66.5 cubic feet", "66.5 ft\x00Bx")

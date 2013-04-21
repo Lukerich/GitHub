@@ -7,7 +7,7 @@
     </list>
     <ignored path="Expressions_Wacky.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="8a1e9c3b-49b0-4236-ad88-95fa1e9a5475" time="1366587695818" ignored="false" />
+    <file path="/Dummy.txt" changelist="8a1e9c3b-49b0-4236-ad88-95fa1e9a5475" time="1366587839837" ignored="false" />
     <file path="/index.html" changelist="8a1e9c3b-49b0-4236-ad88-95fa1e9a5475" time="1366587230362" ignored="false" />
     <file path="/script.js" changelist="8a1e9c3b-49b0-4236-ad88-95fa1e9a5475" time="1366587771209" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,7 +41,7 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="55" selection-start="430" selection-end="430" vertical-scroll-proportion="0.3125">
+            <state line="14" column="179" selection-start="581" selection-end="581" vertical-scroll-proportion="0.31866464">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -201,7 +201,11 @@
       <created>1366587699894</created>
       <updated>1366587699894</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="updates&#10;">
+      <created>1366587843510</created>
+      <updated>1366587843510</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -314,7 +318,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="55" selection-start="430" selection-end="430" vertical-scroll-proportion="0.3125">
+        <state line="14" column="179" selection-start="581" selection-end="581" vertical-scroll-proportion="0.31866464">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
