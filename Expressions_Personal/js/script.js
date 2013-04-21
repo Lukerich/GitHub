@@ -15,8 +15,7 @@
     var mpg = prompt("Enter the vehicle's MPG", "1");
 
         {
-            var trpExp = (miles / mpg) * ppg; // cost of fuel for trip
-
+           trpExp = (miles / mpg) * ppg; // cost of fuel for trip
         }
 
    // Output the fuel cost of the trip
