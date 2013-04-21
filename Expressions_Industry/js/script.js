@@ -9,3 +9,4 @@
         // Area of web page in number of pixels depth
         // Size of characters in pixels
 
+var webArea = prompt ("Enter the number of pixels in page area", "1"); // Prompt for web page area in pixels
