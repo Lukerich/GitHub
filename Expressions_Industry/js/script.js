@@ -13,7 +13,7 @@
         var webAdep = prompt("Enter depth in pixels of page area \n ex. iphone 352 px", "1"); // Prompt for web page area depth in pixels
         var charSze = prompt("Enter size of characters in pixels \n ex. 12pt is 16 px", "1"); // Prompt for character size in pixels
 
-            var numChr = webAlen * webAdep ; // Size of web page area in pixels
+            var numChr = webAlen * webAdep ; // Number of characters per web page area in pixels
 
 
             // Output the number of characters that will fit in the defined web page area to the console
