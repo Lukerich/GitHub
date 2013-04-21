@@ -7,7 +7,7 @@
     </list>
     <ignored path="Expressions_Personal.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="052c918e-a9a2-456d-ac12-3bfa5f6ae598" time="1366580999304" ignored="false" />
+    <file path="/Dummy.txt" changelist="052c918e-a9a2-456d-ac12-3bfa5f6ae598" time="1366581050601" ignored="false" />
     <file path="/script.js" changelist="052c918e-a9a2-456d-ac12-3bfa5f6ae598" time="1366580916400" ignored="false" />
     <file path="/index.html" changelist="052c918e-a9a2-456d-ac12-3bfa5f6ae598" time="1366579849891" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,7 +41,7 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="599" selection-end="599" vertical-scroll-proportion="0.49107143">
+            <state line="22" column="35" selection-start="634" selection-end="634" vertical-scroll-proportion="0.49107143">
               <folding />
             </state>
           </provider>
@@ -249,7 +249,11 @@
       <created>1366581001103</created>
       <updated>1366581001103</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="update">
+      <created>1366581052074</created>
+      <updated>1366581052074</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -374,7 +378,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="599" selection-end="599" vertical-scroll-proportion="0.49107143">
+        <state line="22" column="35" selection-start="634" selection-end="634" vertical-scroll-proportion="0.49107143">
           <folding />
         </state>
       </provider>
