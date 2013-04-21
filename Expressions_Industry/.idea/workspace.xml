@@ -6,7 +6,7 @@
     </list>
     <ignored path="Expressions_Industry.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="9252f011-9308-4e49-993c-e873326c94db" time="1366584892802" ignored="false" />
+    <file path="/Dummy.txt" changelist="9252f011-9308-4e49-993c-e873326c94db" time="1366584911360" ignored="false" />
     <file path="/index.html" changelist="9252f011-9308-4e49-993c-e873326c94db" time="1366584446715" ignored="false" />
     <file path="/script.js" changelist="9252f011-9308-4e49-993c-e873326c94db" time="1366584148199" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -258,7 +258,11 @@
       <created>1366584894627</created>
       <updated>1366584894627</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="updates">
+      <created>1366584913438</created>
+      <updated>1366584913438</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="ToolWindowManager">
