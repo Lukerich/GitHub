@@ -15,8 +15,9 @@
 
             var numChr = webAlen * webAdep / charSze ;
 
-            // Output the number characters that will fit in the defined web page area
+            // Output the number of characters that will fit in the defined web page area to the console
     console.log("The number of characters you can fit in your web page area is " + [numChr]);
+            // Output the number of characters that will fit in the defined web page area to an Alert box
     alert("The number of characters you can fit in your web page area is " + [numChr]);
 
 
