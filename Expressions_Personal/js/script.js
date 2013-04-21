@@ -3,7 +3,7 @@
  * Date: 4/21/13
  * Expressions Expressions_Personal
  */
- //  The cost of driving from one to another
+ //  The fuel cost of trip
 
 // Three variables are
     // Distance in miles
@@ -14,5 +14,5 @@
     var ppg = prompt ("Enter the Price of fuel/gallon", "1");
     var mpg = prompt("Enter the vehicle's MPG", "1");
 
-    var trpExp =
+    var trpExp = miles / mpg * ppg; // cost of fuel for trip
 
