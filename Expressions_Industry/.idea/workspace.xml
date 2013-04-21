@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9252f011-9308-4e49-993c-e873326c94db" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/script.js" afterPath="$PROJECT_DIR$/js/script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Expressions_Industry.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="9252f011-9308-4e49-993c-e873326c94db" time="1366587012200" ignored="false" />
+    <file path="/Dummy.txt" changelist="9252f011-9308-4e49-993c-e873326c94db" time="1366587079379" ignored="false" />
     <file path="/index.html" changelist="9252f011-9308-4e49-993c-e873326c94db" time="1366584446715" ignored="false" />
     <file path="/script.js" changelist="9252f011-9308-4e49-993c-e873326c94db" time="1366587003038" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -287,7 +286,11 @@
       <created>1366587013469</created>
       <updated>1366587013469</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="updates">
+      <created>1366587080821</created>
+      <updated>1366587080821</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="ToolWindowManager">
