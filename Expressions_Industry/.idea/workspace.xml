@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9252f011-9308-4e49-993c-e873326c94db" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/script.js" afterPath="$PROJECT_DIR$/js/script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Expressions_Industry.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="9252f011-9308-4e49-993c-e873326c94db" time="1366584420835" ignored="false" />
+    <file path="/Dummy.txt" changelist="9252f011-9308-4e49-993c-e873326c94db" time="1366584457471" ignored="false" />
     <file path="/index.html" changelist="9252f011-9308-4e49-993c-e873326c94db" time="1366584446715" ignored="false" />
     <file path="/script.js" changelist="9252f011-9308-4e49-993c-e873326c94db" time="1366584148199" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,19 +29,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="84" selection-start="214" selection-end="214" vertical-scroll-proportion="0.1388889">
+            <state line="6" column="84" selection-start="214" selection-end="214" vertical-scroll-proportion="-3.75">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="67" selection-start="424" selection-end="424" vertical-scroll-proportion="0.0">
+            <state line="13" column="85" selection-start="721" selection-end="721" vertical-scroll-proportion="0.29590288">
               <folding />
             </state>
           </provider>
@@ -65,8 +65,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/script.js" />
       </list>
     </option>
   </component>
@@ -243,7 +243,11 @@
       <created>1366584422527</created>
       <updated>1366584422527</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="updates">
+      <created>1366584458996</created>
+      <updated>1366584458996</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -345,16 +349,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/script.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="67" selection-start="424" selection-end="424" vertical-scroll-proportion="0.0">
+        <state line="6" column="84" selection-start="214" selection-end="214" vertical-scroll-proportion="-3.75">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="84" selection-start="214" selection-end="214" vertical-scroll-proportion="0.1388889">
+        <state line="13" column="85" selection-start="721" selection-end="721" vertical-scroll-proportion="0.29590288">
           <folding />
         </state>
       </provider>
