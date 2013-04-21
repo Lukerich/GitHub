@@ -14,10 +14,10 @@
     var ppg = prompt ("Enter the Price of fuel/gallon", "1");
     var mpg = prompt("Enter the vehicle's MPG", "1");
 
-        {
-           trpExp = (miles / mpg) * ppg; // cost of fuel for trip
-        }
+
+        var trpExp = (miles / mpg) * ppg; // cost of fuel for trip
+
 
    // Output the fuel cost of the trip
 console.log("The fuel will cost " + "$" [trpExp] + " for your trip");
-alert("The fuel will cost " + "$" [trpExp] + " for your trip");
+// alert("The fuel will cost " + "$" [trpExp] + " for your trip");
