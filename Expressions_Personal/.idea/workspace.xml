@@ -7,7 +7,7 @@
     </list>
     <ignored path="Expressions_Personal.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="052c918e-a9a2-456d-ac12-3bfa5f6ae598" time="1366581190210" ignored="false" />
+    <file path="/Dummy.txt" changelist="052c918e-a9a2-456d-ac12-3bfa5f6ae598" time="1366581226511" ignored="false" />
     <file path="/script.js" changelist="052c918e-a9a2-456d-ac12-3bfa5f6ae598" time="1366580916400" ignored="false" />
     <file path="/index.html" changelist="052c918e-a9a2-456d-ac12-3bfa5f6ae598" time="1366579849891" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,7 +41,7 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="91" selection-start="521" selection-end="521" vertical-scroll-proportion="0.3125">
+            <state line="13" column="59" selection-start="388" selection-end="388" vertical-scroll-proportion="0.29017857">
               <folding />
             </state>
           </provider>
@@ -265,7 +265,11 @@
       <created>1366581192032</created>
       <updated>1366581192032</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="update">
+      <created>1366581228295</created>
+      <updated>1366581228295</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -410,7 +414,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="91" selection-start="521" selection-end="521" vertical-scroll-proportion="0.3125">
+        <state line="13" column="59" selection-start="388" selection-end="388" vertical-scroll-proportion="0.29017857">
           <folding />
         </state>
       </provider>
