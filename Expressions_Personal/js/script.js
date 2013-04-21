@@ -6,9 +6,9 @@
  //  The fuel cost of trip
 
 // Three variables are
-    // Distance in miles
-    // Price of fuel per gallon
-    // Miles per gallon of vehicle
+    // Distance in miles - miles
+    // Price of fuel per gallon - ppg
+    // Miles per gallon of vehicle - mpg
 
     var miles = prompt ("Enter the Distance in Mile", "1");
     var ppg = prompt ("Enter the Price of fuel/gallon", "1");
