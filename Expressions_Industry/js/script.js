@@ -9,9 +9,9 @@
         // Area of web page in number of pixels depth
         // Size of characters in pixels
 
-        var webAlen = prompt ("Enter length in pixels of page area \b ex. iphone 310 px", "1"); // Prompt for web page area length in pixels
-        var webAdep = prompt("Enter depth in pixels of page area \b ex. iphone 352 px", "1"); // Prompt for web page area depth in pixels
-        var charSze = prompt("Enter size of characters in pixels \b ex. 12pt is 16 px", "1"); // Prompt for character size in pixels
+        var webAlen = prompt ("Enter length in pixels of page area \n ex. iphone 310 px", "1"); // Prompt for web page area length in pixels
+        var webAdep = prompt("Enter depth in pixels of page area \n ex. iphone 352 px", "1"); // Prompt for web page area depth in pixels
+        var charSze = prompt("Enter size of characters in pixels \n ex. 12pt is 16 px", "1"); // Prompt for character size in pixels
 
             var numChr = webAlen * webAdep / charSze ;
 
