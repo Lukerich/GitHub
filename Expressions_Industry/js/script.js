@@ -10,4 +10,4 @@
         // Size of characters in pixels
 
 var webAlen = prompt ("Enter length in pixels of page area", "1"); // Prompt for web page area in pixels
-var
+var webAdep = prompt("Enter depth in pixels of page area", "1")
