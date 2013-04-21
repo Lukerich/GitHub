@@ -19,6 +19,6 @@
             // Output the user name and the number of characters that will fit in the defined web page area to the console
     console.log([grtStr] + " The number of characters you can fit in your web page area is " + [numChr]);
             // Output the number of characters that will fit in the defined web page area to an Alert box
-    alert([grtStr] + "The number of characters you can fit in your web page area is " + [numChr]);
+    alert([grtStr] + " The number of characters you can fit in your web page area is " + [numChr]);
 
 
