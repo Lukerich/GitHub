@@ -7,9 +7,9 @@
     </list>
     <ignored path="Expressions_Wacky.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="8a1e9c3b-49b0-4236-ad88-95fa1e9a5475" time="1366589204376" ignored="false" />
+    <file path="/Dummy.txt" changelist="8a1e9c3b-49b0-4236-ad88-95fa1e9a5475" time="1366589421343" ignored="false" />
     <file path="/index.html" changelist="8a1e9c3b-49b0-4236-ad88-95fa1e9a5475" time="1366587230362" ignored="false" />
-    <file path="/script.js" changelist="8a1e9c3b-49b0-4236-ad88-95fa1e9a5475" time="1366589318513" ignored="false" />
+    <file path="/script.js" changelist="8a1e9c3b-49b0-4236-ad88-95fa1e9a5475" time="1366589588937" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +41,7 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="822" selection-end="822" vertical-scroll-proportion="0.43247345">
+            <state line="11" column="45" selection-start="323" selection-end="323" vertical-scroll-proportion="0.25037935">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -213,7 +213,11 @@
       <created>1366589215566</created>
       <updated>1366589215566</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="updates&#10;">
+      <created>1366589424540</created>
+      <updated>1366589424540</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -326,7 +330,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="822" selection-end="822" vertical-scroll-proportion="0.43247345">
+        <state line="11" column="45" selection-start="323" selection-end="323" vertical-scroll-proportion="0.25037935">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
