@@ -7,7 +7,7 @@
     </list>
     <ignored path="Expressions_Wacky.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="8a1e9c3b-49b0-4236-ad88-95fa1e9a5475" time="1366592182408" ignored="false" />
+    <file path="/Dummy.txt" changelist="8a1e9c3b-49b0-4236-ad88-95fa1e9a5475" time="1366592341858" ignored="false" />
     <file path="/index.html" changelist="8a1e9c3b-49b0-4236-ad88-95fa1e9a5475" time="1366587230362" ignored="false" />
     <file path="/script.js" changelist="8a1e9c3b-49b0-4236-ad88-95fa1e9a5475" time="1366592155702" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,7 +41,7 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="140" selection-start="943" selection-end="943" vertical-scroll-proportion="0.4097117">
+            <state line="16" column="154" selection-start="845" selection-end="845" vertical-scroll-proportion="0.36418816">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -237,7 +237,11 @@
       <created>1366592184200</created>
       <updated>1366592184200</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="updates&#10;">
+      <created>1366592343412</created>
+      <updated>1366592343412</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -350,7 +354,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="140" selection-start="943" selection-end="943" vertical-scroll-proportion="0.4097117">
+        <state line="16" column="154" selection-start="845" selection-end="845" vertical-scroll-proportion="0.36418816">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
