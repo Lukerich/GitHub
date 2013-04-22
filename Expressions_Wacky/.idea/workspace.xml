@@ -7,9 +7,9 @@
     </list>
     <ignored path="Expressions_Wacky.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="8a1e9c3b-49b0-4236-ad88-95fa1e9a5475" time="1366592623388" ignored="false" />
+    <file path="/Dummy.txt" changelist="8a1e9c3b-49b0-4236-ad88-95fa1e9a5475" time="1366592644746" ignored="false" />
     <file path="/index.html" changelist="8a1e9c3b-49b0-4236-ad88-95fa1e9a5475" time="1366587230362" ignored="false" />
-    <file path="/script.js" changelist="8a1e9c3b-49b0-4236-ad88-95fa1e9a5475" time="1366592155702" ignored="false" />
+    <file path="/script.js" changelist="8a1e9c3b-49b0-4236-ad88-95fa1e9a5475" time="1366592759806" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +41,7 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="48" selection-start="1015" selection-end="1015" vertical-scroll-proportion="0.4552352">
+            <state line="20" column="67" selection-start="1034" selection-end="1034" vertical-scroll-proportion="0.4552352">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -253,7 +253,11 @@
       <created>1366592625069</created>
       <updated>1366592625069</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="updates&#10;">
+      <created>1366592648584</created>
+      <updated>1366592648584</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -366,7 +370,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="48" selection-start="1015" selection-end="1015" vertical-scroll-proportion="0.4552352">
+        <state line="20" column="67" selection-start="1034" selection-end="1034" vertical-scroll-proportion="0.4552352">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
