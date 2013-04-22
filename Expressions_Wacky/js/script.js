@@ -18,4 +18,7 @@
     var shvWgt = prompt ("Enter the weight in pounds each shovel full will be", "8lb");
 
             var shvAre = shvWgt / 100;
-            var numshvFl = shvAre / burSte;
+            var numshvFl = (shvAre / burSte) * 2 - (shvAre / coffin);
+
+    console.log("Luke's mortuary - you stab em we slab em - some go to heaven - some go to hello " + [grtStr] + " \n number of shovels full of dirt needed \n to bury the coffin is " + [numshvFl]);
+    alert("Luke's mortuary - you stab em we slab em - some go to heaven - some go to hello " + [grtStr] + " \n number of shovels full of dirt needed \n to bury the coffin is " + [numshvFl]);
