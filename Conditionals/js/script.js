@@ -6,6 +6,7 @@
       // Video follow along
 
     //Plans for the weekend
-if(condition){
-    actions
-}
+    sunny=false
+        if(sunny){
+            goToTheBeach();
+        }
