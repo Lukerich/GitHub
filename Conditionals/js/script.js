@@ -14,4 +14,6 @@
         }
 
     temp = 82
-    if(temp>70)
+        if(temp == 70){
+            goToTheBeach();
+        }
