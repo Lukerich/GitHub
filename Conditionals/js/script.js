@@ -12,3 +12,6 @@
         }else{
             goToTheMovies();
         }
+
+    temp = 82
+    if(temp>70)
