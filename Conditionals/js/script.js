@@ -9,4 +9,6 @@
     sunny=false
         if(sunny){
             goToTheBeach();
+        }else{
+            goToTheMovies();
         }
