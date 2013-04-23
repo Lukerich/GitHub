@@ -9,9 +9,14 @@
     sunny=false
         if(sunny){
             goToTheBeach();
+
+            if(warmWater){
+                wearNewSuit();      // nesting conditional statements
+            }
         }else{
             goToTheMovies();
         }
+
 
     temp = 82
         if(temp == 70){
