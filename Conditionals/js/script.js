@@ -19,6 +19,6 @@
 
 
     temp = 82
-        if(temp == 70){
+        if(temp == 70){      // conditional statements = assigns == is equal to comparing values
             goToTheBeach();
         }
