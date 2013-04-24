@@ -40,7 +40,7 @@
     // if the child is old enough print to the console "you can ride!"
     // if the kid is over 48 inches in height
 
-        if(){
+        if(kidHeight > 48){
             console.log ("You can ride the coaster");    // code performed if the condition is true (code block)
         }
 
