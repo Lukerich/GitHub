@@ -35,11 +35,12 @@
   */
     // Relational Expressions (Comparing object for decision making)
 
-    var oldEnough = false;
+    var kidHeight = 30;
 
     // if the child is old enough print to the console "you can ride!"
+    // if the kid is over 48 inches in height
 
-        if(oldEnough){
+        if(){
             console.log ("You can ride the coaster");    // code performed if the condition is true (code block)
         }
 
