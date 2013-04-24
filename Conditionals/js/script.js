@@ -22,8 +22,19 @@
         if(temp == 70){      // conditional statements = assigns == is equal to comparing values
             goToTheBeach();
         }
-*/
+
     // Conditional Logic
+  var oldEnough = false;
+
+  // if the child is old enough print to the console "you can ride!"
+
+  if(oldEnough){
+            console.log ("You can ride the coaster");    // code performed if the condition is true (code block)
+        }
+  console.log("What comes after?");
+  */
+    // Relational Expressions (Comparing object for decision making)
+
     var oldEnough = false;
 
     // if the child is old enough print to the console "you can ride!"
@@ -31,4 +42,4 @@
         if(oldEnough){
             console.log ("You can ride the coaster");    // code performed if the condition is true (code block)
         }
-        console.log("What comes after?");
+
