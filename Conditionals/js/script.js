@@ -3,7 +3,7 @@
  * Date: 4/22/13
  * Conditionals
  */
-      // Video follow along
+ /**     // Video follow along
 
     //Plans for the weekend
     sunny=false
@@ -22,7 +22,7 @@
         if(temp == 70){      // conditional statements = assigns == is equal to comparing values
             goToTheBeach();
         }
-
+*/
     // Conditional Logic
     var oldEnough = true;
 
