@@ -22,3 +22,8 @@
         if(temp == 70){      // conditional statements = assigns == is equal to comparing values
             goToTheBeach();
         }
+
+    // Conditional Logic
+    var oldenough = true
+
+    // if the child is old enough
