@@ -23,9 +23,9 @@
 
     if (degUnt = ("F")){
             tmptre = degTmp * (9/5 + 32);
-            console.log("The temperature is " + [tmptre] + " degrees Celsius.");
+            console.log("The temperature is " + tmptre + " degrees Celsius.");
     }else{
              tmptre = (degTmp - 32) * 5/9;
-             console.log("The temperature is " + [tmptre] + " degrees Fahrenheit.");
+             console.log("The temperature is " + tmptre + " degrees Fahrenheit.");
     }
 
