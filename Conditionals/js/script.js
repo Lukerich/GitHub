@@ -75,7 +75,7 @@
     // if(kidHeight <= minHeight){
         console.log ("Sorry kid, you have some growing to do first!");
     }
-  */
+
     // Relational Operators      - no spaces between operators
     // Greater than > Less than < Greater than or equal to >= Less than or equal to <=
     // compares tw (only two) and resolve to true or false
@@ -97,6 +97,7 @@
     // if(kidHeight <= minHeight){
         console.log ("Sorry kid, you have some growing to do first!");
     }
+ */
     // Logical Operators  compare two true or false values into one true or false
     // in between boolean variable in between comparisons and && or || Exclusive Or ^ (xor) Not !
     // and && boolean pair both be true - truth table true && true true the rest is false
