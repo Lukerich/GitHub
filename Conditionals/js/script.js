@@ -102,7 +102,7 @@
     // in between boolean variable in between comparisons and && or || Exclusive Or ^ (xor) Not !
     // and && boolean pair both be true - truth table true && true true the rest is false
 
-    var budget = 300;
+    var budget = 100;
     var iPhonePrice = 199.99;
     var wonLotto = true;
 
