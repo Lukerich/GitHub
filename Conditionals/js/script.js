@@ -97,7 +97,7 @@
     // if(kidHeight <= minHeight){
         console.log ("Sorry kid, you have some growing to do first!");
     }
- */
+
     // Logical Operators  compare two true or false values into one true or false
     // in between boolean variable in between comparisons and && or || Exclusive Or ^ (xor) Not !  a! = b !(a===b) a<b !(a<b)
     // and && boolean pair both be true - truth table true && true true the rest is false
@@ -115,3 +115,14 @@
     }else{
         console.log("No phone for you!!");
     }
+ */
+
+    // Ternaries decision making on one line
+
+    if(condition){
+        do if true;
+    }else{
+        do if false;
+    }
+
+        (condition) ? do if true : do if false;
