@@ -72,4 +72,6 @@
     if(kidHeight > minHeight){
         console.log ("You can ride the coaster!");    // code performed if the condition is true (code block)
     }
-    if(kidHeight <)
+    if(kidHeight < minHeight){
+        console.log ("Sorry kid, you have some growing to do first!");
+    }
