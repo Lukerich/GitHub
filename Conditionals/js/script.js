@@ -83,6 +83,7 @@
     //  5 < 5 false 5 <= 5 true a > b b < a
     // a == b is the same as compares two values a = b replaces values === compares type and values
      // 6 == "6" true 6 === "6" false type string or number
+     // Inequality  !=
 
     var kidHeight = 48;
     var minHeight = 48;
