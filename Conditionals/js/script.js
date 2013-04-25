@@ -44,7 +44,7 @@
         if(kidHeight > minHeight){
             console.log ("You can ride the coaster");    // code performed if the condition is true (code block)
         }
-  */
+
 // Conditional logic - With an Expression
 
     var kidHeight = 47;
@@ -57,3 +57,18 @@
     if(kidHeight + sneakerLift > minHeight){
         console.log ("You can ride the coaster!");    // code performed if the condition is true (code block)
     }
+
+  */
+    // If and else choosing between two blocks of code
+
+
+var kidHeight = 47;
+var minHeight = 48;
+var sneakerLift = 2;
+
+// if the child is old enough print to the console "you can ride!"
+// if the kid is over 48 inches in height
+
+if(kidHeight + sneakerLift > minHeight){
+    console.log ("You can ride the coaster!");    // code performed if the condition is true (code block)
+}
