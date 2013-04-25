@@ -18,7 +18,7 @@
  *         90F is 32.22C
  */
     var degTmp = Number(prompt("Enter the temperature", 32));
-    var degUnt = prompt("Enter the Unit: (C = Celsius F = Fahrenheit)", ("F"));
+    var degUnt = prompt("Enter the Unit: C Celsius F Fahrenheit", ("F"));
     var tmptre;
 
     if (degUnt = ("F")){
