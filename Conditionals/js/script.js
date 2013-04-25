@@ -62,7 +62,7 @@
     // If and else choosing between two blocks of code
 
 
-    var kidHeight = 47;
+    var kidHeight = 50;
     var minHeight = 48;
 
 
