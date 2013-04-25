@@ -153,12 +153,16 @@
             book = "The Time Machine";
         }
         console.log(book);
-   */
+
         var age = 6;
         var book;
 // It the child is under 10, they get Green Eggs and Ham, otherwise they get The Time Machine
 
         book = (age < 10) ? "Green Eggs and Ham" : "The Time Machine";
         console.log(book);
+
+ */
+
+    // Sequential Conditional Reusable Repetitive
 
 
