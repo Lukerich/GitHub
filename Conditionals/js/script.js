@@ -58,11 +58,11 @@
         console.log ("You can ride the coaster!");    // code performed if the condition is true (code block)
     }
 
-  */
+
     // If and else choosing between two blocks of code
 
 
-    var kidHeight = 52;
+    var kidHeight = 48;
     var minHeight = 48;
 
 
@@ -71,7 +71,23 @@
 
     if(kidHeight > minHeight){
         console.log ("You can ride the coaster!");    // code performed if the condition is true (code block)
+    } else{
+    // if(kidHeight <= minHeight){
+        console.log ("Sorry kid, you have some growing to do first!");
     }
-    if(kidHeight <= minHeight){
+  */
+    // Relational Operators
+    // Greater than > Less than < Greater than or equal to >= Less than or equal to <=
+
+    var kidHeight = 48;
+    var minHeight = 48;
+
+    // if the child is old enough print to the console "you can ride!"
+    // if the kid is over 48 inches in height
+
+    if(kidHeight > minHeight){
+        console.log ("You can ride the coaster!");    // code performed if the condition is true (code block)
+    }   else{
+    // if(kidHeight <= minHeight){
         console.log ("Sorry kid, you have some growing to do first!");
     }
