@@ -17,7 +17,7 @@
  *         100C is 212F
  *         90F is 32.22C
  */
-    var degTmp = Number (prompt("Enter the temperature", 32));
+    var degTmp = Number(prompt("Enter the temperature", 32));
     var tmptre;
     degUnt = prompt("Enter the Unit: C Celsius F Fahrenheit", ("F"));
 
