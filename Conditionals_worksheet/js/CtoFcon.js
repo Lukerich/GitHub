@@ -19,13 +19,13 @@
  */
     var degTmp = Number(prompt("Enter the temperature", 32));
     var tmptre;
-    degUnt = prompt("Enter the Unit: C Celsius F Fahrenheit", ("F"));
+    degUnt = prompt("Enter the Unit: (C = Celsius F = Fahrenheit)", ("F"));
 
     if (degUnt = ("F")){
             tmptre = degTmp * (9/5 + 32);
             console.log("The temperature is " + [tmptre] + " degrees Celsius.")
     }else{
-             tmptre = (degTmp - 32) * (5/9);
+             tmptre = degTmp - (32 * 5/9);
              console.log("The temperature is " + [tmptre] + " degrees Fahrenheit.")
     }
 
