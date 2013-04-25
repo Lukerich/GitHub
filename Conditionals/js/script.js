@@ -126,7 +126,7 @@
     }
 
         (condition) ? do if true : do if false;
-  */
+
 
     var gpa = 48;
 
@@ -137,3 +137,7 @@
     }else{
         console.log("GPA is too low!");
     }
+     */
+    var gpa = 48;
+
+        (gpa > 2.0) ? console.log("You can graduate!") : console.log("GPA too low!");
