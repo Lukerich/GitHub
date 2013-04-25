@@ -99,8 +99,10 @@
     }
  */
     // Logical Operators  compare two true or false values into one true or false
-    // in between boolean variable in between comparisons and && or || Exclusive Or ^ (xor) Not !
+    // in between boolean variable in between comparisons and && or || Exclusive Or ^ (xor) Not !  a! = b !(a===b) a<b !(a<b)
     // and && boolean pair both be true - truth table true && true true the rest is false
+    // a === b ===c doesn't work a === b && b === c works for both pairs true all the same value
+
 
     var budget = 100;
     var iPhonePrice = 199.99;
