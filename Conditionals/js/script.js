@@ -76,8 +76,10 @@
         console.log ("Sorry kid, you have some growing to do first!");
     }
   */
-    // Relational Operators
+    // Relational Operators      - no spaces between operators
     // Greater than > Less than < Greater than or equal to >= Less than or equal to <=
+    // compares tw (only two) and resolve to true or false
+    // equality == strict equality ==== Inequality !=
 
     var kidHeight = 48;
     var minHeight = 48;
