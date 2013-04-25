@@ -62,7 +62,7 @@
     // If and else choosing between two blocks of code
 
 
-    var kidHeight = 48;
+    var kidHeight = 52;
     var minHeight = 48;
 
 
@@ -72,6 +72,6 @@
     if(kidHeight > minHeight){
         console.log ("You can ride the coaster!");    // code performed if the condition is true (code block)
     }
-    if(kidHeight < minHeight){
+    if(kidHeight <= minHeight){
         console.log ("Sorry kid, you have some growing to do first!");
     }
