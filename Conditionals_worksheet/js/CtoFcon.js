@@ -21,7 +21,7 @@
     var degUnt = prompt("Enter the Unit: (C = Celsius F = Fahrenheit)", ("F"));
     var tmptre;
 
-    if degUnt = ("F"){
+    if (degUnt = ("F")){
            tmptre = degTmp * (9/5 + 32);
     }else{
            tmptre = (degTmp - 32) * (5/9);
