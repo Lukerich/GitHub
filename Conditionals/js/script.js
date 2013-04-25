@@ -97,3 +97,15 @@
     // if(kidHeight <= minHeight){
         console.log ("Sorry kid, you have some growing to do first!");
     }
+    // Logical Operators  compare two true or false values into one true or false
+    // in between boolean variable in between comparisons and && or || Exclusive Or ^ (xor) Not !
+    // and && boolean pair both be true - truth table true && true true the rest is false
+
+    var budget = 300;
+    var iPhonePrice = 199.99;
+    var payCheck = 200;
+
+
+        console.log("We can buy the phone!");
+
+        console.log("No phone for you!!")
