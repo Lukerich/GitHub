@@ -12,9 +12,9 @@
  *      "The tires pass spec!" or "Get your tires checked out!"
  */
         fdt = Number(prompt("Enter Front Driver side tire pressure", 30));
-        fdt = Number(prompt("Enter Front Passenger side tire pressure", 30));
-        fdt = Number(prompt("Enter Rear Driver side tire pressure", 30));
-        fdt = Number(prompt("Enter Rear Passenger side tire pressure", 30));
+        fpt = Number(prompt("Enter Front Passenger side tire pressure", 30));
+        rdt = Number(prompt("Enter Rear Driver side tire pressure", 30));
+        rpt = Number(prompt("Enter Rear Passenger side tire pressure", 30));
 
             var tparry = new Array();
             tparry[0] = 30;
