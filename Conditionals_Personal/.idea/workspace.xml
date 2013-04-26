@@ -9,7 +9,7 @@
     </list>
     <ignored path="Conditionals_Personal.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="f48adb88-7aba-4a43-bd2b-b51e223030ca" time="1366948955644" ignored="false" />
+    <file path="/Dummy.txt" changelist="f48adb88-7aba-4a43-bd2b-b51e223030ca" time="1366948981233" ignored="false" />
     <file path="/index.html" changelist="f48adb88-7aba-4a43-bd2b-b51e223030ca" time="1366948495316" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +42,7 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="13" selection-start="33" selection-end="33" vertical-scroll-proportion="0.04464286">
+            <state line="4" column="3" selection-start="64" selection-end="64" vertical-scroll-proportion="0.08928572">
               <folding />
             </state>
           </provider>
@@ -191,7 +191,11 @@
       <created>1366948557754</created>
       <updated>1366948557754</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Conditionals_Personal">
+      <created>1366948984402</created>
+      <updated>1366948984402</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -288,7 +292,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="33" selection-end="33" vertical-scroll-proportion="0.04464286">
+        <state line="4" column="3" selection-start="64" selection-end="64" vertical-scroll-proportion="0.08928572">
           <folding />
         </state>
       </provider>
