@@ -19,3 +19,13 @@
 
     var usrnm = prompt("Enter Username: ", "");
     var psswd = prompt("Enter password: ", "");
+
+    usrNam = ();
+    pasWrd = ();
+
+            (usrnm === usrNam)? console.log("Welcome, " + usrnm + "!") : console.log("User not found. Try again");
+        if (usrnm === usrNam && psswd === pasWrd) {
+            console.log("Welcome, " + usrnm + "!");
+        }else{
+            console.log("User not found. Try again");
+        }
