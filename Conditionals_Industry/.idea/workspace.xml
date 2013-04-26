@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54e78c20-3aa9-49b8-8c46-5de6b743fcb4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Conditionals_Personal/js/script.js" afterPath="$PROJECT_DIR$/../Conditionals_Personal/js/script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Conditionals_Personal/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Conditionals_Personal/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Conditionals_Wacky/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Conditionals_Wacky/.idea/workspace.xml" />
     </list>
     <ignored path="Conditionals_Industry.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="54e78c20-3aa9-49b8-8c46-5de6b743fcb4" time="1366954029965" ignored="false" />
+    <file path="/Dummy.txt" changelist="54e78c20-3aa9-49b8-8c46-5de6b743fcb4" time="1366954044647" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +191,11 @@
       <created>1366948959505</created>
       <updated>1366948959505</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Conditionals_Industry">
+      <created>1366954047211</created>
+      <updated>1366954047211</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
