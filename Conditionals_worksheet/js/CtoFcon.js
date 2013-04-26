@@ -16,16 +16,17 @@
  *         32F is 0C
  *         100C is 212F
  *         90F is 32.22C
- */
+ */                          // variables to hold user input for temperature and unit
     var degTmp = Number(prompt("Enter the temperature: Either Celsius or Fahrenheit", 32));
     var tmptre;
     degUnt = prompt("Enter the Unit to convert to: \nC for Celsius F for Fahrenheit", "F");
-
-    if (degUnt === "F" || degUnt === "f"){
-            tmptre = (degTmp - 32) * 5/9;
+              // double if statements that use strict equality and or operators to
+              // evaluate user input and decide what formula to run
+    if (degUnt === "C" || degUnt === "c"){
+            tmptre = (degTmp - 32) * 5/9;        // formula to convert
             console.log("The temperature is " + tmptre + "\xB0 degrees Celsius.");
     }
-    if (degUnt === "C" || degUnt === "c"){
+    if (degUnt === "F" || degUnt === "f"){
              tmptre = degTmp * 9/5 + 32;
              console.log("The temperature is " + tmptre + "\xB0 degrees Fahrenheit.");
     }
