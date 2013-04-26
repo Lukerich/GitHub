@@ -1,0 +1,758 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2218858e-7748-4113-8dfc-b58214ad5b8e" name="Default" comment="" />
+    <ignored path="Conditionals_worksheet.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/Dummy.txt" changelist="2218858e-7748-4113-8dfc-b58214ad5b8e" time="1366947913129" ignored="false" />
+    <file path="/CtoFcon.js" changelist="2218858e-7748-4113-8dfc-b58214ad5b8e" time="1366938885220" ignored="false" />
+    <file path="/index.html" changelist="2218858e-7748-4113-8dfc-b58214ad5b8e" time="1366937511169" ignored="false" />
+    <file path="/CheckLgIn.html" changelist="2218858e-7748-4113-8dfc-b58214ad5b8e" time="1366939057691" ignored="false" />
+    <file path="/chkLogin.js" changelist="2218858e-7748-4113-8dfc-b58214ad5b8e" time="1366944284754" ignored="false" />
+    <file path="/TirePress.html" changelist="2218858e-7748-4113-8dfc-b58214ad5b8e" time="1366944393330" ignored="false" />
+    <file path="/tirePrsI.js" changelist="2218858e-7748-4113-8dfc-b58214ad5b8e" time="1366946448672" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Conditionals_worksheet" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="script.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/script.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stYrFaceI.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/stYrFaceI.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="111" selection-start="281" selection-end="281" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CeltoFahCvt.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CeltoFahCvt.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="21" selection-start="203" selection-end="203" vertical-scroll-proportion="-5.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CheckLgIn.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CheckLgIn.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="13" selection-start="191" selection-end="191" vertical-scroll-proportion="-5.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="grdLetCal.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/grdLetCal.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="73" selection-start="545" selection-end="545" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chkLogin.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/chkLogin.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="90" selection-start="1577" selection-end="1577" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CtoFcon.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/CtoFcon.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="106" selection-start="1507" selection-end="1507" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TirePress.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TirePress.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="11" selection-start="211" selection-end="211" vertical-scroll-proportion="0.30456853">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tirePrsI.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/tirePrsI.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="54" selection-start="1088" selection-end="1088" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mvTickPrc.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/mvTickPrc.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="31" selection-start="489" selection-end="489" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/js/mvTickPrc.js" />
+        <option value="$PROJECT_DIR$/js/grdLetCal.js" />
+        <option value="$PROJECT_DIR$/js/lstCh4g.js" />
+        <option value="$PROJECT_DIR$/js/stYrFaceI.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/CheckLgIn.html" />
+        <option value="$PROJECT_DIR$/TirePress.html" />
+        <option value="$PROJECT_DIR$/js/CtoFcon.js" />
+        <option value="$PROJECT_DIR$/js/chkLogin.js" />
+        <option value="$PROJECT_DIR$/js/tirePrsI.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="10" />
+    <option name="y" value="22" />
+    <option name="width" value="1420" />
+    <option name="height" value="818" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents ProjectPane="true" />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Conditionals_worksheet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Conditionals_worksheet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Conditionals_worksheet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Conditionals_worksheet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Conditionals_worksheet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Conditionals_worksheet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Conditionals_worksheet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="FullScreen" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2218858e-7748-4113-8dfc-b58214ad5b8e" name="Default" comment="" />
+      <created>1366859082676</created>
+      <updated>1366859082676</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Class assignment Conditional_worksheet">
+      <created>1366859828624</created>
+      <updated>1366859828624</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Class assignment Conditional_worksheet">
+      <created>1366860354552</created>
+      <updated>1366860354552</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Class assignment Conditional_worksheet">
+      <created>1366860660015</created>
+      <updated>1366860660015</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Class assignment Conditional_worksheet">
+      <created>1366860936491</created>
+      <updated>1366860936491</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Class assignment Conditional_worksheet">
+      <created>1366861244449</created>
+      <updated>1366861244449</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Class assignment Conditional_worksheet">
+      <created>1366861529942</created>
+      <updated>1366861529942</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Class assignment Conditional_worksheet">
+      <created>1366927769209</created>
+      <updated>1366927769209</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Class assignment Conditional_worksheet">
+      <created>1366928484395</created>
+      <updated>1366928484395</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Class assignment Conditional_worksheet">
+      <created>1366928957802</created>
+      <updated>1366928957802</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Class assignment Conditional_worksheet">
+      <created>1366930240972</created>
+      <updated>1366930240972</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Class assignment Conditional_worksheet">
+      <created>1366930315238</created>
+      <updated>1366930315238</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Class assignment Conditional_worksheet">
+      <created>1366930529227</created>
+      <updated>1366930529227</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Class assignment Conditional_worksheet">
+      <created>1366931233657</created>
+      <updated>1366931233658</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Class assignment Conditional_worksheet">
+      <created>1366931787000</created>
+      <updated>1366931787000</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Class assignment Conditional_worksheet">
+      <created>1366931930381</created>
+      <updated>1366931930381</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Class assignment Conditional_worksheet">
+      <created>1366931976977</created>
+      <updated>1366931976977</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Class assignment Conditional_worksheet">
+      <created>1366932611242</created>
+      <updated>1366932611242</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Class assignment Conditional_worksheet">
+      <created>1366932657028</created>
+      <updated>1366932657028</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Class assignment Conditional_worksheet">
+      <created>1366933035221</created>
+      <updated>1366933035221</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Class assignment Conditional_worksheet">
+      <created>1366933454183</created>
+      <updated>1366933454183</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Class assignment Conditional_worksheet">
+      <created>1366933505996</created>
+      <updated>1366933505996</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Class assignment Conditional_worksheet">
+      <created>1366933732169</created>
+      <updated>1366933732169</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Class assignment Conditional_worksheet">
+      <created>1366933777683</created>
+      <updated>1366933777683</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Class assignment Conditional_worksheet">
+      <created>1366934122680</created>
+      <updated>1366934122680</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Class assignment Conditional_worksheet">
+      <created>1366934453157</created>
+      <updated>1366934453157</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Class assignment Conditional_worksheet">
+      <created>1366934561686</created>
+      <updated>1366934561686</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Class assignment Conditional_worksheet">
+      <created>1366934950883</created>
+      <updated>1366934950883</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Class assignment Conditional_worksheet">
+      <created>1366935052212</created>
+      <updated>1366935052212</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Class assignment Conditional_worksheet">
+      <created>1366935394065</created>
+      <updated>1366935394065</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Class assignment Conditional_worksheet">
+      <created>1366935711527</created>
+      <updated>1366935711527</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Class assignment Conditional_worksheet">
+      <created>1366935770209</created>
+      <updated>1366935770209</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Class assignment Conditional_worksheet">
+      <created>1366935846695</created>
+      <updated>1366935846695</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Class assignment Conditional_worksheet">
+      <created>1366936321321</created>
+      <updated>1366936321321</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Class assignment Conditional_worksheet">
+      <created>1366937460348</created>
+      <updated>1366937460348</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Class assignment Conditional_worksheet">
+      <created>1366937577732</created>
+      <updated>1366937577732</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Class assignment Conditional_worksheet">
+      <created>1366938397756</created>
+      <updated>1366938397756</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Class assignment Conditional_worksheet">
+      <created>1366938441043</created>
+      <updated>1366938441043</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Class assignment Conditional_worksheet">
+      <created>1366938506867</created>
+      <updated>1366938506867</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Class assignment Conditional_worksheet">
+      <created>1366938551994</created>
+      <updated>1366938551994</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Class assignment Conditional_worksheet">
+      <created>1366938606712</created>
+      <updated>1366938606712</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Class assignment Conditional_worksheet">
+      <created>1366938676309</created>
+      <updated>1366938676309</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Class assignment Conditional_worksheet">
+      <created>1366938713492</created>
+      <updated>1366938713492</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Class assignment Conditional_worksheet">
+      <created>1366938783587</created>
+      <updated>1366938783587</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Class assignment Conditional_worksheet">
+      <created>1366939081636</created>
+      <updated>1366939081636</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Class assignment Conditional_worksheet">
+      <created>1366939470239</created>
+      <updated>1366939470239</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Class assignment Conditional_worksheet">
+      <created>1366940240211</created>
+      <updated>1366940240211</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Class assignment Conditional_worksheet">
+      <created>1366940573546</created>
+      <updated>1366940573546</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Class assignment Conditional_worksheet">
+      <created>1366941971796</created>
+      <updated>1366941971796</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Class assignment Conditional_worksheet">
+      <created>1366942149323</created>
+      <updated>1366942149323</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Class assignment Conditional_worksheet">
+      <created>1366942537071</created>
+      <updated>1366942537071</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Class assignment Conditional_worksheet">
+      <created>1366942602120</created>
+      <updated>1366942602120</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Class assignment Conditional_worksheet">
+      <created>1366942667775</created>
+      <updated>1366942667775</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Class assignment Conditional_worksheet">
+      <created>1366942823704</created>
+      <updated>1366942823704</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Class assignment Conditional_worksheet">
+      <created>1366942876350</created>
+      <updated>1366942876350</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Class assignment Conditional_worksheet">
+      <created>1366943533785</created>
+      <updated>1366943533786</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Class assignment Conditional_worksheet">
+      <created>1366944203338</created>
+      <updated>1366944203338</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Class assignment Conditional_worksheet">
+      <created>1366944422361</created>
+      <updated>1366944422361</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Class assignment Conditional_worksheet">
+      <created>1366945148633</created>
+      <updated>1366945148633</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Class assignment Conditional_worksheet">
+      <created>1366945224042</created>
+      <updated>1366945224042</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Class assignment Conditional_worksheet">
+      <created>1366946638991</created>
+      <updated>1366946638991</updated>
+    </task>
+    <task id="LOCAL-00061" summary="Class assignment Conditional_worksheet">
+      <created>1366946764899</created>
+      <updated>1366946764900</updated>
+    </task>
+    <task id="LOCAL-00062" summary="Class assignment Conditional_worksheet">
+      <created>1366947012175</created>
+      <updated>1366947012175</updated>
+    </task>
+    <task id="LOCAL-00063" summary="Class assignment Conditional_worksheet">
+      <created>1366947483682</created>
+      <updated>1366947483682</updated>
+    </task>
+    <task id="LOCAL-00064" summary="Class assignment Conditional_worksheet">
+      <created>1366947618982</created>
+      <updated>1366947618983</updated>
+    </task>
+    <task id="LOCAL-00065" summary="Class assignment Conditional_worksheet">
+      <created>1366947819576</created>
+      <updated>1366947819576</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Class assignment Conditional_worksheet">
+      <created>1366947852110</created>
+      <updated>1366947852110</updated>
+    </task>
+    <task id="LOCAL-00067" summary="Class assignment Conditional_worksheet">
+      <created>1366947916566</created>
+      <updated>1366947916567</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="10" y="22" width="1420" height="818" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24982105" sideWeight="0.67" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" value="Class assignment Conditional_worksheet" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="Class assignment Conditional_worksheet" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/js/lstCh4g.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="32" selection-start="622" selection-end="622" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/grdLetCal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="73" selection-start="545" selection-end="545" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/chkLogin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="93" selection-start="657" selection-end="657" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/tirePrsI.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="92" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/mvTickPrc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="31" selection-start="489" selection-end="489" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/script.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/grdLetCal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="73" selection-start="545" selection-end="545" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/lstCh4g.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="32" selection-start="622" selection-end="622" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/mvTickPrc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="31" selection-start="489" selection-end="489" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/stYrFaceI.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="111" selection-start="281" selection-end="281" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/CtoFcon.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="106" selection-start="1507" selection-end="1507" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/chkLogin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="90" selection-start="1577" selection-end="1577" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/tirePrsI.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="54" selection-start="1088" selection-end="1088" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CeltoFahCvt.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="21" selection-start="203" selection-end="203" vertical-scroll-proportion="-5.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CheckLgIn.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="13" selection-start="191" selection-end="191" vertical-scroll-proportion="-5.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TirePress.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="11" selection-start="211" selection-end="211" vertical-scroll-proportion="0.30456853">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
