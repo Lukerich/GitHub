@@ -4,7 +4,7 @@
     <list default="true" id="2218858e-7748-4113-8dfc-b58214ad5b8e" name="Default" comment="" />
     <ignored path="Conditionals_worksheet.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="2218858e-7748-4113-8dfc-b58214ad5b8e" time="1366947913129" ignored="false" />
+    <file path="/Dummy.txt" changelist="2218858e-7748-4113-8dfc-b58214ad5b8e" time="1366948395769" ignored="false" />
     <file path="/CtoFcon.js" changelist="2218858e-7748-4113-8dfc-b58214ad5b8e" time="1366938885220" ignored="false" />
     <file path="/index.html" changelist="2218858e-7748-4113-8dfc-b58214ad5b8e" time="1366937511169" ignored="false" />
     <file path="/CheckLgIn.html" changelist="2218858e-7748-4113-8dfc-b58214ad5b8e" time="1366939057691" ignored="false" />
@@ -51,7 +51,7 @@
       <file leaf-file-name="CeltoFahCvt.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CeltoFahCvt.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="21" selection-start="203" selection-end="203" vertical-scroll-proportion="-5.0">
+            <state line="8" column="21" selection-start="203" selection-end="203" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -60,7 +60,7 @@
       <file leaf-file-name="CheckLgIn.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CheckLgIn.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="13" selection-start="191" selection-end="191" vertical-scroll-proportion="-5.0">
+            <state line="8" column="13" selection-start="191" selection-end="191" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -96,7 +96,7 @@
       <file leaf-file-name="TirePress.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TirePress.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="11" selection-start="211" selection-end="211" vertical-scroll-proportion="0.30456853">
+            <state line="8" column="11" selection-start="211" selection-end="211" vertical-scroll-proportion="0.192">
               <folding />
             </state>
           </provider>
@@ -240,8 +240,8 @@
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
@@ -254,7 +254,7 @@
     </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
       <JSDebuggerConfigurationSettings>
-        <option name="engineId" />
+        <option name="engineId" value="embedded" />
         <option name="fileUrl" />
       </JSDebuggerConfigurationSettings>
       <method />
@@ -558,16 +558,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="22" width="1420" height="818" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24982105" sideWeight="0.67" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24982105" sideWeight="0.67" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -575,8 +572,11 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -643,9 +643,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/js/lstCh4g.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="32" selection-start="622" selection-end="622" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="16" column="32" selection-start="622" selection-end="622" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/grdLetCal.js">
@@ -692,9 +690,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/lstCh4g.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="32" selection-start="622" selection-end="622" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="16" column="32" selection-start="622" selection-end="622" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/mvTickPrc.js">
@@ -734,21 +730,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CeltoFahCvt.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="21" selection-start="203" selection-end="203" vertical-scroll-proportion="-5.0">
+        <state line="8" column="21" selection-start="203" selection-end="203" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CheckLgIn.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="191" selection-end="191" vertical-scroll-proportion="-5.0">
+        <state line="8" column="13" selection-start="191" selection-end="191" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TirePress.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="11" selection-start="211" selection-end="211" vertical-scroll-proportion="0.30456853">
+        <state line="8" column="11" selection-start="211" selection-end="211" vertical-scroll-proportion="0.192">
           <folding />
         </state>
       </provider>
