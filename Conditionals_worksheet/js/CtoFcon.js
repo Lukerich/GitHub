@@ -21,11 +21,11 @@
     var tmptre;
     degUnt = prompt("Enter the Unit to convert to: \nC for Celsius F for Fahrenheit", "F");
 
-    if (degUnt === "F" || degUnt === "c"){
+    if (degUnt === "F" || degUnt === "f"){
             tmptre = (degTmp - 32) * 5/9;
             console.log("The temperature is " + tmptre + "\xB0 degrees Celsius.");
     }
-    if (degUnt === "C" || degUnt === "f"){
+    if (degUnt === "C" || degUnt === "c"){
              tmptre = degTmp * 9/5 + 32;
              console.log("The temperature is " + tmptre + "\xB0 degrees Fahrenheit.");
     }
