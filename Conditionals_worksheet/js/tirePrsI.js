@@ -22,5 +22,5 @@
                     if (tparry[0] === tparry[1]){
                         (tparry[2] === tparry[3]) ? console.log("The tires pass spec!") : console.log("Get your tires checked out!");
                     } else{
-                        console.log("Get your tires checked out!");
+                        console.log("Get your tires checked out!");       // print to console
                     }
