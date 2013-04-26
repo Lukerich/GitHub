@@ -32,5 +32,5 @@
                                             //  Ternaries decision making on one line
                 (usrnm === usrNam[0][0])? console.log("Welcome, " + usrnm + "!") : console.log("User not found. Try again");
             }else{
-                console.log("Password does not match our records. ");
+                console.log("Password does not match our records. ");  // print to console
             }
