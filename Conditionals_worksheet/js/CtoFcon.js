@@ -21,11 +21,11 @@
     var tmptre;
     degUnt = prompt("Enter the Unit:", "F");
 
-    if (degUnt === "C" || "c"){
+    if (degUnt == "C"){
             tmptre = (degTmp - 32) * 5/9;
             console.log("The temperature is " + tmptre + " degrees Celsius.");
     }
-    if (degUnt === "F" || "f"){
+    if (degUnt == "F"){
              tmptre = degTmp * 9/5 + 32;
              console.log("The temperature is " + tmptre + " degrees Fahrenheit.");
     }
