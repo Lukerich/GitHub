@@ -32,7 +32,7 @@
         usrNam[0][5] = "456";
 
             if (psswd === usrNam[0][1],[0][3],[0][5]){
-                (usrnm === usrNam[0][0], [0][2], [0][4])? console.log("Welcome, " + usrnm + "!") : console.log("User not found. Try again");
+                (usrnm === usrNam[0][0],[0][2],[0][4])? console.log("Welcome, " + usrnm + "!") : console.log("User not found. Try again");
             }else{
                 console.log("Password does not match our records. ");
             }
