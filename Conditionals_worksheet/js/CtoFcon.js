@@ -19,7 +19,7 @@
  */
     var degTmp = Number(prompt("Enter the temperature", 32));
     var tmptre;
-    degUnt = prompt("Enter the Unit:", ("F"));
+    degUnt = prompt("Enter the Unit:", "F");
 
     if (degUnt = "C"){
             tmptre = (degTmp - 32) * 5/9;
