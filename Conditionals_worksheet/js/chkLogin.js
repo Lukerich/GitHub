@@ -26,13 +26,13 @@
         usrNam[0] = new Array();
         usrNam[0][0] = "bill";
         usrNam[0][1] = "123";
-        usrNam[0][0] = "bob";
-        usrNam[0][0] = "2we";
-        usrNam[0][0] = "sam";
-        usrNam[0][0] = "456";
+        usrNam[0][2] = "bob";
+        usrNam[0][3] = "2we";
+        usrNam[0][4] = "sam";
+        usrNam[0][5] = "456";
 
-            if (psswd === usrNam[1]){
-                (usrnm === usrNam[0])? console.log("Welcome, " + usrnm + "!") : console.log("User not found. Try again");
+            if (psswd === usrNam[1, 3, 5]){
+                (usrnm === usrNam[0, 2, 4])? console.log("Welcome, " + usrnm + "!") : console.log("User not found. Try again");
             }else{
                 console.log("Password does not match our records.");
             }
