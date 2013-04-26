@@ -23,11 +23,11 @@
 
     if (degUnt === "F" || degUnt === "c"){
             tmptre = (degTmp - 32) * 5/9;
-            console.log("The temperature is " + tmptre + "\xB0 degrees Fahrenheit.");
+            console.log("The temperature is " + tmptre + "\xB0 degrees Celsius.");
     }
     if (degUnt === "C" || degUnt === "f"){
              tmptre = degTmp * 9/5 + 32;
-             console.log("The temperature is " + tmptre + "\xB0 degrees Celsius.");
+             console.log("The temperature is " + tmptre + "\xB0 degrees Fahrenheit.");
     }
 
 
