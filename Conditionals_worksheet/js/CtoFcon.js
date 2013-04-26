@@ -21,7 +21,7 @@
     var tmptre;
     degUnt = prompt("Enter the Unit:", ("F"));
 
-    if (degUnt = ("C")){
+    if (degUnt = "C"){
             tmptre = degTmp * 9/5 + 32;
             console.log("The temperature is " + tmptre + " degrees Celsius.");
     }
