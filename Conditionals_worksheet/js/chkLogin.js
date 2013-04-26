@@ -17,3 +17,5 @@
  *      "Password does not match our records." - if password does not match but username does
  */
 
+    var usrnm = prompt("Enter Username: ", "");
+    var psswd = prompt("Enter password: ", "");
