@@ -17,18 +17,19 @@
  *      "Password does not match our records." - if password does not match but username does
  */
 
-    var usrnm = prompt("Enter Username: ", "");
-    var psswd = prompt("Enter password: ", "");
+    var usrnm = prompt("Enter Username: ", "");      //variable assigned to response from user for username
+    var psswd = prompt("Enter password: ", "");      //variable assigned to response from user for password
 
-    var usrNam = new Array();
+    var usrNam = new Array();            // An array for the username and password
 
 
-        usrNam[0] = new Array();
+        usrNam[0] = new Array();       // array defined
         usrNam[0][0] = "bill";
         usrNam[0][1] = "123";
 
-
+                        // if - else statement to evaluate user input by using strict equality relational operators and array values
             if (psswd === usrNam[0][1]){
+                                            //  Ternaries decision making on one line
                 (usrnm === usrNam[0][0])? console.log("Welcome, " + usrnm + "!") : console.log("User not found. Try again");
             }else{
                 console.log("Password does not match our records. ");
