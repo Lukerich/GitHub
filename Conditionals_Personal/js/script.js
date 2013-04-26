@@ -17,5 +17,6 @@
  *        Cost of bag of coffee
  *        size of bag of coffee in ounces
  *        Cost of Starbucks or McDonalds coffee
+ *        How many ounces of coffee per day does the user drink
  */
 
