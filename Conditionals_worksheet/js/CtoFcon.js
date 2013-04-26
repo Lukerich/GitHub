@@ -17,9 +17,9 @@
  *         100C is 212F
  *         90F is 32.22C
  */                          // variables to hold user input for temperature and unit
-    var degTmp = Number(prompt("Enter the temperature: Either Celsius or Fahrenheit", 32));
+    var degTmp = Number(prompt("Enter the temperature: Either Celsius or Fahrenheit", ""));
     var tmptre;
-    degUnt = prompt("Enter the Unit to convert to: \nC for Celsius F for Fahrenheit", "F");
+    degUnt = prompt("Enter the Unit to convert to: \nC for Celsius F for Fahrenheit", "");
               // double if statements that use strict equality and or operators to
               // evaluate user input and decide what formula to run
     if (degUnt === "C" || degUnt === "c"){
