@@ -20,12 +20,11 @@
     var usrnm = prompt("Enter Username: ", "");
     var psswd = prompt("Enter password: ", "");
 
-    usrNam = ();
-    pasWrd = ();
+    usrNam = ("bob");
+    pasWrd = ("123");
 
-            (usrnm === usrNam)? console.log("Welcome, " + usrnm + "!") : console.log("User not found. Try again");
-        if (usrnm === usrNam && psswd === pasWrd) {
-            console.log("Welcome, " + usrnm + "!");
+        if (psswd === pasWrd){
+        (usrnm === usrNam)? console.log("Welcome, " + usrnm + "!") : console.log("User not found. Try again");
         }else{
-            console.log("User not found. Try again");
+            console.log("Password does not match our records.");
         }
