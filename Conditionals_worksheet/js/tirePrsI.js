@@ -19,11 +19,8 @@
         tparry[2] = Number(prompt("Enter Rear Driver side tire pressure", 32));
         tparry[3] = Number(prompt("Enter Rear Passenger side tire pressure", 32));
 
-
-
-
                     if (tparry[0] === tparry[1]){
                         (tparry[2] === tparry[3]) ? console.log("The tires pass spec!") : console.log("Get your tires checked out!");
                     } else{
-
+                        console.log("Get your tires checked out!");
                     }
