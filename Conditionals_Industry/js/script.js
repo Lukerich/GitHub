@@ -86,7 +86,7 @@ if (adrss[6] = "") {                        // validate zip code input - if blan
 // Assign variable for shipping method - standard (3-5), 2nd business day, overnight, weekend & holidays
 // used as validation - must choose one method
 var shpMth = prompt("Enter Shipping method: \n Std, 2day, 1day, WkHol", "");
-if (shpMth === "Std") {
+if (shpMth == "Std") {
     shpPrc = mulFac * shpCst["Std"] + surChr;
 } else {
     if (shpMth === "2day") {
