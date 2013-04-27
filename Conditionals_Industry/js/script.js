@@ -54,6 +54,7 @@ if (!noItm >= 1) {
 
 // Assigning address array user input values
 adrss[0] = prompt("Enter First Name:", "");
+console.log(adrss[0]);
 if (adrss[0] = "") {                           // validate first name input - if blank output message to console
     console.log("First Name must be entered:");
 }
@@ -64,9 +65,9 @@ if (adrss[1] = "") {                           // validate last name input - if 
 adrss[2] = prompt("Enter Address:", "");
 if (adrss[2] = "") {                         // validate address input - if blank output message to console
     console.log("Address must be entered:");
-} else {
-    adrss[3] = prompt("Enter Address2: ", "");
 }
+    adrss[3] = prompt("Enter Address2: ", "");
+
 adrss[4] = prompt("Enter City:", "");
 if (adrss[4] = "") {                         // validate city input - if blank output message to console
     console.log("City must be entered:");
@@ -88,7 +89,6 @@ if (adrss[6] = "") {                        // validate zip code input - if blan
 // used as validation - must choose one method
 var shpMth = prompt("Enter Shipping method: \n Std, 2day, 1day, WkHol", "");
 if (shpMth === "Std") {
-    console.log(mulFac + "\n" + shpCst["Std"] + "\n" + surChr);
     shpPrc = mulFac * shpCst["Std"] + surChr;
 } else {
     if (shpMth === "2day") {
