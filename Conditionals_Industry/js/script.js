@@ -23,7 +23,8 @@
                                    // second address/apt
         var shpCst = new Array();  // array to hold cost of ship method - regardless of location in Continental US, except Alaska -
                                    // Alaska and Hawaii are surcharged additional $15.00
-
-
-
-
+            shpCst[Std][0] = 10;
+            shpCst[Twoday][0] = 15;
+            shpCst[OvN][0] = 20;
+            shpCst[WndHol][0]= 25;
+            shpCst[SuCh][0]= 15;
