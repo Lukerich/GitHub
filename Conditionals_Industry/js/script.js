@@ -17,7 +17,7 @@
  *       Cost
  *
  */
-
+var mulFac = 1;
 var adrss = new Array();   // array to hold the users address - validation on f-name, l-name, address, city, stat, zip code but not
 // second address/apt
 var shpCst = new Array();  // array to hold cost of ship method - regardless of location in Continental US, except Alaska -
