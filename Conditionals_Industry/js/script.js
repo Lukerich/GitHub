@@ -51,7 +51,6 @@ if (!noItm >= 1) {
     }
 }
 
-
 // Assigning address array user input values
 adrss[0] = prompt("Enter First Name: ", "");
 adrss[1] = prompt("Enter Last Name: ", "");
@@ -66,7 +65,8 @@ adrss[6] = prompt("Enter Zip Code: ", "");
 // used as validation - must choose one method
 var shpMth = prompt("Enter Shipping method: \n Std, 2day, 1day, WkHol", "");
 if (shpMth === "Std") {
-    (adrss[5] !== "HI" || adrss[5] !== "AK" ) ? console.log("Shipping Cost $ 10.00") : console.log("Shipping Cost $ 25.00");
+    var shpPrc = mulFac * shpMth["Std"];
+    (adrss[5] !== "HI" || adrss[5] !== "AK" ) ? console.log("Shipping Cost $" + shpPrc ) : console.log("Shipping Cost $" + (shpPrc + 15));
 } else {
     if (shpMth === "2day") {
         (adrss[5] !== "HI" || adrss[5] !== "AK" ) ? console.log("Shipping Cost $ 15.00") : console.log("Shipping Cost $ 30.00");
