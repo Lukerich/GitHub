@@ -56,21 +56,21 @@ if (adrss[0] = "") {                           // validate first name input - if
     console.log("First Name must be entered:");
 }
 adrss[1] = prompt("Enter Last Name: ", "");
-if (adrss[1] = "") {                           // validate first name input - if blank output message to console
+if (adrss[1] = "") {                           // validate last name input - if blank output message to console
     console.log("Last Name must be entered:");
 }
 adrss[2] = prompt("Enter Address: ", "");
-if (adrss[2] = "") {                         // validate first name input - if blank output message to console
+if (adrss[2] = "") {                         // validate address input - if blank output message to console
     console.log("Address must be entered:");
 }
 adrss[3] = prompt("Enter Address2: ", "");
 
 adrss[4] = prompt("Enter City: ", "");
-if (adrss[4] = "") {                         // validate first name input - if blank output message to console
+if (adrss[4] = "") {                         // validate city input - if blank output message to console
     console.log("City must be entered:");
 }
 adrss[5] = prompt("Enter State: ", "");
-if (adrss[5] = "") {                        // validate first name input - if blank output message to console
+if (adrss[5] = "") {                        // validate state input - if blank output message to console
     console.log("State must be entered:");
 }
 adrss[6] = prompt("Enter Zip Code: ", "");
