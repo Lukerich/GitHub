@@ -25,8 +25,8 @@ var adrss = [7];   // array to hold the users address - validation on f-name, l-
 var shpCst = [5];  // array to hold cost of ship method - regardless of location in Continental US, except Alaska -
 // Alaska and Hawaii are surcharged additional $15.00
 shpCst["Std"] = 10;
-shpCst["day2"] = 15;
-shpCst["day1"] = 20;
+shpCst["2day"] = 15;
+shpCst["1day"] = 20;
 shpCst["WkHol"] = 25;
 shpCst["SuCh"] = 15;
 

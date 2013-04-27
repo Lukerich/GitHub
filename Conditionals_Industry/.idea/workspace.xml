@@ -7,7 +7,7 @@
     </list>
     <ignored path="Conditionals_Industry.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="54e78c20-3aa9-49b8-8c46-5de6b743fcb4" time="1367049547963" ignored="false" />
+    <file path="/Dummy.txt" changelist="54e78c20-3aa9-49b8-8c46-5de6b743fcb4" time="1367049638148" ignored="false" />
     <file path="/index.html" changelist="54e78c20-3aa9-49b8-8c46-5de6b743fcb4" time="1367004959624" ignored="false" />
     <file path="/script.js" changelist="54e78c20-3aa9-49b8-8c46-5de6b743fcb4" time="1367049453345" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,7 +41,7 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="108" column="156" selection-start="4457" selection-end="4457" vertical-scroll-proportion="0.7359813">
+            <state line="28" column="12" selection-start="1081" selection-end="1081" vertical-scroll-proportion="0.1588785">
               <folding />
             </state>
           </provider>
@@ -527,7 +527,11 @@
       <created>1367049549623</created>
       <updated>1367049549623</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="Conditionals_Industry">
+      <created>1367049640017</created>
+      <updated>1367049640018</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -643,7 +647,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="156" selection-start="4457" selection-end="4457" vertical-scroll-proportion="0.7359813">
+        <state line="28" column="12" selection-start="1081" selection-end="1081" vertical-scroll-proportion="0.1588785">
           <folding />
         </state>
       </provider>
