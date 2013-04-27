@@ -22,7 +22,7 @@ var surChr = 0;
 var shpPrc = 0.00;
 var adrss = [];   // array to hold the users address - validation on f-name, l-name, address, city, stat, zip code but not
 // second address/apt
-var shpCst = new Array();  // array to hold cost of ship method - regardless of location in Continental US, except Alaska -
+var shpCst = [];  // array to hold cost of ship method - regardless of location in Continental US, except Alaska -
 // Alaska and Hawaii are surcharged additional $15.00
 shpCst["Std"] = 10;
 shpCst["day2"] = 15;
