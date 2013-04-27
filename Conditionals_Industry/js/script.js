@@ -19,6 +19,7 @@
  */
 var mulFac;
 var surChr;
+var shpPrc;
 var adrss = new Array();   // array to hold the users address - validation on f-name, l-name, address, city, stat, zip code but not
 // second address/apt
 var shpCst = new Array();  // array to hold cost of ship method - regardless of location in Continental US, except Alaska -
@@ -88,7 +89,6 @@ if (adrss[6] = "") {                        // validate zip code input - if blan
 // used as validation - must choose one method
 var shpMth = prompt("Enter Shipping method: \n Std, 2day, 1day, WkHol", "");
 if (shpMth === "Std") {
-    console.log(shpCst["Std"]);
     shpPrc = mulFac * shpCst["Std"] + surChr;
 } else {
     if (shpMth === "2day") {
