@@ -7,7 +7,7 @@
     </list>
     <ignored path="Conditionals_Industry.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="54e78c20-3aa9-49b8-8c46-5de6b743fcb4" time="1367039714347" ignored="false" />
+    <file path="/Dummy.txt" changelist="54e78c20-3aa9-49b8-8c46-5de6b743fcb4" time="1367039763771" ignored="false" />
     <file path="/index.html" changelist="54e78c20-3aa9-49b8-8c46-5de6b743fcb4" time="1367004959624" ignored="false" />
     <file path="/script.js" changelist="54e78c20-3aa9-49b8-8c46-5de6b743fcb4" time="1367039656164" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,7 +41,7 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="42" selection-start="2057" selection-end="2057" vertical-scroll-proportion="0.97723824">
+            <state line="59" column="36" selection-start="1885" selection-end="1885" vertical-scroll-proportion="0.3171472">
               <folding />
             </state>
           </provider>
@@ -323,7 +323,11 @@
       <created>1367039718037</created>
       <updated>1367039718037</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Conditionals_Industry">
+      <created>1367039767179</created>
+      <updated>1367039767179</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -439,7 +443,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="42" selection-start="2057" selection-end="2057" vertical-scroll-proportion="0.97723824">
+        <state line="59" column="36" selection-start="1885" selection-end="1885" vertical-scroll-proportion="0.3171472">
           <folding />
         </state>
       </provider>
