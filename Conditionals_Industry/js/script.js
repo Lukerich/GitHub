@@ -54,61 +54,62 @@ if (!noItm >= 1) {
 
 // Assigning address array user input values
 adrss[0] = prompt("Enter First Name:", "");
-if (!(adrss[0] = "")) {
-} else {                           // validate first name input - if blank output message to console
+if (adrss[0] = "") {                           // validate first name input - if blank output message to console
     console.log("First Name must be entered:");
-}
-adrss[1] = prompt("Enter Last Name:", "");
-if (!(adrss[1] = "")) {
-} else {                           // validate last name input - if blank output message to console
-    console.log("Last Name must be entered:");
-}
-adrss[2] = prompt("Enter Address:", "");
-if (adrss[2] = "") {                         // validate address input - if blank output message to console
-    console.log("Address must be entered:");
-}
-adrss[3] = prompt("Enter Address2: ", "");
+} else {
+    adrss[1] = prompt("Enter Last Name:", "");
+    if (adrss[1] = "") {                           // validate last name input - if blank output message to console
+        console.log("Last Name must be entered:");
+        } else {
+        adrss[2] = prompt("Enter Address:", "");
+        if (adrss[2] = "") {                         // validate address input - if blank output message to console
+            console.log("Address must be entered:");
+        } else {
+            adrss[3] = prompt("Enter Address2: ", "");
+        }
+        adrss[4] = prompt("Enter City:", "");
+            if (adrss[4] = "") {                         // validate city input - if blank output message to console
+                console.log("City must be entered:");
+            } else {
+                adrss[5] = prompt("Enter State:", "");
+                if (adrss[5] = "") {                        // validate state input - if blank output message to console
+                    console.log("State must be entered:");
+                } else {
+                    if (adrss[5] === "HI" || adrss[5] === "AK") {   // assigns surcharge to suChr to be used in shpPrc calculation
+                        surChr = shpCst["SuCh"];
+                    } else {
+                adrss[6] = prompt("Enter Zip Code:", "");
+                if (adrss[6] = "") {                        // validate zip code input - if blank output message to console
+                    console.log("Zip Code must be entered:");
+                }
+                    }
+                }
+            }
 
-adrss[4] = prompt("Enter City:", "");
-if (adrss[4] = "") {                         // validate city input - if blank output message to console
-    console.log("City must be entered:");
-}
-adrss[5] = prompt("Enter State:", "");
-if (adrss[5] = "") {                        // validate state input - if blank output message to console
-    console.log("State must be entered:");
-}else {
-    if (adrss[5] === "HI" || adrss[5] === "AK"){   // assigns surcharge to suChr to be used in shpPrc calculation
-        surChr = shpCst["SuCh"];
-    }
-}
-adrss[6] = prompt("Enter Zip Code:", "");
-if (adrss[6] = "") {                        // validate zip code input - if blank output message to console
-    console.log("Zip Code must be entered:");
-}
 
 
 // Assign variable for shipping method - standard (3-5), 2nd business day, overnight, weekend & holidays
 // used as validation - must choose one method
-var shpMth = prompt("Enter Shipping method: \n Std, 2day, 1day, WkHol", "");
-if (shpMth === "Std") {
-    console.log(mulFac + "\n" + shpCst["Std"] + "\n" + surChr);
-    shpPrc = mulFac * shpCst["Std"] + surChr;
-} else {
-    if (shpMth === "2day") {
-        shpPrc = mulFac * shpCst["2day"] + surChr;
-    } else {
-        if (shpMth === "1day") {
-            shpPrc = mulFac * shpCst["1day"] + surChr;
-        } else {
-            if (shpMth === "WkHol") {
-                shpPrc = mulFac * shpCst["WkHol"] + surChr;
-            }else {
-                console.log("Shipping method must be entered:");
-            }
-        }
-    }
-}
-console.log(adrss[0] + "\n" + adrss[1] + "\n" + adrss[2] + "\n" + adrss[3] + "\n" + adrss[4] + " " + adrss[5] + ", " + adrss[6] + "\n" + shpMth + "\n" + "$" + shpPrc);
+                var shpMth = prompt("Enter Shipping method: \n Std, 2day, 1day, WkHol", "");
+                if (shpMth === "Std") {
+                    console.log(mulFac + "\n" + shpCst["Std"] + "\n" + surChr);
+                    shpPrc = mulFac * shpCst["Std"] + surChr;
+                } else {
+                    if (shpMth === "2day") {
+                        shpPrc = mulFac * shpCst["2day"] + surChr;
+                    } else {
+                        if (shpMth === "1day") {
+                            shpPrc = mulFac * shpCst["1day"] + surChr;
+                        } else {
+                            if (shpMth === "WkHol") {
+                                shpPrc = mulFac * shpCst["WkHol"] + surChr;
+                            } else {
+                                console.log("Shipping method must be entered:");
+                            }
+                        }
+                    }
+                }
+                console.log(adrss[0] + "\n" + adrss[1] + "\n" + adrss[2] + "\n" + adrss[3] + "\n" + adrss[4] + " " + adrss[5] + ", " + adrss[6] + "\n" + shpMth + "\n" + "$" + shpPrc);
 
 
 
