@@ -33,7 +33,7 @@
         // if 3-5 shipping price is 1.5 * array value - if 6-10 shipping price is 2.5 * array
         // above 10 users is alerted to call customer service for cost.
         var noItm = Number(prompt("Enter number of Items: ", ""));
-                if (noItm <= 0 || noItm === ""){
+                if (!noItm >= 1 || noItm === ""){
                     console.log("Number of Items must be entered:");
                 }
 
