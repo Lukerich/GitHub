@@ -34,16 +34,16 @@ shpCst["SuCh"] = 15;
 var noItm = Number(prompt("Enter number of Items: ", ""));
 if (!noItm >= 1) {
     console.log("Number of Items must be entered:");
-}else {
-    if (noItm === [1-2]){
+} else {
+    if (noItm === [1 - 2]) {
         mulFac = 1;
-    }else {
-        if (noItm === [3-5]){
+    } else {
+        if (noItm === [3 - 5]) {
             mulFac = 1.5;
-        }else {
-            if (noItm === [6-10]){
+        } else {
+            if (noItm === [6 - 10]) {
                 mulFac = 2.5;
-            }else {
+            } else {
                 console.log("For quantities greater then 10,\n please call customer service for shipping costs");
             }
         }
@@ -79,25 +79,26 @@ if (adrss[6] = "") {                        // validate zip code input - if blan
 }
 
 
-
 // Assign variable for shipping method - standard (3-5), 2nd business day, overnight, weekend & holidays
 // used as validation - must choose one method
 var shpMth = prompt("Enter Shipping method: \n Std, 2day, 1day, WkHol", "");
 if (shpMth === "Std") {
     shpPrc = mulFac * shpMth["Std"];
-    (adrss[5] !== "HI" || adrss[5] !== "AK" ) ? console.log("Shipping Cost $" + shpPrc ) : console.log("Shipping Cost $" + (shpPrc + 15));
+    (adrss[5] !== "HI" || adrss[5] !== "AK" ) ? console.log("Shipping Cost $" + shpPrc) : console.log("Shipping Cost $" + (shpPrc + 15));
 } else {
     if (shpMth === "2day") {
         shpPrc = mulFac * shpMth["2day"];
-        (adrss[5] !== "HI" || adrss[5] !== "AK" ) ? console.log("Shipping Cost $" + shpPrc ) : console.log("Shipping Cost $" + (shpPrc + 15));
+        (adrss[5] !== "HI" || adrss[5] !== "AK" ) ? console.log("Shipping Cost $" + shpPrc) : console.log("Shipping Cost $" + (shpPrc + 15));
     } else {
         if (shpMth === "1day") {
             shpPrc = mulFac * shpMth["1day"];
-            (adrss[5] !== "HI" || adrss[5] !== "AK" ) ? console.log("Shipping Cost $" + shpPrc ) : console.log("Shipping Cost $" + (shpPrc + 15));
+            (adrss[5] !== "HI" || adrss[5] !== "AK" ) ? console.log("Shipping Cost $" + shpPrc) : console.log("Shipping Cost $" + (shpPrc + 15));
         } else {
             if (shpMth === "WkHol") {
                 shpPrc = mulFac * shpMth["WkHol"];
-                (adrss[5] !== "HI" || adrss[5] !== "AK" ) ? console.log("Shipping Cost $" + shpPrc ) : console.log("Shipping Cost $" + (shpPrc + 15));
+                (adrss[5] !== "HI" || adrss[5] !== "AK" ) ? console.log("Shipping Cost $" + shpPrc) : console.log("Shipping Cost $" + (shpPrc + 15));
+            }else {
+                console.log("Shipping method must be entered:");
             }
         }
     }

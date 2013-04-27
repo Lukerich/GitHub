@@ -7,9 +7,9 @@
     </list>
     <ignored path="Conditionals_Industry.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="54e78c20-3aa9-49b8-8c46-5de6b743fcb4" time="1367040538075" ignored="false" />
+    <file path="/Dummy.txt" changelist="54e78c20-3aa9-49b8-8c46-5de6b743fcb4" time="1367040571957" ignored="false" />
     <file path="/index.html" changelist="54e78c20-3aa9-49b8-8c46-5de6b743fcb4" time="1367004959624" ignored="false" />
-    <file path="/script.js" changelist="54e78c20-3aa9-49b8-8c46-5de6b743fcb4" time="1367040254311" ignored="false" />
+    <file path="/script.js" changelist="54e78c20-3aa9-49b8-8c46-5de6b743fcb4" time="1367040761297" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +41,7 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="63" selection-start="1965" selection-end="1965" vertical-scroll-proportion="0.36682242">
+            <state line="100" column="64" selection-start="4124" selection-end="4124" vertical-scroll-proportion="0.87616825">
               <folding />
             </state>
           </provider>
@@ -347,7 +347,11 @@
       <created>1367040541272</created>
       <updated>1367040541272</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Conditionals_Industry">
+      <created>1367040575461</created>
+      <updated>1367040575461</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -463,7 +467,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="63" selection-start="1965" selection-end="1965" vertical-scroll-proportion="0.36682242">
+        <state line="100" column="64" selection-start="4124" selection-end="4124" vertical-scroll-proportion="0.87616825">
           <folding />
         </state>
       </provider>
