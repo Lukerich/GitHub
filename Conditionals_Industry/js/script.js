@@ -17,9 +17,9 @@
  *       Cost
  *
  */
-var mulFac = 1;
-var surChr = 0;
-var shpPrc = 0.00;
+var mulFac = 1; // declared variable with default value for multiple factor - used for number of items
+var surChr = 0; // declared variable with default value to surcharge if state is HI or AK
+var shpPrc = 0.00; // declared variable to hold shipping price result of calculation
 var adrss = [7];   // array to hold the users address - validation on f-name, l-name, address, city, stat, zip code but not
 // second address/apt
 var shpCst = [5];  // array to hold cost of ship method - regardless of location in Continental US, except Alaska -
