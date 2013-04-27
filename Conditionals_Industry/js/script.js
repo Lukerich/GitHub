@@ -23,11 +23,11 @@
                                    // second address/apt
         var shpCst = new Array();  // array to hold cost of ship method - regardless of location in Continental US, except Alaska -
                                    // Alaska and Hawaii are surcharged additional $15.00
-            shpCst["Std"][0] = 10;
-            shpCst["day2"][0] = 15;
-            shpCst["day1"][0] = 20;
-            shpCst["WkHol"][0]= 25;
-            shpCst["SuCh"][0]= 15;
+            shpCst["Std"] = 10;
+            shpCst["day2"] = 15;
+            shpCst["day1"] = 20;
+            shpCst["WkHol"] = 25;
+            shpCst["SuCh"] = 15;
 
         // Prompt for number of items to ship - if 1-2 shipping price is 1 * array value
         // if 3-5 shipping price is 1.5 * array value - if 6-10 shipping price is 2.5 * array
