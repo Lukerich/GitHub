@@ -72,6 +72,10 @@ if (adrss[4] = "") {                         // validate city input - if blank o
 adrss[5] = prompt("Enter State: ", "");
 if (adrss[5] = "") {                        // validate state input - if blank output message to console
     console.log("State must be entered:");
+}else {
+    if (adrss[5] === "HI" || adrss[5] === "AK"){   // assigns surcharge to suChr to be used in shpPrc calculation
+        surChr = shpCst["SuCh"];
+    }
 }
 adrss[6] = prompt("Enter Zip Code: ", "");
 if (adrss[6] = "") {                        // validate zip code input - if blank output message to console
