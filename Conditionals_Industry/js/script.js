@@ -28,3 +28,7 @@
             shpCst[OvN][0] = 20;
             shpCst[WndHol][0]= 25;
             shpCst[SuCh][0]= 15;
+
+        shpMth = prompt("Enter Shipping method: \n Std, Twoday, Ovn, ", "");
+        adrss[0] = prompt("Enter First Name: ", "");
+
