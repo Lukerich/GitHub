@@ -11,7 +11,6 @@
  *       Address
  *       Shipping method
  *       number of items
- *       Confirmation
  *  Results to print to console
  *       Address
  *       Shipping method
@@ -59,6 +58,7 @@ adrss[3] = prompt("Enter Address2: ", "");
 adrss[4] = prompt("Enter City: ", "");
 adrss[5] = prompt("Enter State: ", "");
 adrss[6] = prompt("Enter Zip Code: ", "");
+
 
 
 // Assign variable for shipping method - standard (3-5), 2nd business day, overnight, weekend & holidays
