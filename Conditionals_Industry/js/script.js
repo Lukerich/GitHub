@@ -52,29 +52,29 @@ if (!noItm >= 1) {
 
 // Assigning address array user input values
 adrss[0] = prompt("Enter First Name: ", "");
-if (!noItm >= 1) {
+if (adrss[0] = "") {
     console.log("First Name must be entered:");
 }
 adrss[1] = prompt("Enter Last Name: ", "");
-if (!noItm >= 1) {
+if (adrss[1] = "") {
     console.log("Last Name must be entered:");
 }
 adrss[2] = prompt("Enter Address: ", "");
-if (!noItm >= 1) {
+if (adrss[2] = "") {
     console.log("Address must be entered:");
 }
 adrss[3] = prompt("Enter Address2: ", "");
 
 adrss[4] = prompt("Enter City: ", "");
-if (!noItm >= 1) {
+if (adrss[4] = "") {
     console.log("City must be entered:");
 }
 adrss[5] = prompt("Enter State: ", "");
-if (!noItm >= 1) {
+if (adrss[5] = "") {
     console.log("State must be entered:");
 }
 adrss[6] = prompt("Enter Zip Code: ", "");
-if (!noItm >= 1) {
+if (adrss[6] = "") {
     console.log("Zip Code must be entered:");
 }
 
