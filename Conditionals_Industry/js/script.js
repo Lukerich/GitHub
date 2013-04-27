@@ -106,7 +106,7 @@ if (shpMth === "Std") {
     }
 }
 
-console.log(adrss[0] + " " + adrss[1] + "\n" + adrss[2] + "\n" + adrss[3] + "\n" + adrss[4] + " " + adrss[5] + ", " + adrss[6] + "\n" + "Shipping Method" + shpMth + "\n" + "Cost of Shipping" + "$" + shpPrc);
+console.log(adrss[0] + " " + adrss[1] + "\n" + adrss[2] + "\n" + adrss[3] + "\n" + adrss[4] + " " + adrss[5] + ", " + adrss[6] + "\n" + "Shipping Method is " + shpMth + "\n" + "Cost of Shipping " + "$" + shpPrc);
 
 
 
