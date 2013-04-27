@@ -57,7 +57,6 @@ adrss[0] = prompt("Enter First Name:", "");
 if (adrss[0] = "") {                           // validate first name input - if blank output message to console
     console.log("First Name must be entered:");
 }
-console.log(adrss[0]);
 adrss[1] = prompt("Enter Last Name:", "");
 if (adrss[1] = "") {                           // validate last name input - if blank output message to console
     console.log("Last Name must be entered:");
