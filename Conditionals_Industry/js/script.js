@@ -88,6 +88,7 @@ if (adrss[6] = "") {                        // validate zip code input - if blan
 // used as validation - must choose one method
 var shpMth = prompt("Enter Shipping method: \n Std, 2day, 1day, WkHol", "");
 if (shpMth === "Std") {
+    console.log(shpCst["Std"]);
     shpPrc = mulFac * shpCst["Std"] + surChr;
 } else {
     if (shpMth === "2day") {
