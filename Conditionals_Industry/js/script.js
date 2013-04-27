@@ -17,8 +17,13 @@
  *       Cost
  *
  */
-        var shpMth = new Array();
-        var adrss = new Array();
-        var shpCst = new Array();
+        var shpMth = new Array();  // array to hold shipping methods - standard (3-5), 2nd business day, overnight, weekend & holidays
+                                   // used as validation - must choose one method
+        var adrss = new Array();   // array to hold the users address - validation on f-name, l-name, street, city, stat, zip code but not
+                                   // second address/apt
+        var shpCst = new Array();  // array to hold cost of ship method - regardless of location in Continental US, except Alaska -
+                                   // Alaska and Hawaii are surcharged additional $15.00
+
+
 
 
