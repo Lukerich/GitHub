@@ -17,4 +17,6 @@
  *       Cost
  *
  */
-
+        var shpMth = new Array();
+        var adrss = new Array();
+        var
