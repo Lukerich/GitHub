@@ -28,7 +28,18 @@
             shpCst[WkHol][0]= 25;
             shpCst[SuCh][0]= 15;
 
-                    // Assign variable for shipping method - standard (3-5), 2nd business day, overnight, weekend & holidays
+
+        // Assigning address array user input values
+        adrss[0] = prompt("Enter First Name: ", "");
+        adrss[1] = prompt("Enter Last Name: ", "");
+        adrss[2] = prompt("Enter Address: ", "");
+        adrss[3] = prompt("Enter Address2: ", "");
+        adrss[4] = prompt("Enter City: ", "");
+        adrss[5] = prompt("Enter State: ", "");
+        adrss[6] = prompt("Enter Zip Code: ", "");
+
+
+// Assign variable for shipping method - standard (3-5), 2nd business day, overnight, weekend & holidays
                     // used as validation - must choose one method
         shpMth = prompt("Enter Shipping method: \n Std, 2day, 1day, WkHol", "");
                 if (shpMth === "Std"){
@@ -46,14 +57,6 @@
                 }
                 }
                 }
-                    // Assigning address array user input values
-        adrss[0] = prompt("Enter First Name: ", "");
-        adrss[1] = prompt("Enter Last Name: ", "");
-        adrss[2] = prompt("Enter Address: ", "");
-        adrss[3] = prompt("Enter Address2: ", "");
-        adrss[4] = prompt("Enter City: ", "");
-        adrss[5] = prompt("Enter State: ", "");
-        adrss[6] = prompt("Enter Zip Code: ", "");
 
 
 
