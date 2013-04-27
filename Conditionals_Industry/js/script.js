@@ -69,13 +69,16 @@ if (shpMth === "Std") {
     (adrss[5] !== "HI" || adrss[5] !== "AK" ) ? console.log("Shipping Cost $" + shpPrc ) : console.log("Shipping Cost $" + (shpPrc + 15));
 } else {
     if (shpMth === "2day") {
-        (adrss[5] !== "HI" || adrss[5] !== "AK" ) ? console.log("Shipping Cost $ 15.00") : console.log("Shipping Cost $ 30.00");
+        var shpPrc = mulFac * shpMth["2day"];
+        (adrss[5] !== "HI" || adrss[5] !== "AK" ) ? console.log("Shipping Cost $" + shpPrc ) : console.log("Shipping Cost $" + (shpPrc + 15));
     } else {
         if (shpMth === "1day") {
-            (adrss[5] !== "HI" || adrss[5] !== "AK" ) ? console.log("Shipping Cost $ 20.00") : console.log("Shipping Cost $ 35.00");
+            var shpPrc = mulFac * shpMth["1day"];
+            (adrss[5] !== "HI" || adrss[5] !== "AK" ) ? console.log("Shipping Cost $" + shpPrc ) : console.log("Shipping Cost $" + (shpPrc + 15));
         } else {
             if (shpMth === "WkHol") {
-                (adrss[5] !== "HI" || adrss[5] !== "AK" ) ? console.log("Shipping Cost $ 25.00") : console.log("Shipping Cost $ 40.00");
+                var shpPrc = mulFac * shpMth["WkHol"];
+                (adrss[5] !== "HI" || adrss[5] !== "AK" ) ? console.log("Shipping Cost $" + shpPrc ) : console.log("Shipping Cost $" + (shpPrc + 15));
             }
         }
     }
