@@ -36,13 +36,13 @@ var noItm = Number(prompt("Enter number of Items: ", ""));
 if (!noItm >= 1) {
     console.log("Number of Items must be entered:");
 } else {
-    if (noItm === [1 - 2]) {
+    if (noItm <= 2) {
         mulFac = 1;
     } else {
-        if (noItm === [3 - 5]) {
+        if (noItm > 2 && noItm <= 5) {
             mulFac = 1.5;
         } else {
-            if (noItm === [6 - 10]) {
+            if (noItm > 5 && noItm <= 10) {
                 mulFac = 2.5;
             } else {
                 console.log("For quantities greater then 10,\n please call customer service for shipping costs");
