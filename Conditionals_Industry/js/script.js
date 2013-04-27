@@ -35,6 +35,7 @@
         var noItm = Number(prompt("Enter number of Items: ", ""));
                 if (!noItm >= 1 || noItm === ""){
                     console.log("Number of Items must be entered:");
+                    alert("Number of Items must be entered:");
                 }
 
 
