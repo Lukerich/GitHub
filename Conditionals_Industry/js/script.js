@@ -54,25 +54,25 @@ if (!noItm >= 1) {
 
 // Assigning address array user input values
 adrss[0] = prompt("Enter First Name: ", "");
-// if (adrss[0] = "") {                           // validate first name input - if blank output message to console
-//    console.log("First Name must be entered:");
-// }
+if (adrss[0] = " ") {                           // validate first name input - if blank output message to console
+    console.log("First Name must be entered:");
+}
 adrss[1] = prompt("Enter Last Name: ", "");
-if (adrss[1] = "") {                           // validate last name input - if blank output message to console
+if (adrss[1] = " ") {                           // validate last name input - if blank output message to console
     console.log("Last Name must be entered:");
 }
 adrss[2] = prompt("Enter Address: ", "");
-if (adrss[2] = "") {                         // validate address input - if blank output message to console
+if (adrss[2] = " ") {                         // validate address input - if blank output message to console
     console.log("Address must be entered:");
 }
 adrss[3] = prompt("Enter Address2: ", "");
 
 adrss[4] = prompt("Enter City: ", "");
-if (adrss[4] = "") {                         // validate city input - if blank output message to console
+if (adrss[4] = " ") {                         // validate city input - if blank output message to console
     console.log("City must be entered:");
 }
 adrss[5] = prompt("Enter State: ", "");
-if (adrss[5] = "") {                        // validate state input - if blank output message to console
+if (adrss[5] = " ") {                        // validate state input - if blank output message to console
     console.log("State must be entered:");
 }else {
     if (adrss[5] === "HI" || adrss[5] === "AK"){   // assigns surcharge to suChr to be used in shpPrc calculation
@@ -80,7 +80,7 @@ if (adrss[5] = "") {                        // validate state input - if blank o
     }
 }
 adrss[6] = prompt("Enter Zip Code: ", "");
-if (adrss[6] = "") {                        // validate zip code input - if blank output message to console
+if (adrss[6] = " ") {                        // validate zip code input - if blank output message to console
     console.log("Zip Code must be entered:");
 }
 
