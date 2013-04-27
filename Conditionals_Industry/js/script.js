@@ -29,12 +29,26 @@ shpCst["day1"] = 20;
 shpCst["WkHol"] = 25;
 shpCst["SuCh"] = 15;
 
-// Prompt for number of items to ship - if 1-2 shipping price is 1 * array value
+// Prompt for number of items to ship - if 1-2 shipping price is the array value
 // if 3-5 shipping price is 1.5 * array value - if 6-10 shipping price is 2.5 * array
 // above 10 users is alerted to call customer service for cost.
 var noItm = Number(prompt("Enter number of Items: ", ""));
 if (!noItm >= 1) {
     console.log("Number of Items must be entered:");
+}else {
+    if (noItm === [1-2]){
+        var mulFac = 1;
+    }else {
+        if (noItm === [3-5]){
+            var mulFac = 1.5;
+        }else {
+            if (noItm === [6-10]){
+                var mulFac = 2.5;
+            }else {
+                console.log("For quantities greater then 10,\n please call customer service for shipping costs");
+            }
+        }
+    }
 }
 
 
@@ -51,7 +65,7 @@ adrss[6] = prompt("Enter Zip Code: ", "");
 // Assign variable for shipping method - standard (3-5), 2nd business day, overnight, weekend & holidays
 // used as validation - must choose one method
 var shpMth = prompt("Enter Shipping method: \n Std, 2day, 1day, WkHol", "");
-if (shpMth === "Std" && noItm <= 2) {
+if (shpMth === "Std") {
     (adrss[5] !== "HI" || adrss[5] !== "AK" ) ? console.log("Shipping Cost $ 10.00") : console.log("Shipping Cost $ 25.00");
 } else {
     if (shpMth === "2day") {
