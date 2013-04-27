@@ -87,20 +87,16 @@ if (adrss[6] = "") {                        // validate zip code input - if blan
 // used as validation - must choose one method
 var shpMth = prompt("Enter Shipping method: \n Std, 2day, 1day, WkHol", "");
 if (shpMth === "Std") {
-    shpPrc = mulFac * shpCst["Std"];
-    (adrss[5] !== "HI" || adrss[5] !== "AK" ) ? console.log("Shipping Cost $" + shpPrc) : console.log("Shipping Cost $" + (shpPrc + 15));
+    shpPrc = mulFac * shpCst["Std"] + surChr;
 } else {
     if (shpMth === "2day") {
-        shpPrc = mulFac * shpCst["2day"];
-        (adrss[5] !== "HI" || adrss[5] !== "AK" ) ? console.log("Shipping Cost $" + shpPrc) : console.log("Shipping Cost $" + (shpPrc + 15));
+        shpPrc = mulFac * shpCst["2day"] + surChr;
     } else {
         if (shpMth === "1day") {
-            shpPrc = mulFac * shpCst["1day"];
-            (adrss[5] !== "HI" || adrss[5] !== "AK" ) ? console.log("Shipping Cost $" + shpPrc) : console.log("Shipping Cost $" + (shpPrc + 15));
+            shpPrc = mulFac * shpCst["1day"] + surChr;
         } else {
             if (shpMth === "WkHol") {
-                shpPrc = mulFac * shpCst["WkHol"];
-                (adrss[5] !== "HI" || adrss[5] !== "AK" ) ? console.log("Shipping Cost $" + shpPrc) : console.log("Shipping Cost $" + (shpPrc + 15));
+                shpPrc = mulFac * shpCst["WkHol"] + surChr;
             }else {
                 console.log("Shipping method must be entered:");
             }
