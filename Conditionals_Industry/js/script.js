@@ -82,7 +82,6 @@ adrss[6] = prompt("Enter Zip Code:", "");
 if (adrss[6] = "") {                        // validate zip code input - if blank output message to console
     console.log("Zip Code must be entered:");
 }
-}
 
 
 // Assign variable for shipping method - standard (3-5), 2nd business day, overnight, weekend & holidays
