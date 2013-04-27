@@ -34,9 +34,9 @@ shpCst["SuCh"] = 15;
 // if 3-5 shipping price is 1.5 * array value - if 6-10 shipping price is 2.5 * array
 // above 10 users is alerted to call customer service for cost.
 var noItm = Number(prompt("Enter number of Items: ", ""));
-if (!noItm >= 1) {
-    console.log("Number of Items must be entered:");
-} else {
+if (!noItm >= 1) {                                    // validation that a number of 1 - 10 has been entered
+    console.log("Number of Items must be entered:"); // message to users to enter mandatory number of items
+} else {                                              // assigning multiplier to variable to use in calculation
     if (noItm <= 2) {
         mulFac = 1;
     } else {
