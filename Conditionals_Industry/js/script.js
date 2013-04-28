@@ -24,11 +24,11 @@ var adrss = [7];   // array to hold the users address - validation on f-name, l-
 // second address/apt
 var shpCst = [5];  // array to hold cost of ship method - regardless of location in Continental US, except Alaska -
 // Alaska and Hawaii are surcharged additional $15.00
-shpCst["Std"] = 10;
-shpCst["2day"] = 15;
-shpCst["1day"] = 20;
-shpCst["WkHol"] = 25;
-shpCst["SuCh"] = 15;
+shpCst["Std"] = 10;   // assign array sphCst index Std value
+shpCst["2day"] = 15;  // assign array sphCst index 2day value
+shpCst["1day"] = 20;  // assign array sphCst index 1day value
+shpCst["WkHol"] = 25; // assign array sphCst index WkHol value
+shpCst["SuCh"] = 15;  // assign array sphCst index SuCh value
 
 // Prompt for number of items to ship - if 1-2 shipping price is the array value
 // if 3-5 shipping price is 1.5 * array value - if 6-10 shipping price is 2.5 * array
@@ -37,17 +37,17 @@ var noItm = Number(prompt("Enter number of Items: ", ""));
 if (!noItm >= 1) {                                    // validation that a number of 1 - 10 has been entered
     console.log("Number of Items must be entered:"); // message to users to enter mandatory number of items
 } else {                                              // assigning multiplier to variable to use in calculation
-    if (noItm <= 2) {
-        mulFac = 1;
+    if (noItm <= 2) {                                 // test for number of item input from user
+        mulFac = 1;                                   // assign multiplier factor to variable mulFac
     } else {
-        if (noItm > 2 && noItm <= 5) {
-            mulFac = 1.5;
+        if (noItm > 2 && noItm <= 5) {                // test for number of item input from user
+            mulFac = 1.5;                             // assign multiplier factor to variable mulFac
         } else {
-            if (noItm > 5 && noItm <= 10) {
-                mulFac = 2.5;
+            if (noItm > 5 && noItm <= 10) {           // test for number of item input from user
+                mulFac = 2.5;                         // assign multiplier factor to variable mulFac
             } else {
                 console.log("For quantities greater then 10,\n please call customer service for shipping costs");
-            }
+            }                                // write out to console message about quantities greater then 10
         }
     }
 }
