@@ -89,18 +89,18 @@ if (adrss[6] === "") {                        // validate zip code input - if bl
 // used as validation - must choose one method
 var shpMth = prompt("Enter Shipping method: \n Std, 2day, 1day, WkHol", "");  // assigns user input for shipping method
 if (shpMth === "Std") {                                                     // if - else statement for shipping method input
-    shpPrc = mulFac * shpCst["Std"] + surChr;                               // calculation of final Shipping Price/Cost
-} else {
-    if (shpMth === "2day") {
-        shpPrc = mulFac * shpCst["2day"] + surChr;
-    } else {
-        if (shpMth === "1day") {
-            shpPrc = mulFac * shpCst["1day"] + surChr;
-        } else {
-            if (shpMth === "WkHol") {
-                shpPrc = mulFac * shpCst["WkHol"] + surChr;
-            } else {
-                console.log("Shipping method must be entered:");
+    shpPrc = mulFac * shpCst["Std"] + surChr;                               // calculation of final Std Shipping Price/Cost
+} else {                                                                   // continuation of if else
+    if (shpMth === "2day") {                                              // if else test for 2day shipping method
+        shpPrc = mulFac * shpCst["2day"] + surChr;                        // calculation of final Std Shipping Price/Cost
+    } else {                                                               // continuation of if else
+        if (shpMth === "1day") {                                           // if else test for 1day shipping method
+            shpPrc = mulFac * shpCst["1day"] + surChr;                    // calculation of final 1day Shipping Price/Cost
+        } else {                                                          // continuation of if else
+            if (shpMth === "WkHol") {                                      // if else test for WkHol shipping method
+                shpPrc = mulFac * shpCst["WkHol"] + surChr;               // calculation of final WkHol Shipping Price/Cost
+            } else {                                                      // continuation of if else
+                console.log("Shipping method must be entered:");          // write out to console message if shipping method left blank
             }
         }
     }
