@@ -83,9 +83,9 @@ if (getCwh === "M" || getCwh === "m") {   // evalute user input for vendor being
 
 // cost of coffee bought at McDonalds or Starbucks
 var defvend = "McDoanlds\xA9";  // assign default vendor
-var defMDC16 = 1.49;            // assign default cost of 16oz coffee
-var defMDC20 = 1.69;            // assign default cost of 20oz coffee
-var defMDC32 = 1.89;            // assign default cost of 32oz coffee
+var defMDC16 = 1.49 / 16;            // assign default cost of 16oz coffee
+var defMDC20 = 1.69 / 20;            // assign default cost of 20oz coffee
+var defMDC32 = 1.89 / 32;            // assign default cost of 32oz coffee
 var bghtCC = (dyCC * venCCst);           // calculation of coffee at store
 
 // cost of coffee per oz. when brewed at home
