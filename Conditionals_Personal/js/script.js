@@ -3,7 +3,9 @@
  * Date: 4/26/13
  * Conditionals_Personal
  * Calculate the difference in coffee made at home versus buying it at Starbucks or McDonalds
- *  Givens:
+ *  Givens:   ~ .69495 cent per 16oz cup at home .70 cents -  .915 cents for 20oz             .04575 || .04343 cent per 1oz
+ *              w/o cup cost 16oz .44495 - 20oz .54 - 1oz .027 - .0278
+ *              20oz reusable coffee cup - $ 15.00 amortized over 1 year of coffee    .000913 cents at 3 cups a day each day for a year
  *        12 cup coffee maker with 60oz carafe                    3.75 16oz cups - 3 20oz cups
  *        5 - 1/8 cup - 30ml coffee scoop per 60oz carafe   2 Tbls in an 1/8 = 10 Tbls per carafe = 59 grams per carafe = 2.08 ounces
  *        a 12oz bag make 6 carafe      $ 1.25 per carafe     1oz ~ .021 cents       16oz ~ .34          20oz  ~ .42 cent
@@ -11,7 +13,7 @@
  *        http://wiki.answers.com/Q/How_many_grams_of_coffee_are_in_a_tablespoon
  *        Coffee maker $40.00   amortization of coffee maker for one year of coffee brewing at 1 60oz carafe a day
  *        is  approx. 11 cents per carafe      1oz ~ .002 cents     16oz ~ .029 cents         20oz ~ .037 cents
- *        Filters 1 per 60 oz.  $12.00/500 #4 2.4 cent per filter
+ *        Filters 1 per 60 oz.  $12.00/500 #4 2.4 cent per filter  ~ .0004 cents per 1oz - 16oz ~ .0064 cents - 20oz ~ .008 cents
  *        Water   $102.18/3000 gallons   .034 cents/gal   1oz ~  .0003 cents 16oz ~ .00425 cents  20oz ~  .005 cents cents
  *        Electricity   .137 cent kw/h  coffee pot consumes .585 kWh for 10 minute to brew a carafe of coffee at
  *        .137 kw/h  is approx .08 or 8 cents     1oz ~ .0013 cents 16oz ~ .0213 cents 20oz ~ .026 cents
@@ -43,5 +45,7 @@ var ccCst;
 var sugCst;
 var hnhCst;
 
-if (cpsize === )
+if (cpsize === 16 || cpsize === 20 ){
+
+}
 
