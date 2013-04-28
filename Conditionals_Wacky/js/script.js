@@ -13,11 +13,11 @@
 
 
 var Przamt = Number(prompt("Enter amount of Pretzels in container in ounces:", "")); // user input for amount of pretzels in container
-if (Przamt === "") {                         // validate input - if blank output message to console
+if (Przamt == "") {                         // validate input - if blank output message to console
     console.log("Amount of pretzels in container must be entered:");      // write out to console message that amount needs to be entered
 }
 var NumPrz = Number(prompt("Enter the amount of Pretzels you want consumed in ounces:", "")); // user input for amount of pretzels they want ot eat
-if (NumPrz === "") {                         // validate input - if blank output message to console
+if (NumPrz == "") {                         // validate input - if blank output message to console
     console.log("Amount of pretzels user wants to eat must be entered:");      // write out to console message that amount needs to be entered
 }
 
