@@ -57,8 +57,17 @@ if (getCwh === "H" || getCwh === "h") {
 } else {
     if (getCwh === "M" || getCwh === "m" || getCwh === "S" || getCwh === "s") {
         var dyCC = Number(prompt("Enter number of cups a day:", ""));
-        var cpsize = Number(prompt("Enter size of cup in ounces: \n Ex. 16 - 16oz. or 20 - 20oz.", "")); // prompt for user to assign number of ounces in cup
+        if (dyCC === "") {                           // validate number of cups a day input - if blank output message to console
+            console.log("Number of cups a day must be entered:");  // write out to console message that number of cups a day needs to be entered
+        }
+        var venCCst = Number(prompt("Enter size of cup in ounces: \n Ex. 16 - 16oz. or 20 - 20oz.", "")); // prompt for user to assign number of ounces in cup
+        if (venCCst === "") {                           // validate cup size input - if blank output message to console
+            console.log("Size of cup in ounces must be entered:");  // write out to console message that cup size in ounces needs to be entered
+        }
         var venCCst = Number(prompt("Enter the cost of coffee from \n McDonalds\xA9 or Starbucks\xA9"));
+        if (venCCst === "") {                           // validate cost of coffee input - if blank output message to console
+            console.log("Cost of coffee must be entered:");  // write out to console message that cost of coffee needs to be entered
+        }
     } else {
         console.log("Invalid Entry Only H, M or S allowed:");
     }
