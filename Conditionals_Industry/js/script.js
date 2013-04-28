@@ -53,35 +53,35 @@ if (!noItm >= 1) {                                    // validation that a numbe
 }
 
 // Assigning address array user input values
-adrss[0] = prompt("Enter First Name:", "");
+adrss[0] = prompt("Enter First Name:", "");       // prompt for user input to assign array adrss index 0
 if (adrss[0] === "") {                           // validate first name input - if blank output message to console
-    console.log("First Name must be entered:");
+    console.log("First Name must be entered:");  // write out to console message that zip code needs to be entered
 }
-adrss[1] = prompt("Enter Last Name:", "");
+adrss[1] = prompt("Enter Last Name:", "");        // prompt for user input to assign array adrss index 1
 if (adrss[1] === "") {                           // validate last name input - if blank output message to console
-    console.log("Last Name must be entered:");
+    console.log("Last Name must be entered:");  // write out to console message that zip code needs to be entered
 }
-adrss[2] = prompt("Enter Address:", "");
+adrss[2] = prompt("Enter Address:", "");        // prompt for user input to assign array adrss index 2
 if (adrss[2] === "") {                         // validate address input - if blank output message to console
-    console.log("Address must be entered:");
+    console.log("Address must be entered:");   // write out to console message that zip code needs to be entered
 }
-adrss[3] = prompt("Enter Address2: ", "");     // assign address2 from user input
+adrss[3] = prompt("Enter Address2: ", "");     // prompt for user input to assign array adrss index 3
 
-adrss[4] = prompt("Enter City:", "");
+adrss[4] = prompt("Enter City:", "");           // prompt for user input to assign array adrss index 4
 if (adrss[4] === "") {                         // validate city input - if blank output message to console
-    console.log("City must be entered:");
+    console.log("City must be entered:");      // write out to console message that zip code needs to be entered
 }
-adrss[5] = prompt("Enter State:", "");
+adrss[5] = prompt("Enter State:", "");          // prompt for user input to assign array adrss index 5
 if (adrss[5] === "HI" || adrss[5] === "AK") {   // assigns surcharge to suChr to be used in shpPrc calculation
     surChr = shpCst["SuCh"];
 } else{
     if (adrss[5] === "") {                        // validate state input - if blank output message to console
-        console.log("State must be entered:");
+        console.log("State must be entered:");   // write out to console message that zip code needs to be entered
     }
 }
-adrss[6] = prompt("Enter Zip Code:", "");
+adrss[6] = prompt("Enter Zip Code:", "");      // prompt for user input to assign array adrss index 6
 if (adrss[6] === "") {                        // validate zip code input - if blank output message to console
-    console.log("Zip Code must be entered:");
+    console.log("Zip Code must be entered:");  // write out to console message that zip code needs to be entered
 }
 
 
@@ -105,7 +105,7 @@ if (shpMth === "Std") {                                                     // i
         }
     }
 }
-
+             //final console message of shipping address, shipping method and price
 console.log(adrss[0] + " " + adrss[1] + "\n" + adrss[2] + "\n" + adrss[3] + "\n" + adrss[4] + " " + adrss[5] + ", " + adrss[6] + "\n" + "Shipping Method is " + shpMth + "\n" + "Cost of Shipping " + "$" + shpPrc);
 
 
