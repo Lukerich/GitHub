@@ -30,7 +30,7 @@
  *        Cost of Starbucks or McDonalds coffee
  *        How many ounces of coffee per day does the user drink
  */
-var getCwh = promtp("Enter H if you get coffee at home\n Enter Enter M for McDonalds\xA9\n Enter S for Starbucks\xA9:");
+var getCwh = prompt("Enter H if you get coffee at home\n Enter Enter M for McDonalds\xA9\n Enter S for Starbucks\xA9:", "");
 var cpsize = Number(prompt("Enter size of cup in ounces: \n Ex. 16 - 16oz. or 20 - 20oz.", "")); // prompt for user to assign number of ounces in cup
 var dyCC = Number(prompt("Enter number of cups a day:", ""));
 var cupTpe = prompt("Your using a D - Disposable cup \n or R - Reusable cup?", "");
