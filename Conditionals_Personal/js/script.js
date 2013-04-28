@@ -31,14 +31,24 @@
  *        How many ounces of coffee per day does the user drink
  */
 var getCwh = prompt("Enter H if you get coffee at home\n Enter Enter M for McDonalds\xA9\n Enter S for Starbucks\xA9:", "");
-var cpsize = Number(prompt("Enter size of cup in ounces: \n Ex. 16 - 16oz. or 20 - 20oz.", "")); // prompt for user to assign number of ounces in cup
-var dyCC = Number(prompt("Enter number of cups a day:", ""));
-var cupTpe = prompt("Your using a D - Disposable cup \n or R - Reusable cup?", "");
-var cosBC = Number(prompt("Enter cost for a bag of coffee: \n for home brewing.", ""));
-var bagSz = Number(prompt("Enter size of coffee bag in ounces: \n for home brewing.", ""));
-var venCCst = Number(prompt("Enter the cost of coffee from \n McDonalds\xA9 or Starbucks\xA9"));
-var amtSur = Number(prompt("Enter number of tsp of sugar:", ""));
-var amtHnH = Number(prompt("Enter number of Tbs of Half and Half \n or any Creamer:", ""));
+if (getCwh === "H" || getCwh === "h") {
+    var amtSur = Number(prompt("Enter number of tsp of sugar:", ""));
+    var amtHnH = Number(prompt("Enter number of Tbs of Half and Half \n or any Creamer:", ""));
+    var cpHsize = Number(prompt("Enter size of cup in ounces: \n Ex. 16 - 16oz. or 20 - 20oz.", "")); // prompt for user to assign number of ounces in cup
+    var dyCCh = Number(prompt("Enter number of cups a day:", ""));
+    var cupTpe = prompt("Your using a D - Disposable cup \n or R - Reusable cup?", "");
+    var cosBC = Number(prompt("Enter cost for a bag of coffee: \n for home brewing.", ""));
+    var bagSz = Number(prompt("Enter size of coffee bag in ounces: \n for home brewing.", ""));
+} else {
+    if (getCwh === "M" || getCwh === "m" || getCwh === "S" || getCwh === "s") {
+        var dyCC = Number(prompt("Enter number of cups a day:", ""));
+        var cpsize = Number(prompt("Enter size of cup in ounces: \n Ex. 16 - 16oz. or 20 - 20oz.", "")); // prompt for user to assign number of ounces in cup
+        var venCCst = Number(prompt("Enter the cost of coffee from \n McDonalds\xA9 or Starbucks\xA9"));
+    } else {
+        console.log("Invalid Entry Only H, M or S allowed:");
+    }
+}
+
 
 // cost difference of buying coffee at McDonalds or Starbucks versus making it at home
 var cstPC;
@@ -64,25 +74,25 @@ var cupBig = .45;
 var cupRes = (.000913 / cpsize);
 var basCC = (cmCst + homCCst + elcCst + waCst + cofFil);
 
-if (getCwh === "H" || getCwh === "h"){
+if (getCwh === "H" || getCwh === "h") {
     if (cupTpe === "R") {
-        cofCst = (cpsize * basCC + sugCst * amtSur + hnhCst * amtHnH + cupRes);
+        cofCst = ((cpsize * basCC + sugCst * amtSur + hnhCst * amtHnH + cupRes) * dyCCh);
     } else {
-        if (cpsize >= 12 || cpsize <= 16) {
-            cofCst = (cpsize * basCC + sugCst * amtSur + hnhCst * amtHnH + cup16);
+        if (cpHsize >= 12 || cpHsize <= 16) {
+            cofCst = ((cpHsize * basCC + sugCst * amtSur + hnhCst * amtHnH + cup16) * dyCCh);
         } else {
-            if (cpsize >= 20 || cpsize <= 22) {
-                cofCst = (cpsize * basCC + sugCst * amtSur + hnhCst * amtHnH + cup20);
+            if (cpHsize >= 20 || cpHsize <= 22) {
+                cofCst = ((cpHsize * basCC + sugCst * amtSur + hnhCst * amtHnH + cup20) * dyCCh);
             } else {
-                if (cpsize > 22) {
-                    cofCst = (cpsize * basCC + sugCst * amtSur + hnhCst * amtHnH + cupBig);
+                if (cpHsize > 22) {
+                    cofCst = ((cpHsize * basCC + sugCst * amtSur + hnhCst * amtHnH + cupBig) * dyCCh);
                 }
             }
         }
     }
 }
-if (getCwh === "M" || getCwh === "m" || getCwh === "S" || getCwh === "s"){
-       bghtCC = (dyCC * venCCst);
+if (getCwh === "M" || getCwh === "m" || getCwh === "S" || getCwh === "s") {
+    bghtCC = (dyCC * venCCst);
 }
 
 console.log("Cost of coffee from Home is: " + cofCst + "\nCost of coffee from ")
