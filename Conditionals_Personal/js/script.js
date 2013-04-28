@@ -35,6 +35,9 @@ if (getCwh === "H" || getCwh === "h") {
     var amtSur = Number(prompt("Enter number of tsp of sugar:", ""));
     var amtHnH = Number(prompt("Enter number of Tbs of Half and Half \n or any Creamer:", ""));
     var cpHsize = Number(prompt("Enter size of cup in ounces: \n Ex. 16 - 16oz. or 20 - 20oz.", "")); // prompt for user to assign number of ounces in cup
+    if (cpHsize[0] === "") {                           // validate cup size input - if blank output message to console
+        console.log("Cup size in ounces must be entered:");  // write out to console message that cup size in ounces needs to be entered
+    }
     var dyCCh = Number(prompt("Enter number of cups a day:", ""));
     var cupTpe = prompt("Your using a D - Disposable cup \n or R - Reusable cup?", "");
     var cosBC = Number(prompt("Enter cost for a bag of coffee: \n for home brewing.", ""));
@@ -48,10 +51,10 @@ if (getCwh === "H" || getCwh === "h") {
         console.log("Invalid Entry Only H, M or S allowed:");
     }
 }
-if (getCwh === "M" || getCwh === "m"){
+if (getCwh === "M" || getCwh === "m") {
     var vend = "McDonalds\xA9";
-}else {
-    if (getCwh === "S" || getCwh === "s"){
+} else {
+    if (getCwh === "S" || getCwh === "s") {
         var vend = "Starbucks\xA9";
     }
 }
@@ -101,4 +104,4 @@ if (getCwh === "M" || getCwh === "m" || getCwh === "S" || getCwh === "s") {
     bghtCC = (dyCC * venCCst);
 }
 
-console.log("Cost of coffee from Home is: " + cofCst + "\nCost of coffee from " );
+console.log("Cost of coffee from Home is: " + cofCst + "\nCost of coffee from " + vend + " is: " + bghtCC);
