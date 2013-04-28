@@ -81,12 +81,6 @@ if (getCwh === "M" || getCwh === "m") {   // evalute user input for vendor being
     }
 }
 
-// cost difference of buying coffee at McDonalds or Starbucks versus making it at home
-var cstPC;
-var cstPD;
-var cstPY;
-
-
 // cost of coffee bought at McDonalds or Starbucks
 var defMDC16 = 1.49;
 var defMDC20 = 1.69;
