@@ -120,10 +120,11 @@ if (getCwh === "H" || getCwh === "h") {
             }
         }
     }
+    console.log("Cost of coffee from Home is: " + cofCst + "\nCost of coffee from " + vend + " is: " + bghtCC);
 }
 if (getCwh === "M" || getCwh === "m" || getCwh === "S" || getCwh === "s") {
     bghtCC = (dyCC * venCCst);
     cofCst = ((cpHsize * basCC + sugCst * 2 + hnhCst * 2) * dyCCh )
+    console.log("Cost of coffee from Home is: " + cofCst + "\nCost of coffee from " + vend + " is: " + bghtCC);
 }
 
-console.log("Cost of coffee from Home is: " + cofCst + "\nCost of coffee from " + vend + " is: " + bghtCC);
