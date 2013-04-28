@@ -125,7 +125,7 @@ if (getCwh === "H" || getCwh === "h") {      // if statement to evaluate where c
             }
         }
     }                                                                     // write out to console coffee cost comparision
-    console.log("Cost of coffee from Home is: " + cofCst + "\nCost of coffee from " + defvend + " is: " + bghtCC);
+    console.log("Cost of  " + dyCCh + " cups of coffee from Home is: " + cofCst + "\nCost of  " + dyCCh + " cups of coffee from " + defvend + " is: " + bghtCC);
 }
 if (getCwh === "M" || getCwh === "m" || getCwh === "S" || getCwh === "s") {  // if statement to evaluate where coffee is gotten (at store)
     cofCst = ((cpsize * defBasCC + sugCst * 2 + hnhCst * 2) * dyCC);   // calculation for cost of coffee made at home with resuable cup as default
