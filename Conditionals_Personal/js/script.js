@@ -97,7 +97,7 @@ var elcCst = .0013;                           // assign variable for electricity
 var waCst = .0003;                            // assign variable for cost of water used to brew coffee; cost per ounce of coffee (for details see above)
 var cofCst;                                   // assign variable for cost per ounce of coffee
 var sugCst = .005;                            // assign variable for cost of surgar if used; cost per ounce of coffee (for details see above)
-var hnhCst = 1.7;                             // assign variable for creamer is used; cost per ounce of coffee (for details see above)
+var hnhCst = .017;                             // assign variable for creamer is used; cost per ounce of coffee (for details see above)
 var cup16 = .227;                              // assign variable for 16oz. paper coffee cup with lid cost (for details see above)
 var cup20 = .302;                             // assign variable for  20oz. paper coffee cup with lid cost (for details see above)
 var cupBig = .128;                             // assign variable for 32oz.. sytrofoam coffee cup with lid cost (for details see above)
