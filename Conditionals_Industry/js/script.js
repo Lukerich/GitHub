@@ -65,7 +65,7 @@ adrss[2] = prompt("Enter Address:", "");
 if (adrss[2] === "") {                         // validate address input - if blank output message to console
     console.log("Address must be entered:");
 }
-adrss[3] = prompt("Enter Address2: ", "");     //
+adrss[3] = prompt("Enter Address2: ", "");     // assign address2 from user input
 
 adrss[4] = prompt("Enter City:", "");
 if (adrss[4] === "") {                         // validate city input - if blank output message to console
@@ -87,9 +87,9 @@ if (adrss[6] === "") {                        // validate zip code input - if bl
 
 // Assign variable for shipping method - standard (3-5), 2nd business day, overnight, weekend & holidays
 // used as validation - must choose one method
-var shpMth = prompt("Enter Shipping method: \n Std, 2day, 1day, WkHol", "");
-if (shpMth === "Std") {
-    shpPrc = mulFac * shpCst["Std"] + surChr;
+var shpMth = prompt("Enter Shipping method: \n Std, 2day, 1day, WkHol", "");  // assigns user input for shipping method
+if (shpMth === "Std") {                                                     // if - else statement for shipping method input
+    shpPrc = mulFac * shpCst["Std"] + surChr;                               // calculation of final Shipping Price/Cost
 } else {
     if (shpMth === "2day") {
         shpPrc = mulFac * shpCst["2day"] + surChr;
