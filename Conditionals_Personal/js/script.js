@@ -9,7 +9,7 @@
  *              cost goes to  0.02704566210046 cent per 1oz
  *        12 cup coffee maker with 60oz carafe                    3.75 16oz cups - 3 20oz cups
  *        5 - 1/8 cup - 30ml coffee scoop per 60oz carafe   2 Tbs in an 1/8 = 10 Tbs per carafe = 59 grams per carafe = 2.08 ounces
- *        a 12oz bag make 6 carafe      $ 1.25 per carafe     1oz ~ .021 cents       16oz ~ .34          20oz  ~ .42 cent
+ *        a 12oz bag at $7.50 makes 6 carafe      $ 1.25 per carafe     1oz ~ .021 cents       16oz ~ .34          20oz  ~ .42 cent
  *        25 lb/ft^3 * 1 tablespoon in grams in a 5.9 grams in a 1 Tbs fine ground coffee  - (http://www.ico.org/ecology.asp)
  *        http://wiki.answers.com/Q/How_many_grams_of_coffee_are_in_a_tablespoon
  *        Coffee maker $40.00   amortization of coffee maker for one year of coffee brewing at 1 60oz carafe a day
@@ -97,6 +97,7 @@ var bghtCC = (dyCC * venCCst);           // calculation of coffee at store
 // cost of coffee per oz. when brewed at home
 var cmCst = .002;                              // assign variable for cost coffee maker amortized cost per ounce of coffee made (for details see above)
 var cofFil = .0004;                            // assign variable for cost for paper filters per ounce of coffee (for details see above)
+var defHCcst = .021;                           // assign variable for default cost of ground coffee per ounce brewed (for details see above)
 var homCCst = ((cosBC / (bagSz / 2.08)) / 60); // assign variable for ground coffe used; cost per ounce of coffee (for details see above)
 var elcCst = .0013;                           // assign variable for electricity used to run coffee maker; cost per ounce of coffee (for details see above)
 var waCst = .0003;                            // assign variable for cost of water used to brew coffee; cost per ounce of coffee (for details see above)
@@ -107,13 +108,15 @@ var cup16 = .227;                              // assign variable for 16oz. pape
 var cup20 = .302;                             // assign variable for  20oz. paper coffee cup with lid cost (for details see above)
 var cupBig = .128;                             // assign variable for 32oz.. sytrofoam coffee cup with lid cost (for details see above)
 var cupRes = (.000913 / cpHsize);             // assign variable for     amortized cost per ounce of coffee (for details see above)
-var basCC = (cmCst + homCCst + elcCst + waCst + cofFil); // assign variable for
+var basCC = (cmCst + homCCst + elcCst + waCst + cofFil); // assign variable for basic cost of coffee no cup or sugar
+var defBasCC = (cmCst + elcCst + waCst + cofFil + defHCcst); // assign vaiable for default cost of home coffee per ounce brewed
 
 if (getCwh === "H" || getCwh === "h") {      // if statement to evaluate where coffee is gotten (at Home)
     if (cupTpe === "R") {
         cofCst = ((cpHsize * basCC + sugCst * amtSur + hnhCst * amtHnH + cupRes) * dyCCh); // calculation for cost of coffee made at home with resuable cup
     } else {
         if (cpHsize >= 12 || cpHsize <= 16) {                                                   // evulation of cup size
+            bghtCC = defMDC16
             cofCst = ((cpHsize * basCC + sugCst * amtSur + hnhCst * amtHnH + cup16) * dyCCh); // calculation for cost of coffee made at home with disposible cup
         } else {
             if (cpHsize >= 20 || cpHsize <= 22) {                                                  // evulation of cup size
@@ -128,7 +131,7 @@ if (getCwh === "H" || getCwh === "h") {      // if statement to evaluate where c
     console.log("Cost of coffee from Home is: " + cofCst + "\nCost of coffee from " + vend + " is: " + bghtCC);
 }
 if (getCwh === "M" || getCwh === "m" || getCwh === "S" || getCwh === "s") {  // if statement to evaluate where coffee is gotten (at store)
-    cofCst = ((cpHsize * basCC + sugCst * 2 + hnhCst * 2) * dyCCh )   // calculation for cost of coffee made at home with resuable cup as default
+    cofCst = ((cpsize * basCC + sugCst * 2 + hnhCst * 2) * dyCC);   // calculation for cost of coffee made at home with resuable cup as default
     console.log("Cost of coffee from Home is: " + cofCst + "\nCost of coffee from " + vend + " is: " + bghtCC); // write out to console coffee cost comparision
 }
 
