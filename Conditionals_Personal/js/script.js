@@ -19,8 +19,8 @@
  *        Electricity   .137 cent kw/h  coffee pot consumes .585 kWh for 10 minute to brew a carafe of coffee at
  *        .137 kw/h  is approx .08 or 8 cents     1oz ~ .0013 cents 16oz ~ .0213 cents 20oz ~ .026 cents
  *        bag of 12oz ground coffee - $  7.50
- *        16 oz cup with lid ~ .25 cents
- *        20 oz cup with lid ~ .375 cents
+ *        16 oz cup with lid ~ .227 cents
+ *        20 oz cup with lid ~ .302 cents
  *        32 oz of half and half $ 1.70  2 Tbs per cup - 1/2fl oz per Tbs - 1oz. per cup  3.4 cent per cup  1.7 cents per Tbs
  *        10lb sugar $ 5.60 - 2 tsp per cup - 1 tsp = 4.2g -  .29 ounces of sugar per cup - 1 cent per cup .5 cent per tsp
  *   User Inputs
@@ -38,25 +38,25 @@ if (getCwh === "H" || getCwh === "h") {                                 // evalu
     if (cpHsize === "") {                           // validate cup size input - if blank output message to console
         console.log("Cup size in ounces must be entered:");  // write out to console message that cup size in ounces needs to be entered
     }
-    var dyCCh = Number(prompt("Enter number of cups a day:", ""));
+    var dyCCh = Number(prompt("Enter number of cups a day:", ""));  // evalute user input number of cups of coffee the user drinks a day
     if (dyCCh === "") {                           // validate number of cups a day input - if blank output message to console
         console.log("Number of cups a day must be entered:");  // write out to console message that number of cups a day in ounces needs to be entered
     }
-    var cupTpe = prompt("Your using a D - Disposable cup \n or R - Reusable cup?", "");
+    var cupTpe = prompt("Your using a D - Disposable cup \n or R - Reusable cup?", "");  // evalute user input type of cup used at home for coffee
     if (cupTpe === "") {                           // validate cup type input - if blank output message to console
         console.log("Cup type must be entered:");  // write out to console message that cup type in ounces needs to be entered
     }
-    var cosBC = Number(prompt("Enter cost for a bag of coffee: \n for home brewing.", ""));
+    var cosBC = Number(prompt("Enter cost for a bag of coffee: \n for home brewing.", "")); // evalute user input for the cost of the coffee user buys to make at home
     if (cosBC === "") {                           // validate cost of bag input - if blank output message to console
         console.log("Cost of coffee bag must be entered:");  // write out to console message that cost of bag in ounces needs to be entered
     }
-    var bagSz = Number(prompt("Enter size of coffee bag in ounces: \n for home brewing.", ""));
+    var bagSz = Number(prompt("Enter size of coffee bag in ounces: \n for home brewing.", "")); // evalute user input for size of coffee bag in ounces
     if (bagSz === "") {                           // validate bag size input - if blank output message to console
         console.log("Size of coffee bag in ounces must be entered:");  // write out to console message that bag size in ounces needs to be entered
     }
-} else {
-    if (getCwh === "M" || getCwh === "m" || getCwh === "S" || getCwh === "s") {
-        var dyCC = Number(prompt("Enter number of cups a day:", ""));
+} else {                                                                      // else statement to continue user input evaluation
+    if (getCwh === "M" || getCwh === "m" || getCwh === "S" || getCwh === "s") {  // evalute user input for what vender user gets coffee from
+        var dyCC = Number(prompt("Enter number of cups a day:", ""));         // evalute user input number of cups a day user gets coffee
         if (dyCC === "") {                           // validate number of cups a day input - if blank output message to console
             console.log("Number of cups a day must be entered:");  // write out to console message that number of cups a day needs to be entered
         }
@@ -69,14 +69,14 @@ if (getCwh === "H" || getCwh === "h") {                                 // evalu
             console.log("Cost of coffee must be entered:");  // write out to console message that cost of coffee needs to be entered
         }
     } else {
-        console.log("Invalid Entry Only H, M or S allowed:");
+        console.log("Invalid Entry Only H, M or S allowed:"); // write out to console error message (valadation) when no input is entered
     }
 }
-if (getCwh === "M" || getCwh === "m") {
-    var vend = "McDonalds\xA9";
-} else {
-    if (getCwh === "S" || getCwh === "s") {
-        var vend = "Starbucks\xA9";
+if (getCwh === "M" || getCwh === "m") {   // evalute user input for vendor being McDonalds
+    var vend = "McDonalds\xA9";             // assigning vendor
+} else {                                          // else to continue evaluation
+    if (getCwh === "S" || getCwh === "s") {  // evalute user input for vendor being Starbucks
+        var vend = "Starbucks\xA9";           // assigning vendor
     }
 }
 
@@ -90,21 +90,21 @@ var cstPY;
 var bghtCC;
 
 // cost of coffee per oz. when brewed at home
-var cmCst = .002;
-var cofFil = .0004;
-var homCCst = ((cosBC / (bagSz / 2.08)) / 60);
-var elcCst = .0013;
-var waCst = .0003;
-var cofCst;
-var sugCst = .005;
-var hnhCst = 1.7;
-var cup16 = .25;
-var cup20 = .375;
-var cupBig = .45;
-var cupRes = (.000913 / cpHsize);
-var basCC = (cmCst + homCCst + elcCst + waCst + cofFil);
+var cmCst = .002;                              // assign variable for cost coffee maker amortized cost per ounce of coffee made (for details see above)
+var cofFil = .0004;                            // assign variable for cost for paper filters per ounce of coffee (for details see above)
+var homCCst = ((cosBC / (bagSz / 2.08)) / 60); // assign variable for ground coffe used; cost per ounce of coffee (for details see above)
+var elcCst = .0013;                           // assign variable for electricity used to run coffee maker; cost per ounce of coffee (for details see above)
+var waCst = .0003;                            // assign variable for cost of water used to brew coffee; cost per ounce of coffee (for details see above)
+var cofCst;                                   // assign variable for cost per ounce of coffee
+var sugCst = .005;                            // assign variable for cost of surgar if used; cost per ounce of coffee (for details see above)
+var hnhCst = 1.7;                             // assign variable for creamer is used; cost per ounce of coffee (for details see above)
+var cup16 = .227;                              // assign variable for 16oz. paper coffee cup with lid cost (for details see above)
+var cup20 = .302;                             // assign variable for  20oz. paper coffee cup with lid cost (for details see above)
+var cupBig = .45;                             // assign variable for  larger than 20oz. plastic coffee cup with lid cost (for details see above)
+var cupRes = (.000913 / cpHsize);             // assign variable for     amortized cost per ounce of coffee (for details see above)
+var basCC = (cmCst + homCCst + elcCst + waCst + cofFil); // assign variable for
 
-if (getCwh === "H" || getCwh === "h") {
+if (getCwh === "H" || getCwh === "h") {      // if statement to evaluate where coffee is gotten (at Home)
     if (cupTpe === "R") {
         cofCst = ((cpHsize * basCC + sugCst * amtSur + hnhCst * amtHnH + cupRes) * dyCCh);
     } else {
