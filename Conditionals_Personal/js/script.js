@@ -107,6 +107,7 @@ var defBasCC = (cmCst + elcCst + waCst + cofFil + defHCcst); // assign vaiable f
 
 if (getCwh === "H" || getCwh === "h") {      // if statement to evaluate where coffee is gotten (at Home)
     if (cupTpe === "R") {
+        bghtCC = (defMDC20 * dyCCh);            // assign default cost of 20oz coffee
         cofCst = ((cpHsize * basCC + (sugCst * amtSur) + (hnhCst * amtHnH) + cupRes) * dyCCh); // calculation for cost of coffee made at home with resuable cup
         var surTst = sugCst * amtSur;
         var hnhTst = hnhCst * amtHnH;
@@ -134,6 +135,6 @@ if (getCwh === "H" || getCwh === "h") {      // if statement to evaluate where c
 }
 if (getCwh === "M" || getCwh === "m" || getCwh === "S" || getCwh === "s") {  // if statement to evaluate where coffee is gotten (at store)
     cofCst = ((cpsize * defBasCC + sugCst * 2 + hnhCst * 2) * dyCC);   // calculation for cost of coffee made at home with resuable cup as default
-    console.log("Cost of coffee from Home is: " + cofCst + "\nCost of coffee from " + vend + " is: " + bghtCC); // write out to console coffee cost comparision
+    console.log("Cost of " + dyCCh + " cups of coffee from Home is: " + cofCst + "\nCost of " + dyCCh + " cups of coffee from " + vend + " is: " + bghtCC); // write out to console coffee cost comparision
 }
 
