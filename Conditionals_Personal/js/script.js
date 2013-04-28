@@ -82,11 +82,10 @@ if (getCwh === "M" || getCwh === "m") {   // evalute user input for vendor being
 }
 
 // cost of coffee bought at McDonalds or Starbucks
-var defvend = "McDoanlds\xA9";
-var defMDC16 = 1.49;
-var defMDC20 = 1.69;
-var defSBC16 = 2.29;
-var defSBC20 = 2.69;
+var defvend = "McDoanlds\xA9";  // assign default vendor
+var defMDC16 = 1.49;            // assign default cost of 16oz coffee
+var defMDC20 = 1.69;            // assign default cost of 20oz coffee
+var defMDC32 = 1.89;            // assign default cost of 32oz coffee
 var bghtCC = (dyCC * venCCst);           // calculation of coffee at store
 
 // cost of coffee per oz. when brewed at home
@@ -111,13 +110,15 @@ if (getCwh === "H" || getCwh === "h") {      // if statement to evaluate where c
         cofCst = ((cpHsize * basCC + sugCst * amtSur + hnhCst * amtHnH + cupRes) * dyCCh); // calculation for cost of coffee made at home with resuable cup
     } else {
         if (cpHsize >= 12 || cpHsize <= 16) {                                                   // evulation of cup size
-            bghtCC = defMDC16
+            bghtCC = defMDC16;            // assign default cost of 16oz coffee
             cofCst = ((cpHsize * basCC + sugCst * amtSur + hnhCst * amtHnH + cup16) * dyCCh); // calculation for cost of coffee made at home with disposible cup
         } else {
             if (cpHsize >= 20 || cpHsize <= 22) {                                                  // evulation of cup size
+                bghtCC = defMDC20;            // assign default cost of 20oz coffee
                 cofCst = ((cpHsize * basCC + sugCst * amtSur + hnhCst * amtHnH + cup20) * dyCCh); // calculation for cost of coffee made at home with disposible cup
             } else {
                 if (cpHsize > 22) {                                                                    // evulation of cup size
+                    bghtCC = defMDC32;        // assign default cost of 32oz coffee
                     cofCst = ((cpHsize * basCC + sugCst * amtSur + hnhCst * amtHnH + cupBig) * dyCCh); // calculation for cost of coffee made at home with disposible cup
                 }
             }
