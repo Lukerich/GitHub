@@ -40,6 +40,11 @@ var venCCst = Number(prompt("Enter the cost of coffee from \n McDonalds\xA9 or S
 var amtSur = Number(prompt("Enter number of tsp of sugar:", ""));
 var amtHnH = Number(prompt("Enter number of Tbs of Half and Half \n or any Creamer:", ""));
 
+// cost difference of buying coffee at McDonalds or Starbucks versus making it at home
+var cstPC;
+var cstPD;
+var cstPY;
+
 
 // cost of coffee bought at McDonalds or Starbucks
 var bghtCC;
