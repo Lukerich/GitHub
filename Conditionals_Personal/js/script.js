@@ -88,7 +88,7 @@ var cstPY;
 
 
 // cost of coffee bought at McDonalds or Starbucks
-var bghtCC;
+var bghtCC = (dyCC * venCCst);           // calculation of coffee at store
 
 // cost of coffee per oz. when brewed at home
 var cmCst = .002;                              // assign variable for cost coffee maker amortized cost per ounce of coffee made (for details see above)
@@ -107,25 +107,24 @@ var basCC = (cmCst + homCCst + elcCst + waCst + cofFil); // assign variable for
 
 if (getCwh === "H" || getCwh === "h") {      // if statement to evaluate where coffee is gotten (at Home)
     if (cupTpe === "R") {
-        cofCst = ((cpHsize * basCC + sugCst * amtSur + hnhCst * amtHnH + cupRes) * dyCCh);
+        cofCst = ((cpHsize * basCC + sugCst * amtSur + hnhCst * amtHnH + cupRes) * dyCCh); // calculation for cost of coffee made at home with resuable cup
     } else {
-        if (cpHsize >= 12 || cpHsize <= 16) {
-            cofCst = ((cpHsize * basCC + sugCst * amtSur + hnhCst * amtHnH + cup16) * dyCCh);
+        if (cpHsize >= 12 || cpHsize <= 16) {                                                   // evulation of cup size
+            cofCst = ((cpHsize * basCC + sugCst * amtSur + hnhCst * amtHnH + cup16) * dyCCh); // calculation for cost of coffee made at home with disposible cup
         } else {
-            if (cpHsize >= 20 || cpHsize <= 22) {
-                cofCst = ((cpHsize * basCC + sugCst * amtSur + hnhCst * amtHnH + cup20) * dyCCh);
+            if (cpHsize >= 20 || cpHsize <= 22) {                                                  // evulation of cup size
+                cofCst = ((cpHsize * basCC + sugCst * amtSur + hnhCst * amtHnH + cup20) * dyCCh); // calculation for cost of coffee made at home with disposible cup
             } else {
-                if (cpHsize > 22) {
-                    cofCst = ((cpHsize * basCC + sugCst * amtSur + hnhCst * amtHnH + cupBig) * dyCCh);
+                if (cpHsize > 22) {                                                                    // evulation of cup size
+                    cofCst = ((cpHsize * basCC + sugCst * amtSur + hnhCst * amtHnH + cupBig) * dyCCh); // calculation for cost of coffee made at home with disposible cup
                 }
             }
         }
-    }
+    }                                                                     // write out to console coffee cost comparision
     console.log("Cost of coffee from Home is: " + cofCst + "\nCost of coffee from " + vend + " is: " + bghtCC);
 }
-if (getCwh === "M" || getCwh === "m" || getCwh === "S" || getCwh === "s") {
-    bghtCC = (dyCC * venCCst);
-    cofCst = ((cpHsize * basCC + sugCst * 2 + hnhCst * 2) * dyCCh )
-    console.log("Cost of coffee from Home is: " + cofCst + "\nCost of coffee from " + vend + " is: " + bghtCC);
+if (getCwh === "M" || getCwh === "m" || getCwh === "S" || getCwh === "s") {  // if statement to evaluate where coffee is gotten (at store)
+    cofCst = ((cpHsize * basCC + sugCst * 2 + hnhCst * 2) * dyCCh )   // calculation for cost of coffee made at home with resuable cup as default
+    console.log("Cost of coffee from Home is: " + cofCst + "\nCost of coffee from " + vend + " is: " + bghtCC); // write out to console coffee cost comparision
 }
 
