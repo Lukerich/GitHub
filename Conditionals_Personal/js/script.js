@@ -88,6 +88,10 @@ var cstPY;
 
 
 // cost of coffee bought at McDonalds or Starbucks
+var defMDC16 = 1.49;
+var defMDC20 = 1.69;
+var defSBC16 = 2.29;
+var defSBC20 = 2.69;
 var bghtCC = (dyCC * venCCst);           // calculation of coffee at store
 
 // cost of coffee per oz. when brewed at home

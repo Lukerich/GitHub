@@ -7,11 +7,11 @@
     </list>
     <ignored path="Conditionals_Personal.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="f48adb88-7aba-4a43-bd2b-b51e223030ca" time="1367159387255" ignored="false" />
+    <file path="/Dummy.txt" changelist="f48adb88-7aba-4a43-bd2b-b51e223030ca" time="1367159896019" ignored="false" />
     <file path="/index.html" changelist="f48adb88-7aba-4a43-bd2b-b51e223030ca" time="1366948495316" ignored="false" />
     <file path="$PROJECT_DIR$/../Conditionals_Industry/index.html" changelist="f48adb88-7aba-4a43-bd2b-b51e223030ca" time="1367001011455" ignored="false" />
     <file path="$PROJECT_DIR$/../Conditionals_Industry/js/script.js" changelist="f48adb88-7aba-4a43-bd2b-b51e223030ca" time="1367001068159" ignored="false" />
-    <file path="/script.js" changelist="f48adb88-7aba-4a43-bd2b-b51e223030ca" time="1367131523003" ignored="false" />
+    <file path="/script.js" changelist="f48adb88-7aba-4a43-bd2b-b51e223030ca" time="1367161041231" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +43,7 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="125" column="138" selection-start="10867" selection-end="10867" vertical-scroll-proportion="0.775076">
+            <state line="126" column="29" selection-start="10606" selection-end="10606" vertical-scroll-proportion="0.68085104">
               <folding />
             </state>
           </provider>
@@ -332,7 +332,11 @@
       <created>1367159388697</created>
       <updated>1367159388697</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Conditionals_Personal">
+      <created>1367159898209</created>
+      <updated>1367159898209</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -492,7 +496,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="125" column="138" selection-start="10867" selection-end="10867" vertical-scroll-proportion="0.775076">
+        <state line="126" column="29" selection-start="10606" selection-end="10606" vertical-scroll-proportion="0.68085104">
           <folding />
         </state>
       </provider>
