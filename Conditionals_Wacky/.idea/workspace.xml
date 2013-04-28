@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0eb8dee5-1b4c-4d42-b400-66148bc8117d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/script.js" afterPath="$PROJECT_DIR$/js/script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Conditionals_Wacky.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="0eb8dee5-1b4c-4d42-b400-66148bc8117d" time="1367173039341" ignored="false" />
+    <file path="/Dummy.txt" changelist="0eb8dee5-1b4c-4d42-b400-66148bc8117d" time="1367173094773" ignored="false" />
     <file path="/script.js" changelist="0eb8dee5-1b4c-4d42-b400-66148bc8117d" time="1367173086805" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -224,7 +223,11 @@
       <created>1367173042179</created>
       <updated>1367173042179</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Conditionals_Wacky">
+      <created>1367173096216</created>
+      <updated>1367173096216</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
