@@ -30,11 +30,10 @@
  *        Cost of Starbucks or McDonalds coffee
  *        How many ounces of coffee per day does the user drink
  */
-
+var getCwh = promtp("Enter H if you get coffee at home\n Enter Enter M for McDonalds\xA9\n Enter S for Starbucks\xA9:");
 var cpsize = Number(prompt("Enter size of cup in ounces: \n Ex. 16 - 16oz. or 20 - 20oz.", "")); // prompt for user to assign number of ounces in cup
 var dyCC = Number(prompt("Enter number of cups a day:", ""));
 var cupTpe = prompt("Your using a D - Disposable cup \n or R - Reusable cup?", "");
-var vend = prompt("Enter M for McDonalds\xA9 or S for Starbucks\xA9:", "");
 var cosBC = Number(prompt("Enter cost for a bag of coffee: \n for home brewing.", ""));
 var bagSz = Number(prompt("Enter size of coffee bag in ounces: \n for home brewing.", ""));
 var venCCst = Number(prompt("Enter the cost of coffee from \n McDonalds\xA9 or Starbucks\xA9"));
@@ -57,18 +56,23 @@ var cupBig = .45;
 var cupRes = (.000913 / cpsize);
 var basCC = (cmCst + homCCst + elcCst + waCst + cofFil);
 
-if (cupTpe === "R"){
-    cofCst = (cpsize * basCC + sugCst * amtSur + hnhCst * amtHnH + cupRes);
-} else {
-    if (cpsize >= 12 || cpsize <= 16){
-        cofCst = (cpsize * basCC + sugCst * amtSur + hnhCst * amtHnH + cup16);
-    }else {
-    if (cpsize >= 20 || cpsize <= 22){
-        cofCst = (cpsize * basCC + sugCst * amtSur + hnhCst * amtHnH + cup20);
+if (getCwh = "H"){
+    if (cupTpe === "R") {
+        cofCst = (cpsize * basCC + sugCst * amtSur + hnhCst * amtHnH + cupRes);
     } else {
-        if (cpsize > 22){
-            cofCst = (cpsize * basCC + sugCst * amtSur + hnhCst * amtHnH + cupBig);
+        if (cpsize >= 12 || cpsize <= 16) {
+            cofCst = (cpsize * basCC + sugCst * amtSur + hnhCst * amtHnH + cup16);
+        } else {
+            if (cpsize >= 20 || cpsize <= 22) {
+                cofCst = (cpsize * basCC + sugCst * amtSur + hnhCst * amtHnH + cup20);
+            } else {
+                if (cpsize > 22) {
+                    cofCst = (cpsize * basCC + sugCst * amtSur + hnhCst * amtHnH + cupBig);
+                }
+            }
         }
     }
+
 }
-}
+
+
