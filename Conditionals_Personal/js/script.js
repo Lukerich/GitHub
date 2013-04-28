@@ -48,7 +48,13 @@ if (getCwh === "H" || getCwh === "h") {
         console.log("Invalid Entry Only H, M or S allowed:");
     }
 }
-
+if (getCwh === "M" || getCwh === "m"){
+    var vend = "McDonalds\xA9";
+}else {
+    if (getCwh === "S" || getCwh === "s"){
+        var vend = "Starbucks\xA9";
+    }
+}
 
 // cost difference of buying coffee at McDonalds or Starbucks versus making it at home
 var cstPC;
@@ -95,4 +101,4 @@ if (getCwh === "M" || getCwh === "m" || getCwh === "S" || getCwh === "s") {
     bghtCC = (dyCC * venCCst);
 }
 
-console.log("Cost of coffee from Home is: " + cofCst + "\nCost of coffee from ")
+console.log("Cost of coffee from Home is: " + cofCst + "\nCost of coffee from " );
