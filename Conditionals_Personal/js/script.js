@@ -33,19 +33,24 @@
 
 var cpsize = Number(prompt("Enter size of cup in ounces: \n Ex. 16 - 16oz. or 20 - 20oz.", "")); // prompt for user to assign number of ounces in cup
 var dyCC = Number(prompt("Enter number of cups a day:", ""));
-var resCup = prompt("Your using a D - Disposable cup \n or R - Reusable cup?", "");
+var cupTpe = prompt("Your using a D - Disposable cup \n or R - Reusable cup?", "");
 var vend = prompt("Enter M for McDonalds\xA9 or S for Starbucks\xA9:", "");
 var cosBC = Number(prompt("Enter cost for a bag of coffee: \n for home brewing.", ""));
 var bagSz = Number(prompt("Enter size of coffee bag in ounces: \n for home brewing.", ""));
 var venCCst = Number(prompt("Enter the cost of coffee from \n McDonalds\xA9 or Starbucks\xA9"));
 
-var cmCst;
-var homCCst;
-var elcCst;
-var waCst;
-var ccCst;
-var sugCst;
-var hnhCst;
+// cost of coffee per oz. when brewed at home
+var cmCst = .002;
+var homCCst = ((cosBC / (bagSz / 2.08)) / 60);
+var elcCst = .0013;
+var waCst = .0003;
+var cofCst;
+var sugCst = .005;
+var hnhCst = 1.7;
+var cup16 = .25;
+var cup20 = .375;
 
-
+if (cupTpe === "R"){
+    cofCst = (cpsize * )
+}
 
