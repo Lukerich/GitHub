@@ -81,7 +81,7 @@ if (getCwh === "M" || getCwh === "m") {   // evalute user input for vendor being
     }
 }
 
-// cost of coffee bought at McDonalds or Starbucks
+// cost of coffee bought at McDonalds
 var defvend = "McDoanlds\xA9";  // assign default vendor
 var defMDC16 = 1.49;            // assign default cost of 16oz coffee
 var defMDC20 = 1.69;            // assign default cost of 20oz coffee
