@@ -108,9 +108,12 @@ var defBasCC = (cmCst + elcCst + waCst + cofFil + defHCcst); // assign vaiable f
 if (getCwh === "H" || getCwh === "h") {      // if statement to evaluate where coffee is gotten (at Home)
     if (cupTpe === "R") {
         cofCst = ((cpHsize * basCC + (sugCst * amtSur) + (hnhCst * amtHnH) + cupRes) * dyCCh); // calculation for cost of coffee made at home with resuable cup
+        var surTst = sugCst * amtSur;
+        var hnhTst = hnhCst * amtHnH;
         console.log(basCC);
         console.log(cpHsize);
-
+        console.log(surTst);
+         console.log(hnhTst);
     } else {
         if (cpHsize >= 12 || cpHsize <= 16) {                                                   // evulation of cup size
             bghtCC = (defMDC16 * dyCCh);            // assign default cost of 16oz coffee
