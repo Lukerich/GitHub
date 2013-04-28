@@ -3,9 +3,10 @@
  * Date: 4/26/13
  * Conditionals_Personal
  * Calculate the difference in coffee made at home versus buying it at Starbucks or McDonalds
- *  Givens:   ~ .69495 cent per 16oz cup at home .70 cents -  .915 cents for 20oz             .04575 || .04343 cent per 1oz
- *              w/o cup cost 16oz .44495 - 20oz .54 - 1oz .027 - .0278
+ *  Givens:   ~ .69495 cent per 16oz cup at home .70 cents -  .915 cents for 20oz   Disposable cups          .04575 || .04343 cent per 1oz
+ *              w/o cup cost 16oz .44495 - 20oz .54 - 1oz .027
  *              20oz reusable coffee cup - $ 15.00 amortized over 1 year of coffee    .000913 cents at 3 cups a day each day for a year
+ *              cost goes to  0.02704566210046 cent per 1oz
  *        12 cup coffee maker with 60oz carafe                    3.75 16oz cups - 3 20oz cups
  *        5 - 1/8 cup - 30ml coffee scoop per 60oz carafe   2 Tbls in an 1/8 = 10 Tbls per carafe = 59 grams per carafe = 2.08 ounces
  *        a 12oz bag make 6 carafe      $ 1.25 per carafe     1oz ~ .021 cents       16oz ~ .34          20oz  ~ .42 cent
@@ -32,6 +33,7 @@
 
 var cpsize = Number(prompt("Enter size of cup in ounces: \n Ex. 16 - 16oz. or 20 - 20oz.", "")); // prompt for user to assign number of ounces in cup
 var dyCC = Number(prompt("Enter number of cups a day:", ""));
+var resCup = prompt("Your using a D - Disposable cup \n or R - Reusable cup?", "");
 var vend = prompt("Enter M for McDonalds\xA9 or S for Starbucks\xA9:", "");
 var cosBC = Number(prompt("Enter cost for a bag of coffee: \n for home brewing.", ""));
 var bagSz = Number(prompt("Enter size of coffee bag in ounces: \n for home brewing.", ""));
@@ -45,7 +47,5 @@ var ccCst;
 var sugCst;
 var hnhCst;
 
-if (cpsize === 16 || cpsize === 20 ){
 
-}
 
