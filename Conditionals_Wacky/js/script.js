@@ -1,29 +1,28 @@
 /**
  * Richard Luke
- * Date: 4/26/13
+ * Date: 4/28/13
  * Conditionals_Wacky
- * Amount of pretzels do you want to eat a day?
+ * Got Pretzels?
  * given
- *      cost of pretzels pre container
  *      amount of pretzels container
- *      amount of pretzels consumed daily
+ *      amount of pretzels consumed
  * Result to print out
- *      monthly cost of pretzels
- *      amount consumed monthly, yearly
- *      number of pretzel containers
+ *      message to eat more pretzels if are pretzels available
+ *      message to buy more pretzels if they are all gone
  */
 
 
-var Przamt = Number(prompt("Enter amount of Pretzels in container in ounces:", ""));
-var NumPrz = Number(prompt("Enter the amount of Pretzels you want consumed per  in ounces:", ""));
+var Przamt = Number(prompt("Enter amount of Pretzels in container in ounces:", "")); // user input for amount of pretzels in container
+var NumPrz = Number(prompt("Enter the amount of Pretzels you want consumed in ounces:", "")); // user input for amount of pretzels they want ot eat
 
 
-var ptleft = Przamt / NumPrz;
+var ptleft = Przamt / NumPrz;   // assign variable to available pretzels
 
 
        // if the number of pretzels is more than what you have bought - print out buy more pretzels
         // if the number is less then you bought print out eat more pretzels
 
+// ternaries decision making on one line with console output for messages
  (NumPrz < ptleft) ? console.log("Eat more Pretzels:") : console.log("Sorry Pretzels all gone, buy more Pretzels");
 
 
