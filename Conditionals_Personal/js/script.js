@@ -61,8 +61,8 @@ if (getCwh === "H" || getCwh === "h") {                                 // evalu
         if (dyCC === "") {                           // validate number of cups a day input - if blank output message to console
             console.log("Number of cups a day must be entered:");  // write out to console message that number of cups a day needs to be entered
         }
-        var venCCst = Number(prompt("Enter size of cup in ounces: \n Ex. 16 - 16oz. or 20 - 20oz.", "")); // prompt for user to assign number of ounces in cup
-        if (venCCst === "") {                           // validate cup size input - if blank output message to console
+        var cpsize = Number(prompt("Enter size of cup in ounces: \n Ex. 16 - 16oz. or 20 - 20oz.", "")); // prompt for user to assign number of ounces in cup
+        if (cpsize === "") {                           // validate cup size input - if blank output message to console
             console.log("Size of cup in ounces must be entered:");  // write out to console message that cup size in ounces needs to be entered
         }
         var venCCst = Number(prompt("Enter the cost of coffee from \n McDonalds\xA9 or Starbucks\xA9"));
@@ -82,6 +82,7 @@ if (getCwh === "M" || getCwh === "m") {   // evalute user input for vendor being
 }
 
 // cost of coffee bought at McDonalds or Starbucks
+var defvend = "McDoanlds\xA9";
 var defMDC16 = 1.49;
 var defMDC20 = 1.69;
 var defSBC16 = 2.29;
@@ -122,10 +123,10 @@ if (getCwh === "H" || getCwh === "h") {      // if statement to evaluate where c
             }
         }
     }                                                                     // write out to console coffee cost comparision
-    console.log("Cost of coffee from Home is: " + cofCst + "\nCost of coffee from " + vend + " is: " + bghtCC);
+    console.log("Cost of coffee from Home is: " + cofCst + "\nCost of coffee from " + defvend + " is: " + bghtCC);
 }
 if (getCwh === "M" || getCwh === "m" || getCwh === "S" || getCwh === "s") {  // if statement to evaluate where coffee is gotten (at store)
-    cofCst = ((cpsize * basCC + sugCst * 2 + hnhCst * 2) * dyCC);   // calculation for cost of coffee made at home with resuable cup as default
+    cofCst = ((cpsize * defBasCC + sugCst * 2 + hnhCst * 2) * dyCC);   // calculation for cost of coffee made at home with resuable cup as default
     console.log("Cost of coffee from Home is: " + cofCst + "\nCost of coffee from " + vend + " is: " + bghtCC); // write out to console coffee cost comparision
 }
 
