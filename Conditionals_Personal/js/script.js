@@ -36,37 +36,37 @@ if (getCwh === "H" || getCwh === "h") {                                 // evalu
     var amtSur = Number(prompt("Enter number of tsp of sugar:", ""));     // evalute user input sugar
     var amtHnH = Number(prompt("Enter number of Tbs of Half and Half \n or any Creamer:", ""));  // evalute user input creamer
     var cpHsize = Number(prompt("Enter size of cup in ounces: \n Ex. 16 - 16oz. or 20 - 20oz.", "")); // prompt for user to assign number of ounces in cup
-    if (cpHsize === "") {                           // validate cup size input - if blank output message to console
+    if (cpHsize == "") {                           // validate cup size input - if blank output message to console
         console.log("Cup size in ounces must be entered:");  // write out to console message that cup size in ounces needs to be entered
     }
     var dyCCh = Number(prompt("Enter number of cups a day:", ""));  // evalute user input number of cups of coffee the user drinks a day
-    if (dyCCh === "") {                           // validate number of cups a day input - if blank output message to console
+    if (dyCCh == "") {                           // validate number of cups a day input - if blank output message to console
         console.log("Number of cups a day must be entered:");  // write out to console message that number of cups a day in ounces needs to be entered
     }
     var cupTpe = prompt("Your using a D - Disposable cup \n or R - Reusable cup?", "");  // evalute user input type of cup used at home for coffee
-    if (cupTpe === "") {                           // validate cup type input - if blank output message to console
+    if (cupTpe == "") {                           // validate cup type input - if blank output message to console
         console.log("Cup type must be entered:");  // write out to console message that cup type in ounces needs to be entered
     }
     var cosBC = Number(prompt("Enter cost for a bag of coffee: \n for home brewing.", "")); // evalute user input for the cost of the coffee user buys to make at home
-    if (cosBC === "") {                           // validate cost of bag input - if blank output message to console
+    if (cosBC == "") {                           // validate cost of bag input - if blank output message to console
         console.log("Cost of coffee bag must be entered:");  // write out to console message that cost of bag in ounces needs to be entered
     }
     var bagSz = Number(prompt("Enter size of coffee bag in ounces: \n for home brewing.", "")); // evalute user input for size of coffee bag in ounces
-    if (bagSz === "") {                           // validate bag size input - if blank output message to console
+    if (bagSz == "") {                           // validate bag size input - if blank output message to console
         console.log("Size of coffee bag in ounces must be entered:");  // write out to console message that bag size in ounces needs to be entered
     }
 } else {                                                                      // else statement to continue user input evaluation
     if (getCwh === "M" || getCwh === "m" || getCwh === "S" || getCwh === "s") {  // evalute user input for what vender user gets coffee from
         var dyCC = Number(prompt("Enter number of cups a day:", ""));         // evalute user input number of cups a day user gets coffee
-        if (dyCC === "") {                           // validate number of cups a day input - if blank output message to console
+        if (dyCC == "") {                           // validate number of cups a day input - if blank output message to console
             console.log("Number of cups a day must be entered:");  // write out to console message that number of cups a day needs to be entered
         }
         var cpsize = Number(prompt("Enter size of cup in ounces: \n Ex. 16 - 16oz. or 20 - 20oz.", "")); // prompt for user to assign number of ounces in cup
-        if (cpsize === "") {                           // validate cup size input - if blank output message to console
+        if (cpsize == "") {                           // validate cup size input - if blank output message to console
             console.log("Size of cup in ounces must be entered:");  // write out to console message that cup size in ounces needs to be entered
         }
         var venCCst = Number(prompt("Enter the cost of coffee from \n McDonalds\xA9 or Starbucks\xA9"));
-        if (venCCst === "") {                           // validate cost of coffee input - if blank output message to console
+        if (venCCst == "") {                           // validate cost of coffee input - if blank output message to console
             console.log("Cost of coffee must be entered:");  // write out to console message that cost of coffee needs to be entered
         }
     } else {
