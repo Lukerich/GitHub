@@ -6,7 +6,7 @@
     </list>
     <ignored path="Conditionals_Personal.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="f48adb88-7aba-4a43-bd2b-b51e223030ca" time="1367165835693" ignored="false" />
+    <file path="/Dummy.txt" changelist="f48adb88-7aba-4a43-bd2b-b51e223030ca" time="1367165851942" ignored="false" />
     <file path="/index.html" changelist="f48adb88-7aba-4a43-bd2b-b51e223030ca" time="1366948495316" ignored="false" />
     <file path="$PROJECT_DIR$/../Conditionals_Industry/index.html" changelist="f48adb88-7aba-4a43-bd2b-b51e223030ca" time="1367001011455" ignored="false" />
     <file path="$PROJECT_DIR$/../Conditionals_Industry/js/script.js" changelist="f48adb88-7aba-4a43-bd2b-b51e223030ca" time="1367001068159" ignored="false" />
@@ -399,7 +399,11 @@
       <created>1367165836810</created>
       <updated>1367165836810</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Conditionals_Personal">
+      <created>1367165854424</created>
+      <updated>1367165854424</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="ToolWindowManager">
