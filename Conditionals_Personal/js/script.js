@@ -39,9 +39,12 @@ var cosBC = Number(prompt("Enter cost for a bag of coffee: \n for home brewing."
 var bagSz = Number(prompt("Enter size of coffee bag in ounces: \n for home brewing.", ""));
 var venCCst = Number(prompt("Enter the cost of coffee from \n McDonalds\xA9 or Starbucks\xA9"));
 var amtSur = Number(prompt("Enter number of tsp of sugar:", ""));
-var amtHnH = Number(prompt("Enter number of Tbs"))
+var amtHnH = Number(prompt("Enter number of Tbs of Half and Half \n or any Creamer:", ""));
+
+
 // cost of coffee per oz. when brewed at home
 var cmCst = .002;
+var cofFil = .0004;
 var homCCst = ((cosBC / (bagSz / 2.08)) / 60);
 var elcCst = .0013;
 var waCst = .0003;
@@ -50,10 +53,22 @@ var sugCst = .005;
 var hnhCst = 1.7;
 var cup16 = .25;
 var cup20 = .375;
-var cupRes = .000913 / cpsize;
-var basCC = (cmCst + homCCst + elcCst + waCst);
+var cupBig = .45;
+var cupRes = (.000913 / cpsize);
+var basCC = (cmCst + homCCst + elcCst + waCst + cofFil);
 
 if (cupTpe === "R"){
-    cofCst = (cpsize * )
+    cofCst = (cpsize * basCC + sugCst * amtSur + hnhCst * amtHnH + cupRes);
+} else {
+    if (cpsize >= 12 || cpsize <= 16){
+        cofCst = (cpsize * basCC + sugCst * amtSur + hnhCst * amtHnH + cup16);
+    }else {
+    if (cpsize >= 20 || cpsize <= 22){
+        cofCst = (cpsize * basCC + sugCst * amtSur + hnhCst * amtHnH + cup20);
+    } else {
+        if (cpsize > 22){
+            cofCst = (cpsize * basCC + sugCst * amtSur + hnhCst * amtHnH + cupBig);
+        }
+    }
 }
-
+}
