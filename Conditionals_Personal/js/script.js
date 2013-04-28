@@ -28,3 +28,7 @@
  *        How many ounces of coffee per day does the user drink
  */
 
+  var cpsize  = prompt("Enter size of cup in ounces: \n Ex. 16 - 16oz. or 20 - 20oz.", ""); // prompt for user to assign number of ounces in cup
+  var dyCC = Number(prompt("Enter number of cups a day:", ""));
+    var vend = prompt("Enter M for McDonalds or S for Starbucks:", "");
+    var  cosBC = Number(prompt("Enter cost for a bag of coffee:", ""));
