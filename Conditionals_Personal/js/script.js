@@ -21,6 +21,7 @@
  *        bag of 12oz ground coffee - $  7.50
  *        16 oz cup with lid ~ .227 cents
  *        20 oz cup with lid ~ .302 cents
+ *        32 oz sytrofoam cup with lid .128
  *        32 oz of half and half $ 1.70  2 Tbs per cup - 1/2fl oz per Tbs - 1oz. per cup  3.4 cent per cup  1.7 cents per Tbs
  *        10lb sugar $ 5.60 - 2 tsp per cup - 1 tsp = 4.2g -  .29 ounces of sugar per cup - 1 cent per cup .5 cent per tsp
  *   User Inputs
@@ -100,7 +101,7 @@ var sugCst = .005;                            // assign variable for cost of sur
 var hnhCst = 1.7;                             // assign variable for creamer is used; cost per ounce of coffee (for details see above)
 var cup16 = .227;                              // assign variable for 16oz. paper coffee cup with lid cost (for details see above)
 var cup20 = .302;                             // assign variable for  20oz. paper coffee cup with lid cost (for details see above)
-var cupBig = .45;                             // assign variable for  larger than 20oz. plastic coffee cup with lid cost (for details see above)
+var cupBig = .128;                             // assign variable for 32oz.. sytrofoam coffee cup with lid cost (for details see above)
 var cupRes = (.000913 / cpHsize);             // assign variable for     amortized cost per ounce of coffee (for details see above)
 var basCC = (cmCst + homCCst + elcCst + waCst + cofFil); // assign variable for
 
