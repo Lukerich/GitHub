@@ -41,6 +41,9 @@ var amtSur = Number(prompt("Enter number of tsp of sugar:", ""));
 var amtHnH = Number(prompt("Enter number of Tbs of Half and Half \n or any Creamer:", ""));
 
 
+// cost of coffee bought at McDonalds or Starbucks
+var bghtCC;
+
 // cost of coffee per oz. when brewed at home
 var cmCst = .002;
 var cofFil = .0004;
@@ -56,7 +59,7 @@ var cupBig = .45;
 var cupRes = (.000913 / cpsize);
 var basCC = (cmCst + homCCst + elcCst + waCst + cofFil);
 
-if (getCwh = "H"){
+if (getCwh === "H" || getCwh === "h"){
     if (cupTpe === "R") {
         cofCst = (cpsize * basCC + sugCst * amtSur + hnhCst * amtHnH + cupRes);
     } else {
@@ -72,7 +75,8 @@ if (getCwh = "H"){
             }
         }
     }
-
 }
-
+if (getCwh === "M" || getCwh === "m" || getCwh === "S" || getCwh === "s"){
+       bghtCC = (dyCC * venCCst);
+}
 
