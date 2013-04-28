@@ -65,7 +65,7 @@ adrss[2] = prompt("Enter Address:", "");
 if (adrss[2] === "") {                         // validate address input - if blank output message to console
     console.log("Address must be entered:");
 }
-adrss[3] = prompt("Enter Address2: ", "");
+adrss[3] = prompt("Enter Address2: ", "");     //
 
 adrss[4] = prompt("Enter City:", "");
 if (adrss[4] === "") {                         // validate city input - if blank output message to console
