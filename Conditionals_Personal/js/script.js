@@ -39,9 +39,21 @@ if (getCwh === "H" || getCwh === "h") {
         console.log("Cup size in ounces must be entered:");  // write out to console message that cup size in ounces needs to be entered
     }
     var dyCCh = Number(prompt("Enter number of cups a day:", ""));
+    if (cpHsize[0] === "") {                           // validate cup size input - if blank output message to console
+        console.log("Cup size in ounces must be entered:");  // write out to console message that cup size in ounces needs to be entered
+    }
     var cupTpe = prompt("Your using a D - Disposable cup \n or R - Reusable cup?", "");
+    if (cpHsize[0] === "") {                           // validate cup size input - if blank output message to console
+        console.log("Cup size in ounces must be entered:");  // write out to console message that cup size in ounces needs to be entered
+    }
     var cosBC = Number(prompt("Enter cost for a bag of coffee: \n for home brewing.", ""));
+    if (cpHsize[0] === "") {                           // validate cost of bag input - if blank output message to console
+        console.log("Cup size in ounces must be entered:");  // write out to console message that cost of bag in ounces needs to be entered
+    }
     var bagSz = Number(prompt("Enter size of coffee bag in ounces: \n for home brewing.", ""));
+    if (cpHsize[0] === "") {                           // validate bag size input - if blank output message to console
+        console.log("Cup size in ounces must be entered:");  // write out to console message that bag size in ounces needs to be entered
+    }
 } else {
     if (getCwh === "M" || getCwh === "m" || getCwh === "S" || getCwh === "s") {
         var dyCC = Number(prompt("Enter number of cups a day:", ""));
