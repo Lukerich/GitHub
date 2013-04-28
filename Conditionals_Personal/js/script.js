@@ -85,3 +85,4 @@ if (getCwh === "M" || getCwh === "m" || getCwh === "S" || getCwh === "s"){
        bghtCC = (dyCC * venCCst);
 }
 
+console.log("Cost of coffee from Home is: " + cofCst + "\nCost of coffee from ")
