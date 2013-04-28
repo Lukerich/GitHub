@@ -29,11 +29,11 @@
  *        size of bag of coffee in ounces
  *        Cost of Starbucks or McDonalds coffee
  *        How many ounces of coffee per day does the user drink
- */
+ */                                                                           // assign variable with prompted user input to evaulate where user get coffee
 var getCwh = prompt("Enter H if you get coffee at home\n Enter Enter M for McDonalds\xA9\n Enter S for Starbucks\xA9:", "");
-if (getCwh === "H" || getCwh === "h") {
-    var amtSur = Number(prompt("Enter number of tsp of sugar:", ""));
-    var amtHnH = Number(prompt("Enter number of Tbs of Half and Half \n or any Creamer:", ""));
+if (getCwh === "H" || getCwh === "h") {                                 // evalute user input for home coffee
+    var amtSur = Number(prompt("Enter number of tsp of sugar:", ""));     // evalute user input sugar
+    var amtHnH = Number(prompt("Enter number of Tbs of Half and Half \n or any Creamer:", ""));  // evalute user input creamer
     var cpHsize = Number(prompt("Enter size of cup in ounces: \n Ex. 16 - 16oz. or 20 - 20oz.", "")); // prompt for user to assign number of ounces in cup
     if (cpHsize === "") {                           // validate cup size input - if blank output message to console
         console.log("Cup size in ounces must be entered:");  // write out to console message that cup size in ounces needs to be entered
