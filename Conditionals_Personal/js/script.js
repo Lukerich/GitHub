@@ -4,14 +4,22 @@
  * Conditionals_Personal
  * Calculate the difference in coffee made at home versus buying it at Starbucks or McDonalds
  *  Givens:
- *        12 cup coffee maker with 60oz carafe
- *        5 - 1/8 cup - 30ml coffee scoop per 60oz carafe
- *        25 lb/ft^3 * 1 tablespoon in grams in a 5.9 Tbls fine ground coffee  - (http://www.ico.org/ecology.asp)
- *        Coffee maker $40.00
- *        Filters 1 per 60 oz.  $12.00/500 #4
- *        Water   $102.18/3000 gallons   .034 cents/gal
- *        Electricity   .137 cent kw/h
- *        maintenance
+ *        12 cup coffee maker with 60oz carafe                    3.75 16oz cups - 3 20oz cups
+ *        5 - 1/8 cup - 30ml coffee scoop per 60oz carafe   2 Tbls in an 1/8 = 10 Tbls per carafe = 59 grams per carafe = 2.08 ounces
+ *        a 12oz bag make 6 carafe      $ 1.25 per carafe     1oz ~ .021 cents       16oz ~ .34          20oz  ~ .42 cent
+ *        25 lb/ft^3 * 1 tablespoon in grams in a 5.9 grams in a 1 Tbls fine ground coffee  - (http://www.ico.org/ecology.asp)
+ *        http://wiki.answers.com/Q/How_many_grams_of_coffee_are_in_a_tablespoon
+ *        Coffee maker $40.00   amortization of coffee maker for one year of coffee brewing at 1 60oz carafe a day
+ *        is  approx. 11 cents per carafe      1oz ~ .002 cents     16oz ~ .029 cents         20oz ~ .037 cents
+ *        Filters 1 per 60 oz.  $12.00/500 #4 2.4 cent per filter
+ *        Water   $102.18/3000 gallons   .034 cents/gal   1oz ~  .0003 cents 16oz ~ .00425 cents  20oz ~  .005 cents cents
+ *        Electricity   .137 cent kw/h  coffee pot consumes .585 kWh for 10 minute to brew a carafe of coffee at
+ *        .137 kw/h  is approx .08 or 8 cents     1oz ~ .0013 cents 16oz ~ .0213 cents 20oz ~ .026 cents
+ *        bag of 12oz ground coffee - $  7.50
+ *        16 oz cup with lid ~ .25 cents
+ *        20 oz cup with lid ~ .375 cents
+ *        32 oz of half and half $ 1.70  2 Tbls per cup - 1/2fl oz per Tbls - 1oz. per cup  3.4 cent per cup  1.7 cents per Tbls
+ *        10lb sugar $ 5.60 - 2 tsp per cup - 1 tsp = 4.2g -  .29 ounces of sugar per cup - 1 cent per cup .5 cent per tsp
  *   User Inputs
  *        Size of coffee in ounces
  *        Cost of bag of coffee
