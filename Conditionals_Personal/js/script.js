@@ -110,15 +110,15 @@ if (getCwh === "H" || getCwh === "h") {      // if statement to evaluate where c
         cofCst = ((cpHsize * basCC + sugCst * amtSur + hnhCst * amtHnH + cupRes) * dyCCh); // calculation for cost of coffee made at home with resuable cup
     } else {
         if (cpHsize >= 12 || cpHsize <= 16) {                                                   // evulation of cup size
-            bghtCC = defMDC16;            // assign default cost of 16oz coffee
+            bghtCC = (defMDC16 * dyCCh);            // assign default cost of 16oz coffee
             cofCst = ((cpHsize * basCC + sugCst * amtSur + hnhCst * amtHnH + cup16) * dyCCh); // calculation for cost of coffee made at home with disposible cup
         } else {
             if (cpHsize >= 20 || cpHsize <= 22) {                                                  // evulation of cup size
-                bghtCC = defMDC20;            // assign default cost of 20oz coffee
+                bghtCC = (defMDC20 * dyCCh);            // assign default cost of 20oz coffee
                 cofCst = ((cpHsize * basCC + sugCst * amtSur + hnhCst * amtHnH + cup20) * dyCCh); // calculation for cost of coffee made at home with disposible cup
             } else {
                 if (cpHsize > 22) {                                                                    // evulation of cup size
-                    bghtCC = defMDC32;        // assign default cost of 32oz coffee
+                    bghtCC = (defMDC32 * dyCCh);        // assign default cost of 32oz coffee
                     cofCst = ((cpHsize * basCC + sugCst * amtSur + hnhCst * amtHnH + cupBig) * dyCCh); // calculation for cost of coffee made at home with disposible cup
                 }
             }
