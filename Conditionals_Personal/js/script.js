@@ -101,7 +101,7 @@ var hnhCst = 1.7;
 var cup16 = .25;
 var cup20 = .375;
 var cupBig = .45;
-var cupRes = (.000913 / cpsize);
+var cupRes = (.000913 / cpHsize);
 var basCC = (cmCst + homCCst + elcCst + waCst + cofFil);
 
 if (getCwh === "H" || getCwh === "h") {
