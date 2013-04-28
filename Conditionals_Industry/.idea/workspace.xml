@@ -6,9 +6,9 @@
     </list>
     <ignored path="Conditionals_Industry.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="54e78c20-3aa9-49b8-8c46-5de6b743fcb4" time="1367109722413" ignored="false" />
+    <file path="/Dummy.txt" changelist="54e78c20-3aa9-49b8-8c46-5de6b743fcb4" time="1367111214812" ignored="false" />
     <file path="/index.html" changelist="54e78c20-3aa9-49b8-8c46-5de6b743fcb4" time="1367004959624" ignored="false" />
-    <file path="/script.js" changelist="54e78c20-3aa9-49b8-8c46-5de6b743fcb4" time="1367049453345" ignored="false" />
+    <file path="/script.js" changelist="54e78c20-3aa9-49b8-8c46-5de6b743fcb4" time="1367110576448" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +40,7 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="50" selection-start="2839" selection-end="2839" vertical-scroll-proportion="0.77389985">
+            <state line="30" column="56" selection-start="1332" selection-end="1332" vertical-scroll-proportion="-2.0490654">
               <folding />
             </state>
           </provider>
@@ -538,14 +538,30 @@
       <created>1367109728906</created>
       <updated>1367109728906</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="Conditionals_Industry">
+      <created>1367110360395</created>
+      <updated>1367110360395</updated>
+    </task>
+    <task id="LOCAL-00086" summary="Conditionals_Industry">
+      <created>1367110570069</created>
+      <updated>1367110570069</updated>
+    </task>
+    <task id="LOCAL-00087" summary="Conditionals_Industry">
+      <created>1367110814244</created>
+      <updated>1367110814244</updated>
+    </task>
+    <task id="LOCAL-00088" summary="Conditionals_Industry">
+      <created>1367111216449</created>
+      <updated>1367111216449</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="22" width="1420" height="818" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -668,7 +684,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="50" selection-start="2839" selection-end="2839" vertical-scroll-proportion="0.77389985">
+        <state line="30" column="56" selection-start="1332" selection-end="1332" vertical-scroll-proportion="-2.0490654">
           <folding />
         </state>
       </provider>
