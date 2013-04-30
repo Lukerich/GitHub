@@ -81,11 +81,11 @@ dogYears(5);
 *Returning Values - getting values back from the function
 */
 
-calcArea(30, 20);
+var total = calcArea(30, 20); // area gets returned here
 
 function calcArea(w, h){
     var area = w * h;
-    return area;
+    return area;        // function is spitting the info out
     // console.log(area);
 }
 console.log(area);
