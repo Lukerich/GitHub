@@ -88,4 +88,4 @@ function calcArea(w, h){
     return area;        // function is spitting the info out
     // console.log(area);
 }
-console.log(area);
+console.log(total);

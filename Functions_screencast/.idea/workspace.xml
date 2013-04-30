@@ -7,9 +7,9 @@
     </list>
     <ignored path="Functions_screencast.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="f85cac6d-a9be-482b-a3af-1bf4c6b5fb8b" time="1367290886857" ignored="false" />
+    <file path="/Dummy.txt" changelist="f85cac6d-a9be-482b-a3af-1bf4c6b5fb8b" time="1367290945485" ignored="false" />
     <file path="/index.html" changelist="f85cac6d-a9be-482b-a3af-1bf4c6b5fb8b" time="1367202930548" ignored="false" />
-    <file path="/script.js" changelist="f85cac6d-a9be-482b-a3af-1bf4c6b5fb8b" time="1367290933319" ignored="false" />
+    <file path="/script.js" changelist="f85cac6d-a9be-482b-a3af-1bf4c6b5fb8b" time="1367290961266" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +32,7 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="83" column="12" selection-start="2058" selection-end="2058" vertical-scroll-proportion="0.77678573">
+            <state line="90" column="17" selection-start="2257" selection-end="2257" vertical-scroll-proportion="0.93303573">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -332,7 +332,11 @@
       <created>1367290889928</created>
       <updated>1367290889928</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="functions_screencast">
+      <created>1367290948740</created>
+      <updated>1367290948740</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -459,7 +463,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="12" selection-start="2058" selection-end="2058" vertical-scroll-proportion="0.77678573">
+        <state line="90" column="17" selection-start="2257" selection-end="2257" vertical-scroll-proportion="0.93303573">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
