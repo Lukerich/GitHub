@@ -112,6 +112,6 @@ function calcAreaP(width, height){
 functionName(); // function call
  */
 
-function(){
+var functionName = function(){
     // code to run
 }
