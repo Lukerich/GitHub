@@ -68,7 +68,7 @@ function calcArea(w, h){  // parameters
     var area = w * h;      // order is important 1st, 2nd ...
     console.log(area);
 }
-*/
+
 
 function dogYears(age){        //passing in parameters in function definition - storage containers for arguments
     var dogYears = age * 7;
@@ -77,4 +77,14 @@ function dogYears(age){        //passing in parameters in function definition - 
 var age1 = 4;
 dogYears(age1);  // arguments are in function call
 dogYears(5);
+*
+*Returning Values - getting values back from the function
+*/
+
+calcArea(30, 20);
+
+function calcArea(w, h){
+    var area = w * h;
+    console.log(area);
+}
 
