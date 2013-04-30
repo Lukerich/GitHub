@@ -112,8 +112,12 @@ function calcAreaP(width, height){
 functionName(); // function call
  */
 
+function calcArea(width, height){
+    // code the function runs
+    var area = width * height;
+    return area;
+}
 
-
-var functionName = function(){  //
+var functionName = function(){  // common in oop
     // code to run
 }
