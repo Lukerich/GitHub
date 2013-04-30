@@ -7,9 +7,9 @@
     </list>
     <ignored path="Functions_screencast.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="f85cac6d-a9be-482b-a3af-1bf4c6b5fb8b" time="1367289018038" ignored="false" />
+    <file path="/Dummy.txt" changelist="f85cac6d-a9be-482b-a3af-1bf4c6b5fb8b" time="1367289125962" ignored="false" />
     <file path="/index.html" changelist="f85cac6d-a9be-482b-a3af-1bf4c6b5fb8b" time="1367202930548" ignored="false" />
-    <file path="/script.js" changelist="f85cac6d-a9be-482b-a3af-1bf4c6b5fb8b" time="1367289105888" ignored="false" />
+    <file path="/script.js" changelist="f85cac6d-a9be-482b-a3af-1bf4c6b5fb8b" time="1367289256729" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +32,7 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="14" selection-start="975" selection-end="975" vertical-scroll-proportion="0.73214287">
+            <state line="54" column="19" selection-start="1335" selection-end="1335" vertical-scroll-proportion="0.88839287">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -232,7 +232,11 @@
       <created>1367289022192</created>
       <updated>1367289022192</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="functions_screencast">
+      <created>1367289129905</created>
+      <updated>1367289129905</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -359,7 +363,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="14" selection-start="975" selection-end="975" vertical-scroll-proportion="0.73214287">
+        <state line="54" column="19" selection-start="1335" selection-end="1335" vertical-scroll-proportion="0.88839287">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
