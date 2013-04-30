@@ -89,3 +89,14 @@ function calcArea(w, h){
     // console.log(area);
 }
 console.log(total);      // returned values should be assign to variables
+
+// Procedures - it is a function - but it does not return values - it just runs code
+
+// this is function
+function calcAreaF(width, height){
+    var area = width * height;
+    return area;
+}
+
+// this is a procedure
+function calcAreaP(width)
