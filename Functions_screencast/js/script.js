@@ -118,3 +118,4 @@ var calcArea = function(width, height){
     return area;
 }
 
+calcArea(20, 30);
