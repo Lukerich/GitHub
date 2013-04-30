@@ -7,7 +7,7 @@
     </list>
     <ignored path="Functions_screencast.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="f85cac6d-a9be-482b-a3af-1bf4c6b5fb8b" time="1367290383340" ignored="false" />
+    <file path="/Dummy.txt" changelist="f85cac6d-a9be-482b-a3af-1bf4c6b5fb8b" time="1367290390667" ignored="false" />
     <file path="/index.html" changelist="f85cac6d-a9be-482b-a3af-1bf4c6b5fb8b" time="1367202930548" ignored="false" />
     <file path="/script.js" changelist="f85cac6d-a9be-482b-a3af-1bf4c6b5fb8b" time="1367290340768" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,7 +32,7 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="78" column="10" selection-start="1845" selection-end="1845" vertical-scroll-proportion="0.88839287">
+            <state line="79" column="10" selection-start="1858" selection-end="1858" vertical-scroll-proportion="0.91071427">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -284,7 +284,11 @@
       <created>1367290386228</created>
       <updated>1367290386228</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="functions_screencast">
+      <created>1367290393407</created>
+      <updated>1367290393407</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -411,7 +415,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="10" selection-start="1845" selection-end="1845" vertical-scroll-proportion="0.88839287">
+        <state line="79" column="10" selection-start="1858" selection-end="1858" vertical-scroll-proportion="0.91071427">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
