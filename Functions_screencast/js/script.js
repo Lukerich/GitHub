@@ -36,6 +36,6 @@ function calcArea(){       //function and function name
     var width = 20;         //function and function name
     var height = 30;
     var area = width * height;
-    console.log("area");
+    console.log(area);
 }
   calcArea();
