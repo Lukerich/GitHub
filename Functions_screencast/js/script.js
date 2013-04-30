@@ -88,4 +88,4 @@ function calcArea(w, h){
     return area;        // function is spitting the info out
     // console.log(area);
 }
-console.log(total);
+console.log(total);      // returned values should be assign to variables
