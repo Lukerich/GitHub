@@ -60,7 +60,7 @@ funcName (argument1, argument2);
 function funcName(parameter1, parameter2){
     code the function runs
 }
-*/
+
 
 calcArea(30, 20);      // arguments
 
@@ -68,3 +68,5 @@ function calcArea(w, h){  // parameters
     var area = w * h;      // order is important 1st, 2nd ...
     console.log(area);
 }
+
+ /*
