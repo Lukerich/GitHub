@@ -76,5 +76,4 @@ function dogYears(age){
     console.log("Sparky is " + dogYears + " years old. ");
 }
 
-dogYears();
-dogYears();
+dogYears(4);
