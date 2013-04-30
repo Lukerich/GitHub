@@ -68,5 +68,11 @@ function calcArea(w, h){  // parameters
     var area = w * h;      // order is important 1st, 2nd ...
     console.log(area);
 }
+*/
 
- /*
+function dogYears(){
+    var age = 4;
+    var dogYears = age * 7;
+    console.log("Sparky is " + dogYears + " years old. ");
+}
+
