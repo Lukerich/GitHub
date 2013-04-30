@@ -40,7 +40,7 @@ function calcArea(){       //function and function name
 }
   calcArea();          // calling function (invocation)
 */
-// variable scope - using the width variable within if function is called
+/** variable scope - using the width variable within if function is called
     // outside of the function it uses
 
 var width = 5;
@@ -53,3 +53,12 @@ function calcArea(){       //function and function name
 }
 calcArea();          // calling function (invocation)
 console.log(width);
+
+// Arguments and Parameters   teddy bear fur?
+
+funcName (argument1, argument2);
+function funcName(parameter1, parameter2){
+    code the function runs
+}
+*/
+
