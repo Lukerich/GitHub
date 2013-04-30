@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f85cac6d-a9be-482b-a3af-1bf4c6b5fb8b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/script.js" afterPath="$PROJECT_DIR$/js/script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Functions_screencast.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="f85cac6d-a9be-482b-a3af-1bf4c6b5fb8b" time="1367290443718" ignored="false" />
+    <file path="/Dummy.txt" changelist="f85cac6d-a9be-482b-a3af-1bf4c6b5fb8b" time="1367290458871" ignored="false" />
     <file path="/index.html" changelist="f85cac6d-a9be-482b-a3af-1bf4c6b5fb8b" time="1367202930548" ignored="false" />
     <file path="/script.js" changelist="f85cac6d-a9be-482b-a3af-1bf4c6b5fb8b" time="1367290340768" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,7 +32,7 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="80" selection-start="1703" selection-end="1703" vertical-scroll-proportion="0.75446427">
+            <state line="72" column="54" selection-start="1758" selection-end="1758" vertical-scroll-proportion="0.77678573">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -295,7 +296,11 @@
       <created>1367290446693</created>
       <updated>1367290446693</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="functions_screencast">
+      <created>1367290460122</created>
+      <updated>1367290460122</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -422,7 +427,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="80" selection-start="1703" selection-end="1703" vertical-scroll-proportion="0.75446427">
+        <state line="72" column="54" selection-start="1758" selection-end="1758" vertical-scroll-proportion="0.77678573">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
