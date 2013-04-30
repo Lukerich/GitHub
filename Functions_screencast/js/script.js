@@ -62,9 +62,9 @@ function funcName(parameter1, parameter2){
 }
 */
 
-calcArea(30, 20);
+calcArea(30, 20);      // arguments
 
-function calcArea(w, h){
+function calcArea(w, h){  // parameters
     var area = w * h;
     console.log(area);
 }
