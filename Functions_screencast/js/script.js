@@ -79,7 +79,7 @@ dogYears(age1);  // arguments are in function call
 dogYears(5);
 *
 *Returning Values - getting values back from the function
-*/
+
 
 var total = calcArea(30, 20); // area gets returned here
 
@@ -102,4 +102,16 @@ function calcAreaF(width, height){
 function calcAreaP(width, height){
     var area = width * height;
     console..log(area); //no return
+}
+
+ Anonymous functions - also called closures - created as the code is run
+ var functionName = function (){
+   // code the function runs
+}
+
+functionName(); // function call
+ */
+
+function(){
+
 }
