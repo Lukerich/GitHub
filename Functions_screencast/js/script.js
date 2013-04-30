@@ -99,4 +99,7 @@ function calcAreaF(width, height){
 }
 
 // this is a procedure
-function calcAreaP(width)
+function calcAreaP(width, height){
+    var area = width * height;
+    console..log(area); //no return
+}
