@@ -7,9 +7,9 @@
     </list>
     <ignored path="Functions_screencast.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="f85cac6d-a9be-482b-a3af-1bf4c6b5fb8b" time="1367290809656" ignored="false" />
+    <file path="/Dummy.txt" changelist="f85cac6d-a9be-482b-a3af-1bf4c6b5fb8b" time="1367290862114" ignored="false" />
     <file path="/index.html" changelist="f85cac6d-a9be-482b-a3af-1bf4c6b5fb8b" time="1367202930548" ignored="false" />
-    <file path="/script.js" changelist="f85cac6d-a9be-482b-a3af-1bf4c6b5fb8b" time="1367290853337" ignored="false" />
+    <file path="/script.js" changelist="f85cac6d-a9be-482b-a3af-1bf4c6b5fb8b" time="1367290882455" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +32,7 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="7" selection-start="2119" selection-end="2119" vertical-scroll-proportion="0.8660714">
+            <state line="87" column="16" selection-start="2128" selection-end="2128" vertical-scroll-proportion="0.8660714">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -324,7 +324,11 @@
       <created>1367290814369</created>
       <updated>1367290814369</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="functions_screencast">
+      <created>1367290864876</created>
+      <updated>1367290864876</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -451,7 +455,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="7" selection-start="2119" selection-end="2119" vertical-scroll-proportion="0.8660714">
+        <state line="87" column="16" selection-start="2128" selection-end="2128" vertical-scroll-proportion="0.8660714">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
