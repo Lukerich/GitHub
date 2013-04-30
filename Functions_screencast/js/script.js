@@ -109,8 +109,10 @@ function calcAreaP(width, height){
    // code the function runs
 }
 
-functionName(); // function call
+functionName(); // function call  - have to declared before they are called!  hoisting is used by browser for named functions
+
  */
+
 
 var calcArea = function(width, height){
     // code the function runs
