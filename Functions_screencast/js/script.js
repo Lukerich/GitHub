@@ -31,7 +31,7 @@ function outputMsg(){        //function and function name
     console.log("Hello World");  // code or commands function runs
 }
 
-
+/**
 function calcArea(){       //function and function name
     var width = 20;         //function and function name
     var height = 30;
@@ -39,6 +39,15 @@ function calcArea(){       //function and function name
     console.log(area);
 }
   calcArea();          // calling function (invocation)
-
+*/
 // variable scope
 
+var width = 5;
+
+function calcArea(){       //function and function name
+    var width = 20;         //function and function name
+    var height = 30;
+    var area = width * height;
+    console.log(area);
+}
+calcArea();          // calling function (invocation)
