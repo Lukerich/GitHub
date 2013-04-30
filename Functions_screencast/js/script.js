@@ -120,3 +120,5 @@ var calcArea = function(width, height){
 
 var a = calcArea(20, 30);
 calcArea(20, 30);
+
+console.log(a);
