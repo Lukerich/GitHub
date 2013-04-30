@@ -38,4 +38,7 @@ function calcArea(){       //function and function name
     var area = width * height;
     console.log(area);
 }
-  calcArea();
+  calcArea();          // calling function (invocation)
+
+// variable scope
+
