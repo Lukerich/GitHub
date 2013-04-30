@@ -54,11 +54,14 @@ function calcArea(){       //function and function name
 calcArea();          // calling function (invocation)
 console.log(width);
 
-// Arguments and Parameters   teddy bear fur?
+// Arguments and Parameters   teddy bear fur?   10, 100, 1000 arguments and parameters
 
 funcName (argument1, argument2);
 function funcName(parameter1, parameter2){
     code the function runs
 }
 */
-
+function calcArea(w, h){
+    var area = w * h;
+    console.log(area);
+}
