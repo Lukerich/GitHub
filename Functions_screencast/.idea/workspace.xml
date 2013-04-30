@@ -6,7 +6,7 @@
     </list>
     <ignored path="Functions_screencast.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="f85cac6d-a9be-482b-a3af-1bf4c6b5fb8b" time="1367292298856" ignored="false" />
+    <file path="/Dummy.txt" changelist="f85cac6d-a9be-482b-a3af-1bf4c6b5fb8b" time="1367292302561" ignored="false" />
     <file path="/index.html" changelist="f85cac6d-a9be-482b-a3af-1bf4c6b5fb8b" time="1367202930548" ignored="false" />
     <file path="/script.js" changelist="f85cac6d-a9be-482b-a3af-1bf4c6b5fb8b" time="1367292136562" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -407,7 +407,11 @@
       <created>1367292300566</created>
       <updated>1367292300566</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="functions_screencast">
+      <created>1367292303600</created>
+      <updated>1367292303600</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="ToolWindowManager">
