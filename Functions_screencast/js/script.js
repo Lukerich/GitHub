@@ -65,6 +65,6 @@ function funcName(parameter1, parameter2){
 calcArea(30, 20);      // arguments
 
 function calcArea(w, h){  // parameters
-    var area = w * h;
+    var area = w * h;      // order is important 1st, 2nd ...
     console.log(area);
 }
