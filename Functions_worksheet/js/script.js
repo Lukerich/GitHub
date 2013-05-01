@@ -12,9 +12,13 @@
  * “The circumference of the circle is X”;
  */
 
+if
 
-    function cirCalc(radius){
-         var diaM = 2 * radius;
-         var CircF = 2* π * radius;
-        return
+    function cirCalc1(diameter){
+        var cirCalc1 = π * diameter;
+        return diaM;
+}
+    function cirCalc2(radius){
+        var cirCalc2 = 2 * π * radius;
+        return radI;
 }
