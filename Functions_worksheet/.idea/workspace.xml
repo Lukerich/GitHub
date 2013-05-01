@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae323deb-13a1-417a-b564-9012342a538c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="ae323deb-13a1-417a-b564-9012342a538c" name="Default" comment="" />
     <ignored path="Functions_worksheet.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="ae323deb-13a1-417a-b564-9012342a538c" time="1367382065245" ignored="false" />
+    <file path="/Dummy.txt" changelist="ae323deb-13a1-417a-b564-9012342a538c" time="1367382218105" ignored="false" />
     <file path="/index.html" changelist="ae323deb-13a1-417a-b564-9012342a538c" time="1367373568337" ignored="false" />
     <file path="/script.js" changelist="ae323deb-13a1-417a-b564-9012342a538c" time="1367381754946" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="ae323deb-13a1-417a-b564-9012342a538c" time="1367382278534" ignored="false" />
+    <file path="/circumference.html" changelist="ae323deb-13a1-417a-b564-9012342a538c" time="1367382167623" ignored="false" />
+    <file path="/stung.html" changelist="ae323deb-13a1-417a-b564-9012342a538c" time="1367382205755" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,16 +32,36 @@
       <file leaf-file-name="circumference.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/circumference.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="4" selection-start="104" selection-end="104" vertical-scroll-proportion="-3.75">
+            <state line="3" column="35" selection-start="49" selection-end="69" vertical-scroll-proportion="-1.875">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="circumference.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="circumference.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/circumference.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="57" selection-start="1450" selection-end="1450" vertical-scroll-proportion="0.5927052">
+            <state line="26" column="57" selection-start="1450" selection-end="1450" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stung.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/stung.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="5" selection-start="54" selection-end="54" vertical-scroll-proportion="0.13412817">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stung.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stung.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="24" selection-start="114" selection-end="114" vertical-scroll-proportion="-3.75">
               <folding />
             </state>
           </provider>
@@ -66,7 +87,9 @@
       <list>
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/script.js" />
+        <option value="$PROJECT_DIR$/js/stung.js" />
         <option value="$PROJECT_DIR$/circumference.html" />
+        <option value="$PROJECT_DIR$/stung.html" />
       </list>
     </option>
   </component>
@@ -356,7 +379,15 @@
       <created>1367382069416</created>
       <updated>1367382069416</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Conditionals_worksheet&#10;">
+      <created>1367382073007</created>
+      <updated>1367382073007</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Conditionals_worksheet&#10;">
+      <created>1367382219497</created>
+      <updated>1367382219497</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -444,17 +475,33 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/circumference.html">
+    <entry file="file://$PROJECT_DIR$/js/circumference.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="4" selection-start="104" selection-end="104" vertical-scroll-proportion="-3.75">
+        <state line="26" column="57" selection-start="1450" selection-end="1450" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/circumference.js">
+    <entry file="file://$PROJECT_DIR$/circumference.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="57" selection-start="1450" selection-end="1450" vertical-scroll-proportion="0.5927052">
+        <state line="3" column="35" selection-start="49" selection-end="69" vertical-scroll-proportion="-1.875">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stung.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="24" selection-start="114" selection-end="114" vertical-scroll-proportion="-3.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/stung.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="5" selection-start="54" selection-end="54" vertical-scroll-proportion="0.13412817">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
