@@ -7,9 +7,9 @@
     </list>
     <ignored path="Functions_worksheet.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="ae323deb-13a1-417a-b564-9012342a538c" time="1367380698761" ignored="false" />
+    <file path="/Dummy.txt" changelist="ae323deb-13a1-417a-b564-9012342a538c" time="1367381174658" ignored="false" />
     <file path="/index.html" changelist="ae323deb-13a1-417a-b564-9012342a538c" time="1367373568337" ignored="false" />
-    <file path="/script.js" changelist="ae323deb-13a1-417a-b564-9012342a538c" time="1367381060104" ignored="false" />
+    <file path="/script.js" changelist="ae323deb-13a1-417a-b564-9012342a538c" time="1367381248503" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +41,7 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="22" selection-start="1883" selection-end="1883" vertical-scroll-proportion="0.5440729">
+            <state line="32" column="22" selection-start="1911" selection-end="1911" vertical-scroll-proportion="0.5668693">
               <folding />
             </state>
           </provider>
@@ -313,7 +313,11 @@
       <created>1367380702162</created>
       <updated>1367380702162</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Conditionals_worksheet&#10;">
+      <created>1367381179279</created>
+      <updated>1367381179279</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -410,7 +414,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="22" selection-start="1883" selection-end="1883" vertical-scroll-proportion="0.5440729">
+        <state line="32" column="22" selection-start="1911" selection-end="1911" vertical-scroll-proportion="0.5668693">
           <folding />
         </state>
       </provider>
