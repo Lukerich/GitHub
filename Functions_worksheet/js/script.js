@@ -24,18 +24,18 @@ if (funSel === "R" || funSel === "r") {
             return cirC;                                // return to bring result of calculation out of the scope of the function - to make it available to use
         }
     } else {
-        console.log("Please enter a number:");   // message to console/user to enter number
+        console.log("Please enter a number greater then 0:");   // message to console/user to enter number
     }
 } else {                                            // else if statement to choose d for diameter instead of r for radius input
     if (funSel === "D" || funSel === "d") {          //  if part to collect user input for d selection
         total = cirCalc1(Number(prompt("Enter Radius of circle to calculate it's circumference", ""))) //assign user input for diameter
         if (total > 0) {                           // validate user input is a number
-        function cirCalc1(d) {                      // define function cirCalc1 for diameter to calculate circumference
-            var cirC = 3.14 * d;                // assign variable cirC to formula to calculate circumference
-            return cirC;                        // return to bring result of calculation out of the scope of the function - to make it available to use
-        }
+            function cirCalc1(d) {                      // define function cirCalc1 for diameter to calculate circumference
+                var cirC = 3.14 * d;                // assign variable cirC to formula to calculate circumference
+                return cirC;                        // return to bring result of calculation out of the scope of the function - to make it available to use
+            }
         } else {
-            console.log("Please enter a number:");  // message to console/user to enter number
+            console.log("Please enter a number greater then 0:");  // message to console/user to enter number
         }
     } else {                                    // else statement to validate R/r or D/d input only
         console.log("Only R or D are valid inputs");  //message to user to user valid inputs
