@@ -14,16 +14,17 @@
 
 var funSel = prompt("To calculate Circumference of a circle \n Enter R for radius or D for diameter.", "");
     if (funSel === "R" || funSel === "r"){
-         cirCalc1(Number(prompt("Enter Radius of circle to calculate it's circumference", "")));
+         cirCalc2(Number(prompt("Enter Radius of circle to calculate it's circumference", "")));
         function cirCalc2(r){
             var cirCalc2 = 2 * π * r;
             return cirCalc2;
         }
         cirCalc2()
-
         console.log("The circumference of the circle is " +  cirCalc2);
     } else {
-
+        if (funSel === "D" || funSel === "d"){
+            cirCalc1(Number(prompt("Enter Radius of circle to calculate it's circumference", "")));
+        }
     }
 
 function cirCalc1(d){
