@@ -12,7 +12,10 @@
  * “The circumference of the circle is X”;
  */
 
-
+var funSel = prompt("To calculate Circumference of a circle \n Enter R for radius or D for diameter.", "");
+    if (funSel === "R" || funSel === "r"){
+         cirCalc1(Number(prompt("Enter Radius of circle to calculate it's circumference", "")));
+    }
 
     function cirCalc1(d){
         var cirCalc1 = π * d;
