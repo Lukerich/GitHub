@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae323deb-13a1-417a-b564-9012342a538c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/script.js" afterPath="$PROJECT_DIR$/js/script.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/circumference.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/script.js" afterPath="$PROJECT_DIR$/js/circumference.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Functions_worksheet.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="ae323deb-13a1-417a-b564-9012342a538c" time="1367381884654" ignored="false" />
+    <file path="/Dummy.txt" changelist="ae323deb-13a1-417a-b564-9012342a538c" time="1367381979712" ignored="false" />
     <file path="/index.html" changelist="ae323deb-13a1-417a-b564-9012342a538c" time="1367373568337" ignored="false" />
     <file path="/script.js" changelist="ae323deb-13a1-417a-b564-9012342a538c" time="1367381754946" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,8 +30,8 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="circumference.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/circumference.html">
           <provider selected="true" editor-type-id="text-editor">
             <state line="6" column="4" selection-start="104" selection-end="104" vertical-scroll-proportion="-3.75">
               <folding />
@@ -38,10 +39,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/script.js">
+      <file leaf-file-name="circumference.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/circumference.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="57" selection-start="1450" selection-end="1450" vertical-scroll-proportion="0.5440729">
+            <state line="26" column="57" selection-start="1450" selection-end="1450" vertical-scroll-proportion="0.5927052">
               <folding />
             </state>
           </provider>
@@ -67,6 +68,7 @@
       <list>
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/script.js" />
+        <option value="$PROJECT_DIR$/circumference.html" />
       </list>
     </option>
   </component>
@@ -173,6 +175,13 @@
       <option name="filePath" />
       <option name="scope" value="ALL" />
       <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <list size="0" />
@@ -341,7 +350,11 @@
       <created>1367381887946</created>
       <updated>1367381887946</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Conditionals_worksheet&#10;">
+      <created>1367381983362</created>
+      <updated>1367381983362</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -429,16 +442,16 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/circumference.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="4" selection-start="104" selection-end="104" vertical-scroll-proportion="-3.75">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/script.js">
+    <entry file="file://$PROJECT_DIR$/js/circumference.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="57" selection-start="1450" selection-end="1450" vertical-scroll-proportion="0.5440729">
+        <state line="26" column="57" selection-start="1450" selection-end="1450" vertical-scroll-proportion="0.5927052">
           <folding />
         </state>
       </provider>
