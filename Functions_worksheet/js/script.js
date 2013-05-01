@@ -5,7 +5,7 @@
  * Circumference                2πr OR πd
  * Calculate the circumference of a circle.
  * Parameter(s) for function:
- * Radius of the circle
+ * Radius of the circle or Diameter of the circle
  * Return:
  * Circumference of the circle
  * Result to print to the console:
