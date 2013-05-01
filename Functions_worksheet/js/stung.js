@@ -19,9 +19,13 @@
 
     var stung = Number(prompt("Enter the victim's weight in pounds:", "")); // assign user input to variable to use as a parameter to feed the argument of the function
     if (stung > 0){
-        function stung(lb){
-            var stings
+        function pain(lb){
+            var stings = 8.6666666667 * lb;
+            return stings;
         }
+    } else {
+        console.log("You have to enter a number greater then 0");
     }
+
 
 
