@@ -14,11 +14,11 @@
 
 
 
-    function cirCalc1(diameter){
-        var cirCalc1 = π * diameter;
-        return diaM;
+    function cirCalc1(d){
+        var cirCalc1 = π * d;
+        return cirCalc1;
 }
-    function cirCalc2(radius){
-        var cirCalc2 = 2 * π * radius;
-        return radI;
+    function cirCalc2(r){
+        var cirCalc2 = 2 * π * r;
+        return cirCalc2;
 }
