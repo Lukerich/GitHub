@@ -2,7 +2,7 @@
  * Richard Luke
  * Date: 4/30/13
  * Conditionals_worksheet
- * Circumference
+ * Circumference                2πr OR πd
  * Calculate the circumference of a circle.
  * Parameter(s) for function:
  * Radius of the circle
@@ -14,6 +14,7 @@
 
     var radius;
     var diameter;
+    var π;
 
     function cirCalc(){
 
