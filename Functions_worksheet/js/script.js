@@ -11,23 +11,30 @@
  * Result to print to the console:
  * “The circumference of the circle is X”;
  */
-var total;
+var total;               // declare total variable
+                        // assign funSel variable to prompt for input from user for radius or diameter selection
 var funSel = prompt("To calculate Circumference of a circle \n Enter R for radius or D for diameter.", "");
+                        // if statement to evaluate user input and decide if radius or diameter is entered
 if (funSel === "R" || funSel === "r") {
-    total = cirCalc2(Number(prompt("Enter Radius of circle to calculate it's circumference", "")));
-    function cirCalc2(r) {
-        var cirC = 2 * 3.14 * r;
-        return cirC;
+    total = cirCalc2(Number(prompt("Enter Radius of circle to calculate it's circumference", ""))); // assign user input for radius value
+       if (cirCalc2 > 0){
+    function cirCalc2(r) {                                        // define function cirCalc2 for radius to calculate circumference
+        var cirC = 2 * 3.14 * r;                    // assign variable cirC to formula to calculate circumference
+        return cirC;                                // return to bring result of calculation out of the scope of the function - to make it available to use
     }
-
-} else {
-    if (funSel === "D" || funSel === "d") {
+       }else {
+           console.log("Please enter a number:");
+       }
+} else {                                            // else if statement to choose d for diameter instead of r for radius input
+    if (funSel === "D" || funSel === "d") {          //  if part to collect user input for d selection
         total = cirCalc1(Number(prompt("Enter Radius of circle to calculate it's circumference", "")));
         function cirCalc1(d) {
             var cirC = 3.14 * d;
             return cirC;
         }
+    } else {                                    // else statement to validate R/r or D/d input only
+        console.log("Only R or D are valid inputs");  //message to user to user valid inputs
     }
 }
-console.log("The circumference of the circle is " + total);
+console.log("The circumference of the circle is " + total);  // message to user/console for results of circumference
 
