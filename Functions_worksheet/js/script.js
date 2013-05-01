@@ -12,7 +12,7 @@
  * “The circumference of the circle is X”;
  */
 
-if
+
 
     function cirCalc1(diameter){
         var cirCalc1 = π * diameter;
