@@ -18,7 +18,7 @@ var funSel = prompt("To calculate Circumference of a circle \n Enter R for radiu
 // if statement to evaluate user input and decide if radius or diameter is entered
 if (funSel === "R" || funSel === "r") {
     total = cirCalc2(Number(prompt("Enter Radius of circle to calculate it's circumference", ""))); // assign user input for radius value
-    if (cirCalc2 > 0) {                                      // validate user input is a number
+    if (cirCalc2 < 0) {                                      // validate user input is a number
         function cirCalc2(r) {                                        // define function cirCalc2 for radius to calculate circumference
             var cirC = 2 * 3.14 * r;                    // assign variable cirC to formula to calculate circumference
             return cirC;                                // return to bring result of calculation out of the scope of the function - to make it available to use
@@ -29,7 +29,7 @@ if (funSel === "R" || funSel === "r") {
 } else {                                            // else if statement to choose d for diameter instead of r for radius input
     if (funSel === "D" || funSel === "d") {          //  if part to collect user input for d selection
         total = cirCalc1(Number(prompt("Enter Radius of circle to calculate it's circumference", ""))) //assign user input for diameter
-        if (cirCalc1 > 0) {                         // validate user input is a number
+        if (cirCalc1 < 0) {                         // validate user input is a number
             function cirCalc1(d) {                      // define function cirCalc1 for diameter to calculate circumference
                 var cirC = 3.14 * d;                // assign variable cirC to formula to calculate circumference
                 return cirC;                        // return to bring result of calculation out of the scope of the function - to make it available to use
