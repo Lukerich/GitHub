@@ -22,3 +22,7 @@
         var cirCalc2 = 2 * π * r;
         return cirCalc2;
 }
+
+cirCalc2()
+
+console.log("The circumference of the circle is " +  cirCalc2);
