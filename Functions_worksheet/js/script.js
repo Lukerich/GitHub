@@ -29,6 +29,7 @@ if (funSel === "R" || funSel === "r") {
 } else {                                            // else if statement to choose d for diameter instead of r for radius input
     if (funSel === "D" || funSel === "d") {          //  if part to collect user input for d selection
         total = cirCalc1(Number(prompt("Enter Radius of circle to calculate it's circumference", ""))) //assign user input for diameter
+        var cirCalc1;
         if (cirCalc1 > 0) {
 console.log(cirCalc1);                                // validate user input is a number
             function cirCalc1(d) {                      // define function cirCalc1 for diameter to calculate circumference
