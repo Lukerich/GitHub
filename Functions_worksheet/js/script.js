@@ -16,7 +16,7 @@ var funSel = prompt("To calculate Circumference of a circle \n Enter R for radiu
     if (funSel === "R" || funSel === "r"){
          cirCalc2(Number(prompt("Enter Radius of circle to calculate it's circumference", "")));
         function cirCalc2(r){
-            var cirCalc2 = 2 * π * r;
+            var cirCalc2 = 2 * 3.14 * r;
             return cirCalc2;
         }
         cirCalc2()
@@ -25,7 +25,7 @@ var funSel = prompt("To calculate Circumference of a circle \n Enter R for radiu
         if (funSel === "D" || funSel === "d"){
             cirCalc1(Number(prompt("Enter Radius of circle to calculate it's circumference", "")));
             function cirCalc1(d){
-                var cirCalc1 = π * d;
+                var cirCalc1 = 3.14 * d;
                 return cirCalc1;
             }
             cirCalc1()
