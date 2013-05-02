@@ -6,7 +6,7 @@
     </list>
     <ignored path="Functions_worksheet.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="ae323deb-13a1-417a-b564-9012342a538c" time="1367456997726" ignored="false" />
+    <file path="/Dummy.txt" changelist="ae323deb-13a1-417a-b564-9012342a538c" time="1367457000684" ignored="false" />
     <file path="/index.html" changelist="ae323deb-13a1-417a-b564-9012342a538c" time="1367373568337" ignored="false" />
     <file path="/script.js" changelist="ae323deb-13a1-417a-b564-9012342a538c" time="1367381754946" ignored="false" />
     <file path="/circumference.html" changelist="ae323deb-13a1-417a-b564-9012342a538c" time="1367382167623" ignored="false" />
@@ -503,7 +503,11 @@
       <created>1367456998439</created>
       <updated>1367456998440</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="Conditionals_worksheet&#10;">
+      <created>1367457004183</created>
+      <updated>1367457004183</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="ToolWindowManager">
