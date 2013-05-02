@@ -15,7 +15,7 @@
  *      Result to print to the console:
  *      “It takes X bee stings to kill a X “
  */
-muerte = new Array(2);       // declared reportable variable
+muerte = new Array();       // declared reportable variable
 
 muerte = stung(Number(prompt("Enter the victim's weight in pounds:", ""))); // assign user input to variable to use as a parameter to feed the argument of the function
 if (muerte > 0) {                         // if statement to valid input is a number greater 0
