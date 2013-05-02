@@ -14,9 +14,7 @@
  * 35000/3650 = ~ 9.6 wks. to lose 10lbs
  */
 
-
 var total;      // declared variable to use as output to the console
-
 
 var input = [];      // array to hold input values
 
