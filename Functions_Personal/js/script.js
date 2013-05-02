@@ -26,12 +26,17 @@ input[2] = Number(prompt("Enter number of miles you will walk at a 4miles/hr. pa
 //input[3] = Number(prompt("Enter your weight in pounds:", ""));
 
 wgtTls = input[0];
-input [012]  = wgtLst(0, 1, 2);
+input [012]  = wgtLst(a, b, c);
 
 function wgtLst(a, b, c) {
     var calPP = 3500;                       // calories burned per pound
-    var mulFct = 0.566666666675;               // multiplier for weight of person
+    var mulFct = 0.566666666675;            // multiplier for weight of person
+    var a;
+    var b;
+    var c;
     var timTls = (a * calPP) / (b + c * mulFct);
+    console.log(a);
+
     console.log(timTls);
     //return timTls;
 }
