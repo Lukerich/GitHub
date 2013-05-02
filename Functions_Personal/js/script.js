@@ -30,7 +30,7 @@ function wgtLst(a, b, c) {
     var calPP = 3500;                       // calories burned per pound
     var mulFct = 0.566666666675;               // multiplier for weight of person
     var timTls = (a * calPP) / (b + c * mulFct);
-    return wgtLst;
+    return timTls;
 }
 total = wgtLst;
 
