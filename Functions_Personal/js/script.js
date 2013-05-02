@@ -11,11 +11,12 @@
 
 var total;      // declared variable to use as output to the console
 
-var input;      // array to hold input values
+var input = [];      // array to hold input values
 
 input[0] = Number(prompt("Enter amount of weight in pounds you want to lose:", ""));
 input[1] = Number(prompt("Enter of calories you will reduce below base line of 2000:", ""));
 input[2] = Number(prompt("Enter number of miles you will walk at a 4miles/hr. pace per week:", ""));
+input[3] = Number(prompt("Enter your weight in pounds:", ""));
 
 
 
