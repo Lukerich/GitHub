@@ -7,7 +7,7 @@
     </list>
     <ignored path="Functions_worksheet.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="ae323deb-13a1-417a-b564-9012342a538c" time="1367456526426" ignored="false" />
+    <file path="/Dummy.txt" changelist="ae323deb-13a1-417a-b564-9012342a538c" time="1367456696293" ignored="false" />
     <file path="/index.html" changelist="ae323deb-13a1-417a-b564-9012342a538c" time="1367373568337" ignored="false" />
     <file path="/script.js" changelist="ae323deb-13a1-417a-b564-9012342a538c" time="1367381754946" ignored="false" />
     <file path="/circumference.html" changelist="ae323deb-13a1-417a-b564-9012342a538c" time="1367382167623" ignored="false" />
@@ -53,7 +53,7 @@
       <file leaf-file-name="stung.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/stung.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="72" selection-start="1383" selection-end="1383" vertical-scroll-proportion="0.5927052">
+            <state line="26" column="79" selection-start="1390" selection-end="1390" vertical-scroll-proportion="0.5927052">
               <folding />
             </state>
           </provider>
@@ -488,7 +488,11 @@
       <created>1367456529709</created>
       <updated>1367456529709</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Conditionals_worksheet&#10;">
+      <created>1367456700589</created>
+      <updated>1367456700589</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -627,7 +631,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/stung.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="72" selection-start="1383" selection-end="1383" vertical-scroll-proportion="0.5927052">
+        <state line="26" column="79" selection-start="1390" selection-end="1390" vertical-scroll-proportion="0.5927052">
           <folding />
         </state>
       </provider>

@@ -24,7 +24,7 @@ if (muerte > 0) {                         // if statement to valid input is a nu
         return stings;                              // return to bring results out of the scope of the function
     }
     var wgtLBs = muerte / 8.6666666667;
-    console.log("It takes " + muerte + " bee stings to kill a " + wgtLBs + " creature");   // message to console reporting the number of bee stings to kill a creature of X lbs.
+    console.log("It takes " + muerte + " bee stings to kill a " + wgtLBs + "lb. creature");   // message to console reporting the number of bee stings to kill a creature of X lbs.
 } else {                                                  // else of the if else statement to print out to the console a message if user input is not a number greater then 0
     console.log("You have to enter a number greater then 0"); // message printed to console for invalid input
 }
