@@ -24,13 +24,13 @@ input[1] = Number(prompt("Enter of calories you will reduce below base line of 2
 input[2] = Number(prompt("Enter number of miles you will walk at a 4miles/hr. pace per week:", ""));
 //input[3] = Number(prompt("Enter your weight in pounds:", ""));
 
-input [0, 1, 2] = wgtLst(0, 1, 2);
+input = wgtLst(0, 1, 2);
 
 function wgtLst(a, b, c) {
     var calPP = 3500;                       // calories burned per pound
     var mulFct = 0.566666666675;               // multiplier for weight of person
     var timTls = (a * calPP) / (b + c * mulFct);
-    return;
+    return timTls;
 }
 
 
