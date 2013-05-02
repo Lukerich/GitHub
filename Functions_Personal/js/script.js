@@ -22,23 +22,24 @@ var input = [];      // array to hold input values
 
 input[0] = (Number(prompt("Enter amount of weight in pounds you want to lose:", "")));
 input[1] = (Number(prompt("Enter of calories you will reduce below base line of 2000:", "")));
-input[2] = (Number(prompt("Enter number of miles you will walk at a 4miles/hr. pace per week:", "")));
-//input[3] = Number(prompt("Enter your weight in pounds:", ""));
+input[2] = (Number(prompt("Enter number of miles you will walk at a 4miles/hr. pace per day:", "")));
+input[3] = Number(prompt("Enter of days/week you will diet and exercise:", ""));
 
 wgtTls = input[0];
 
-wgtLst(input[0], input[1], input[2]);
+wgtLst(input[0], input[1], input[2], input[3]);
 
-function wgtLst(a, b, c) {
+function wgtLst(a, b, c, d) {
     var calPP = 3500;                       // calories burned per pound
     var mulFct = 0.566666666675;            // multiplier for weight of person
     var a;
     var b;
     var c;
-    var timTls = (a * calPP) / (b + c * mulFct);
+    var timTls = (a * calPP) / (d * (b + c * mulFct));
     console.log(a);
     console.log(b);
     console.log(c);
+    console.log(d);
     console.log(timTls);
     //return timTls;
 }
