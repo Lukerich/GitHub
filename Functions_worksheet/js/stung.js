@@ -23,11 +23,6 @@ if (muerte > 0) {                         // if statement to valid input is a nu
         var stings = 8.6666666667 * lb;                   // formula assign to variable to calculate the number of stings to kill something or someone
         return stings;                              // return to bring results out of the scope of the function
     }
-    wgtLBs = stung(lb);
-    function stung(lb){
-        var lbsWgt = 1 * lb;
-        return lbsWgt;
-    }
     console.log("It takes " + muerte + " bee stings to kill a " + wgtLBs + " creature");   // message to console reporting the number of bee stings to kill a creature of X lbs.
 } else {                                                  // else of the if else statement to print out to the console a message if user input is not a number greater then 0
     console.log("You have to enter a number greater then 0"); // message printed to console for invalid input
