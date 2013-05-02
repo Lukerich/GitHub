@@ -7,10 +7,10 @@
     </list>
     <ignored path="Functions_Personal.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="5d375bdf-9448-4edb-8628-dcf5f1686238" time="1367529154870" ignored="false" />
+    <file path="/Dummy.txt" changelist="5d375bdf-9448-4edb-8628-dcf5f1686238" time="1367529248631" ignored="false" />
     <file path="/index.html" changelist="5d375bdf-9448-4edb-8628-dcf5f1686238" time="1367458340023" ignored="false" />
     <file path="$PROJECT_DIR$/../Functions_Industry/index.html" changelist="5d375bdf-9448-4edb-8628-dcf5f1686238" time="1367458444778" ignored="false" />
-    <file path="/script.js" changelist="5d375bdf-9448-4edb-8628-dcf5f1686238" time="1367529172174" ignored="false" />
+    <file path="/script.js" changelist="5d375bdf-9448-4edb-8628-dcf5f1686238" time="1367529532178" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +42,7 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="5" selection-start="1079" selection-end="1079" vertical-scroll-proportion="0.255079">
+            <state line="38" column="64" selection-start="1475" selection-end="1475" vertical-scroll-proportion="0.89841986">
               <folding />
             </state>
           </provider>
@@ -250,7 +250,11 @@
       <created>1367529158865</created>
       <updated>1367529158865</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Functions_Personal">
+      <created>1367529253951</created>
+      <updated>1367529253951</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -375,7 +379,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="5" selection-start="1079" selection-end="1079" vertical-scroll-proportion="0.255079">
+        <state line="38" column="64" selection-start="1475" selection-end="1475" vertical-scroll-proportion="0.89841986">
           <folding />
         </state>
       </provider>

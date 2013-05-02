@@ -17,6 +17,7 @@
 
 //var total;      // declared variable to use as output to the console
 
+var total;
 var input = [];      // array to hold input values
 
 input[0] = Number(prompt("Enter amount of weight in pounds you want to lose:", ""));
@@ -24,7 +25,8 @@ input[1] = Number(prompt("Enter of calories you will reduce below base line of 2
 input[2] = Number(prompt("Enter number of miles you will walk at a 4miles/hr. pace per week:", ""));
 //input[3] = Number(prompt("Enter your weight in pounds:", ""));
 
-input = wgtLst(0, 1, 2);
+wgtTls = input[0];
+input [0, 1, 2] = wgtLst(0, 1, 2);
 
 function wgtLst(a, b, c) {
     var calPP = 3500;                       // calories burned per pound
@@ -32,9 +34,9 @@ function wgtLst(a, b, c) {
     var timTls = (a * calPP) / (b + c * mulFct);
     return timTls;
 }
+total = wgtLst();
 
-
-console.log("It will take " + input + " weeks to lose " + input[0] + " lbs");
+console.log("It will take " + total + " weeks to lose " + wgtTls + " lbs");
 
 
 
