@@ -22,8 +22,9 @@ if (muerte > 0) {                         // if statement to valid input is a nu
     function stung(lb) {                    // function defined or named as pain with parameter assigned
         var lbsW = 1* lb;
         var stings = 8.6666666667 * lb;                   // formula assign to variable to calculate the number of stings to kill something or someone
-        return lbsW;
+
         return stings;                              // return to bring results out of the scope of the function
+        return lbsW;
     }
 
     console.log("It takes " + muerte + " bee stings to kill a " + wgtLBs + " creature");   // message to console reporting the number of bee stings to kill a creature of X lbs.
