@@ -16,18 +16,27 @@
  * if production is less then 500 then no bonus
  */
 
-    var bonus = [];
+var bonus;
 
-    var prdVal;
-        prdVal = lowPrd(Number(prompt("Enter shift production count:", "")));
+var prdVal = [];
+prdVal[0] = Number(prompt("Enter shift production count:", ""));
+prdVal[1] = prompt("Enter Line A or B:", "");
 
-if (prdVal > 0){
-    function lowPrd(a){
-           var a;
-            if (a < 1000){
+bonus = lowPrd(prdVal[0], prdVal[1]);
+
+if (prdVal[0] > 0) {
+    function lowPrd(a, b) {
+        var lowB = (a < 1000);
+        var medB = (a >= 1000 && a < 1500);
+        var hghB = (a >= 1500 && a < 2000);
+        var vyHB = (a >= 2000);
+        if (a < 1000 && b == "A") {
+              console.log("Sorry no bonus tonight");
+        } else {
 
             }
+        }
     }
-}
+
 
 
