@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c269e126-7418-4d9a-a572-e24ad5d67998" name="Default" comment="&#10;">
+    <list default="true" id="c269e126-7418-4d9a-a572-e24ad5d67998" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/script.js" afterPath="$PROJECT_DIR$/js/script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Functions_Industry.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="c269e126-7418-4d9a-a572-e24ad5d67998" time="1367536133727" ignored="false" />
+    <file path="/Dummy.txt" changelist="c269e126-7418-4d9a-a572-e24ad5d67998" time="1367536140882" ignored="false" />
     <file path="/index.html" changelist="c269e126-7418-4d9a-a572-e24ad5d67998" time="1367458340023" ignored="false" />
-    <file path="/script.js" changelist="c269e126-7418-4d9a-a572-e24ad5d67998" time="1367535963171" ignored="false" />
+    <file path="/script.js" changelist="c269e126-7418-4d9a-a572-e24ad5d67998" time="1367536479777" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +41,7 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="75" selection-start="388" selection-end="388" vertical-scroll-proportion="0.47404063">
+            <state line="22" column="21" selection-start="690" selection-end="690" vertical-scroll-proportion="0.74492097">
               <folding />
             </state>
           </provider>
@@ -210,7 +210,11 @@
       <created>1367534585738</created>
       <updated>1367534585738</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Functions_Industry">
+      <created>1367536145512</created>
+      <updated>1367536145512</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -335,7 +339,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="75" selection-start="388" selection-end="388" vertical-scroll-proportion="0.47404063">
+        <state line="22" column="21" selection-start="690" selection-end="690" vertical-scroll-proportion="0.74492097">
           <folding />
         </state>
       </provider>
