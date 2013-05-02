@@ -7,12 +7,12 @@
     </list>
     <ignored path="Functions_worksheet.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="ae323deb-13a1-417a-b564-9012342a538c" time="1367454770261" ignored="false" />
+    <file path="/Dummy.txt" changelist="ae323deb-13a1-417a-b564-9012342a538c" time="1367454870934" ignored="false" />
     <file path="/index.html" changelist="ae323deb-13a1-417a-b564-9012342a538c" time="1367373568337" ignored="false" />
     <file path="/script.js" changelist="ae323deb-13a1-417a-b564-9012342a538c" time="1367381754946" ignored="false" />
     <file path="/circumference.html" changelist="ae323deb-13a1-417a-b564-9012342a538c" time="1367382167623" ignored="false" />
     <file path="/stung.html" changelist="ae323deb-13a1-417a-b564-9012342a538c" time="1367382205755" ignored="false" />
-    <file path="/stung.js" changelist="ae323deb-13a1-417a-b564-9012342a538c" time="1367454721761" ignored="false" />
+    <file path="/stung.js" changelist="ae323deb-13a1-417a-b564-9012342a538c" time="1367455119092" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +53,7 @@
       <file leaf-file-name="stung.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/stung.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="111" selection-start="1329" selection-end="1329" vertical-scroll-proportion="0.52431613">
+            <state line="25" column="23" selection-start="1359" selection-end="1359" vertical-scroll-proportion="0.5699088">
               <folding />
             </state>
           </provider>
@@ -448,7 +448,11 @@
       <created>1367454774697</created>
       <updated>1367454774697</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Conditionals_worksheet&#10;">
+      <created>1367454874211</created>
+      <updated>1367454874211</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -587,7 +591,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/stung.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="111" selection-start="1329" selection-end="1329" vertical-scroll-proportion="0.52431613">
+        <state line="25" column="23" selection-start="1359" selection-end="1359" vertical-scroll-proportion="0.5699088">
           <folding />
         </state>
       </provider>
