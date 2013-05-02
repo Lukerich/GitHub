@@ -34,7 +34,7 @@ function wgtLst(a, b, c) {
 }
 var total = wgtLst;
 
-console.log("It will take " + total + " days to lose " + input[0] + " lbs");
+console.log("It will take " + total + " weeks to lose " + input[0] + " lbs");
 
 
 
