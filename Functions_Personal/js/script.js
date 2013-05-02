@@ -30,11 +30,11 @@ function wgtLst(a, b, c) {
     var calPP = 3500;                       // calories burned per pound
     var mulFct = 0.566666666675;               // multiplier for weight of person
     var timTls = (a * calPP) / (b + c * mulFct);
-    return timTls;
+    return;
 }
-var total = wgtLst;
 
-console.log("It will take " + total + " weeks to lose " + input[0] + " lbs");
+
+console.log("It will take " + input + " weeks to lose " + input[0] + " lbs");
 
 
 
