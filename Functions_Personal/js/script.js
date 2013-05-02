@@ -6,7 +6,7 @@
  * 4 miles / hour for 60 minutes for a 140lb person is ~ 330 calories
  *                        150 lb person 340 calories/hr.
  *                        175 lb person 396 calories/hr.
- *                        median multiplier 2.2666666667 / 4 =  0.566666666675 / per mile
+ *                        median multiplier 8.5 / per mile
  * 10 lbs = 35000 calories burned
  * 1600 calories vs 2000 per day = 400
  * 1 hour walk at 4m/hr. = ~ 330   (140 lb person)
@@ -31,7 +31,7 @@ total = wgtLst(input[0], input[1], input[2], input[3]);
 
 function wgtLst(a, b, c, d) {
     var calPP = 3500;                       // calories burned per pound
-    var mulFct = 0.566666666675;            // multiplier for weight of person
+    var mulFct = 8.5;                      // multiplier for weight of person
     var timTls = (a * calPP) / (d * (b + c * mulFct));
     return timTls;
 }
