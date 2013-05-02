@@ -20,7 +20,9 @@
 
     var prdVal = (Number(prompt("Enter shift production count:", "")));
 
-    function lowPrd()
+    function lowPrd(){
 
-    function prdHgh()
+    }
+
+
 
