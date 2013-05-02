@@ -21,12 +21,13 @@
     var prdVal;
         prdVal = lowPrd(Number(prompt("Enter shift production count:", "")));
 
+if (prdVal > 0){
     function lowPrd(a){
            var a;
             if (a < 1000){
 
             }
     }
-
+}
 
 
