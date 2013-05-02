@@ -27,7 +27,7 @@ input[3] = Number(prompt("Enter of days/week you will diet and exercise:", ""));
 
 wgtTls = input[0];
 
-wgtLst(input[0], input[1], input[2], input[3]);
+total = wgtLst(input[0], input[1], input[2], input[3]);
 
 function wgtLst(a, b, c, d) {
     var calPP = 3500;                       // calories burned per pound
@@ -35,7 +35,6 @@ function wgtLst(a, b, c, d) {
     var timTls = (a * calPP) / (d * (b + c * mulFct));
     return timTls;
 }
-total = wgtLst;
 
 console.log("It will take " + total + " weeks to lose " + wgtTls + " lbs");
 
