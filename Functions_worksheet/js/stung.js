@@ -15,7 +15,7 @@
  *      Result to print to the console:
  *      “It takes X bee stings to kill a X “
  */
-muerte(2);       // declared reportable variable
+new Array (muerte(2));       // declared reportable variable
 var wgtLBs;       // declared variable to report weight of victim
 muerte = stung(Number(prompt("Enter the victim's weight in pounds:", ""))); // assign user input to variable to use as a parameter to feed the argument of the function
 if (muerte > 0) {                         // if statement to valid input is a number greater 0
