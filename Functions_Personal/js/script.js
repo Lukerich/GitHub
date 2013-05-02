@@ -15,7 +15,7 @@
  */
 
 
-var total;      // declared variable to use as output to the console
+//var total;      // declared variable to use as output to the console
 
 var input = [];      // array to hold input values
 
@@ -32,7 +32,7 @@ function wgtLst(a, b, c) {
     var timTls = (a * calPP) / (b + c * mulFct);
     return timTls;
 }
-total = wgtLst;
+var total = wgtLst;
 
 console.log("It will take " + total + " days to lose " + input[0] + " lbs");
 
