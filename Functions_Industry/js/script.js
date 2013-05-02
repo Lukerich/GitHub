@@ -18,10 +18,14 @@
 
     var bonus = [];
 
-    var prdVal = (Number(prompt("Enter shift production count:", "")));
+    var prdVal;
+        prdVal = lowPrd(Number(prompt("Enter shift production count:", "")));
 
-    function lowPrd(){
+    function lowPrd(a){
+           var a;
+            if (a < 1000){
 
+            }
     }
 
 
