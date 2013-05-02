@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d375bdf-9448-4edb-8628-dcf5f1686238" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/script.js" afterPath="$PROJECT_DIR$/js/script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Functions_Personal.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="5d375bdf-9448-4edb-8628-dcf5f1686238" time="1367530458206" ignored="false" />
+    <file path="/Dummy.txt" changelist="5d375bdf-9448-4edb-8628-dcf5f1686238" time="1367530637315" ignored="false" />
     <file path="/index.html" changelist="5d375bdf-9448-4edb-8628-dcf5f1686238" time="1367458340023" ignored="false" />
     <file path="$PROJECT_DIR$/../Functions_Industry/index.html" changelist="5d375bdf-9448-4edb-8628-dcf5f1686238" time="1367458444778" ignored="false" />
     <file path="/script.js" changelist="5d375bdf-9448-4edb-8628-dcf5f1686238" time="1367530629646" ignored="false" />
@@ -290,7 +289,11 @@
       <created>1367530462364</created>
       <updated>1367530462364</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Functions_Personal">
+      <created>1367530644073</created>
+      <updated>1367530644073</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="ToolWindowManager">
