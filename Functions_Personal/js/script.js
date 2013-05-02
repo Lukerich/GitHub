@@ -28,13 +28,13 @@ input[2] = Number(prompt("Enter number of miles you will walk at a 4miles/hr. pa
 wgtTls = input[0];
 input [0, 1, 2] = wgtLst(0, 1, 2);
 
-function wgtLst(a, b, c) {
+total = function wgtLst(a, b, c) {
     var calPP = 3500;                       // calories burned per pound
     var mulFct = 0.566666666675;               // multiplier for weight of person
     var timTls = (a * calPP) / (b + c * mulFct);
     return timTls;
 }
-total = wgtLst();
+
 
 console.log("It will take " + total + " weeks to lose " + wgtTls + " lbs");
 
