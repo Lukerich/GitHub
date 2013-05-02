@@ -15,12 +15,12 @@
  *      Result to print to the console:
  *      “It takes X bee stings to kill a X “
  */
-var muerte;       // declare reportable variable
-var wgtLBs;
+var muerte;       // declared reportable variable
+var wgtLBs;       // declared variable to report weight of victim
 muerte = stung(Number(prompt("Enter the victim's weight in pounds:", ""))); // assign user input to variable to use as a parameter to feed the argument of the function
 if (muerte > 0) {                         // if statement to valid input is a number greater 0
-    wgtLBs = muerte                                         // assign wgtLBs variable the number of pounds to use in reporting to console
-    function stung(lb) {                                   // function defined or named as pain with parameter assigned
+                                              // assign wgtLBs variable the number of pounds to use in reporting to console
+    wgtLBs = function stung(lb) {                                   // function defined or named as pain with parameter assigned
         var stings = 8.6666666667 * lb;                   // formula assign to variable to calculate the number of stings to kill something or someone
         return stings;                                    // return to bring results out of the scope of the function
     }
