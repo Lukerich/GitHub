@@ -15,7 +15,7 @@
  */
 
 
-//var total;      // declared variable to use as output to the console
+var total;      // declared variable to use as output to the console
 
 
 var input = [];      // array to hold input values
@@ -43,9 +43,11 @@ function wgtLst(a, b, c, d) {
     console.log(timTls);
     //return timTls;
 }
+total = wgtLst;
+
 console.log(input[0], input[1], input[2]);
 
-//console.log("It will take " + total + " weeks to lose " + wgtTls + " lbs");
+console.log("It will take " + total + " weeks to lose " + wgtTls + " lbs");
 
 
 
