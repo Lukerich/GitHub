@@ -33,8 +33,12 @@ if (prdVal[0] > 0) {
         var vyHB = (a >= 2000);
         var lnA = (b == "A" || b == "a");
         var lnB = (b == "B" || b == "b");
-        if (medB && lnA || lowB && lnB) {
+        if (medB && lnA || vyLB && lnB) {
             console.log("Sorry no bonus tonight");
+        } else {
+            if (lowB && lnB){
+                console.log("Line B gets bonus, sorry Line A");
+            }
         }
     }
 } else {
