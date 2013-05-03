@@ -27,7 +27,7 @@ if (prdVal[0] > 0) {
         var lnA = (b == "A" || b == "a");
         var lnB = (b == "B" || b == "b");
         if (vyLB) {
-            console.log("Sorry no bonus tonight");
+            console.log("Sorry no one gets a bonus tonight");
         } else {
             if (lowB && lnB){
                 console.log("Line B gets a bonus!");
