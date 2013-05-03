@@ -16,15 +16,15 @@
  * if production is less then 500 then no bonus
  */
 
-var bonus;
+// var bonus;
 
 var prdVal = [];
 prdVal[0] = Number(prompt("Enter shift production count:", ""));
 prdVal[1] = prompt("Enter Line A or B:", "");
 
-bonus = lowPrd(prdVal[0], prdVal[1]);
+// bonus = lowPrd(prdVal[0], prdVal[1]);
 
-if (prdVal[0] > 0) {
+if (prdVal[0] > 0 && prdVal[1] == "") {
     function lowPrd(a, b) {
         var vyLB = (a < 500)
         var lowB = (a < 1000 && a >= 500);
@@ -33,15 +33,16 @@ if (prdVal[0] > 0) {
         var vyHB = (a >= 2000);
         var lnA = (b == "A" || b == "a");
         var lnB = (b == "B" || b == "b");
-        if (lowB && lnA || vyLB && lnB) {
-              console.log("Sorry no bonus tonight");
+        if (medB && lnA || lowB && lnB) {
+            console.log("Sorry no bonus tonight");
         } else {
-        if (lowB && lnB){
-            console.log("Line B gets bonus");
-        }
-            }
+            lowB && lnB ? console.log("Line B gets bonus") : console.log("Everyone gets a bonus!");
         }
     }
+} else {
+    console.log("You must enter a number greater then 0 and a Line letter:");
+
+}
 
 
 
