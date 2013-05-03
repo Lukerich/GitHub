@@ -23,9 +23,6 @@ if (prdVal[0] > 0) {
     function lowPrd(a, b) {
         var vyLB = (a < 500);
         var lowB = (a < 1000 && a >= 500);
-        var medB = (a >= 1000 && a < 1500);
-        var hghB = (a >= 1500 && a < 2000);
-        var vyHB = (a >= 2000);
         var lnA = (b == "A" || b == "a");
         var lnB = (b == "B" || b == "b");
         if (medB && lnA || vyLB && lnB) {
@@ -33,6 +30,8 @@ if (prdVal[0] > 0) {
         } else {
             if (lowB && lnB || lnA){
                 console.log("Line B gets bonus, sorry Line A");
+                var bonVal = a >= 1000 ? a * .02 : a * .01;
+                console.log("Bonus is $" + bonVal);
             }
         }
     }
