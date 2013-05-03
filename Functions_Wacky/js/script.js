@@ -17,4 +17,4 @@ var annFun = function () {               // an anonymous function to self run
     } else {                                                        // else of the if
             console.log("Ant's are marching two by two:");               // output to the console for two by two
         }
-}();
+}();                           // self calling/executing the function
