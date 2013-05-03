@@ -16,7 +16,7 @@
  * if production is less then 500 then no bonus
  */
 
-// var bonus;
+var bonus;
 
 var prdVal = [];
 prdVal[0] = Number(prompt("Enter shift production count:", ""));
