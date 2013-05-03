@@ -31,12 +31,12 @@ if (prdVal[0] > 0) {
         } else {
             if (lowB && lnB){
                 console.log("Line B gets a bonus!");
-                var bonVal = a;
+                var bonVal = a * ;
                 console.log("Bonus is $" + bonVal);
             }  else {
-                if (lowB && lnB || medB && lnB || medB && lnA){
+                if (medB && lnB || medB && lnA){
                     console.log("Everyone gets a bonus!");
-                    var bonVal = a >= 1000 ? a * .10 : a * .05;
+                    var bonVal = a >= 1500 ? a * .10 : a * .05;
                     console.log("Bonus is $" + bonVal);
                 }
             }
