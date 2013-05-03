@@ -26,7 +26,7 @@ prdVal[1] = prompt("Enter Line A or B:", "");
 
 if (prdVal[0] > 0) {
     function lowPrd(a, b) {
-        var vyLB = (a < 500)
+        var vyLB = (a < 500);
         var lowB = (a < 1000 && a >= 500);
         var medB = (a >= 1000 && a < 1500);
         var hghB = (a >= 1500 && a < 2000);
