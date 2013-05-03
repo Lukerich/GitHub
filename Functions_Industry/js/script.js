@@ -29,7 +29,7 @@ if (prdVal[0] > 0) {
         if (lowB && lnA || vyLB && lnB) {
             console.log("Sorry no bonus tonight");
         } else {
-            if (lowB && lnB || medB && lnA){
+            if (lowB && lnB || medB && lnA || medB && lnB){
                 console.log("Everyone gets a bonus!");
                 var bonVal = a >= 1000 ? a * .02 : a * .01;
                 console.log("Bonus is $" + bonVal);
