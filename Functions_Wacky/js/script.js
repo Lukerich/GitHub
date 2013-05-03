@@ -22,4 +22,5 @@ var annFun = function () {               // an anonymous function to self run
     } else {
         console.log("Enter Y or N and a number greater then 0 for Ants and minutes:");
 }
+    }
 }();
