@@ -16,7 +16,7 @@ var annFun = function () {               // an anonymous function to self run
 
     if (ipAnt[2] === "Y" || "y" && (ipAnt[0] > 0 || ipAnt[1] > 0)) {   // if statement to validate user input for prompts of array
         var anCt = (ipAnt[0] * ipAnt[1] * secIm);                    // variable assigned formula results
-        console.log(anCt + " Ant's are marching in:" + ipAnt[2]);              // output to console for calculation results
+        console.log(anCt + " Ant's are marching in:" + ipAnt[2 + ipAnt[0] + ipAnt[1]]);              // output to console for calculation results
     } else {                                                        // else of the if
         if (ipAnt[2] === "N" || "n") {                                  // if statement for N input
             console.log("Ant's are marching two by two:");               // output to the console when the input is N
