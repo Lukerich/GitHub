@@ -31,7 +31,7 @@ if (prdVal[0] > 0) {
         } else {
             if (lowB && lnB){
                 console.log("Line B gets a bonus!");
-                var bonVal = a * ;
+                var bonVal = a * .02;
                 console.log("Bonus is $" + bonVal);
             }  else {
                 if (medB && lnB || medB && lnA){
