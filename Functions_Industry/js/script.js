@@ -11,13 +11,11 @@
  *
  */
 
-var bonus;
-
 var prdVal = [];
 prdVal[0] = Number(prompt("Enter shift production count:", ""));
 prdVal[1] = prompt("Enter Line A or B:", "");
 
-bonus = lowPrd(prdVal[0], prdVal[1]);
+lowPrd(prdVal[0], prdVal[1]);
 
 if (prdVal[0] > 0) {
     function lowPrd(a, b) {
@@ -29,12 +27,12 @@ if (prdVal[0] > 0) {
         if (vyLB) {
             console.log("Sorry no one gets a bonus tonight");
         } else {
-            if (lowB && lnB || lnA){
+            if (lowB && lnB || lowB && lnA) {
                 console.log("Line B gets a bonus!");
                 var bonVal = a * .02;
                 console.log("Bonus is $" + bonVal);
-            }  else {
-                if (medB && lnB || medB && lnA){
+            } else {
+                if (medB && lnB || medB && lnA) {
                     console.log("Everyone gets a bonus!");
                     var bonVal = a >= 1500 ? a * .10 : a * .05;
                     console.log("Bonus is $" + bonVal);
