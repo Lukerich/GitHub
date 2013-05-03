@@ -22,7 +22,7 @@ var prdVal = [];
 prdVal[0] = Number(prompt("Enter shift production count:", ""));
 prdVal[1] = prompt("Enter Line A or B:", "");
 
-// bonus = lowPrd(prdVal[0], prdVal[1]);
+bonus = lowPrd(prdVal[0], prdVal[1]);
 
 if (prdVal[0] > 0) {
     function lowPrd(a, b) {
