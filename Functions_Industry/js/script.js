@@ -26,7 +26,7 @@ if (prdVal[0] > 0) {
         var medB = (a > 1000);
         var lnA = (b == "A" || b == "a");
         var lnB = (b == "B" || b == "b");
-        if (lowB && lnA || vyLB && lnB) {
+        if (lowB && lnA && vyLB && lnB) {
             console.log("Sorry no bonus tonight");
         } else {
             if (lowB && lnB){
