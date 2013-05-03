@@ -4,16 +4,11 @@
  * Functions_Industry
  * If production is line A then
  * bonus on production quota's
- * if production is 1000 then bonus is .01 each
- * if production is 1500 then bonus is .02 each
- * if production is 2000 then bonus is .03 each
- * if production is less then 1000 then no bonus
- * If production is line B then
+ * if production is > 1000
+ * If Production line B then
  * bonus on production quota's
- * if production is 1000 then bonus is .02 each
- * if production is 1500 then bonus is .03 each
- * if production is 2000 then bonus is .05 each
- * if production is less then 500 then no bonus
+ * if production is > 500
+ *
  */
 
 var bonus;
