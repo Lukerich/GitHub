@@ -18,7 +18,7 @@ var annFun = function () {               // an anonymous function to self run
             console.log(anCt + " Ant's are marching in:");              // output to console for calculation results
         } else {                                                        // else of the if
             if (ipAnt[2] === "N" || "n") {
-                console.log("Ant's are marching two by two:")               // output to the console when the if condition is not true
+                console.log("Ant's are marching two by two:");               // output to the console when the if condition is not true
             }
         }
     } else {
