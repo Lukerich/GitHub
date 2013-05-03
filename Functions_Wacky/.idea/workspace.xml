@@ -7,7 +7,7 @@
     </list>
     <ignored path="Functions_Wacky.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="8fb789a1-9f59-46bf-8485-6e3a5759bf83" time="1367548013376" ignored="false" />
+    <file path="/Dummy.txt" changelist="8fb789a1-9f59-46bf-8485-6e3a5759bf83" time="1367548210232" ignored="false" />
     <file path="/index.html" changelist="8fb789a1-9f59-46bf-8485-6e3a5759bf83" time="1367458572529" ignored="false" />
     <file path="/script.js" changelist="8fb789a1-9f59-46bf-8485-6e3a5759bf83" time="1367548000813" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,7 +41,7 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="18" selection-start="357" selection-end="357" vertical-scroll-proportion="0.28931752">
+            <state line="16" column="29" selection-start="497" selection-end="497" vertical-scroll-proportion="0.3560831">
               <folding />
             </state>
           </provider>
@@ -206,7 +206,11 @@
       <created>1367548017019</created>
       <updated>1367548017019</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Functions_Wacky">
+      <created>1367548213933</created>
+      <updated>1367548213933</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -331,7 +335,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="18" selection-start="357" selection-end="357" vertical-scroll-proportion="0.28931752">
+        <state line="16" column="29" selection-start="497" selection-end="497" vertical-scroll-proportion="0.3560831">
           <folding />
         </state>
       </provider>
