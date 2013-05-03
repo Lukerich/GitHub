@@ -24,7 +24,7 @@ prdVal[1] = prompt("Enter Line A or B:", "");
 
 // bonus = lowPrd(prdVal[0], prdVal[1]);
 
-if (prdVal[0] > 0 && prdVal[1] == "") {
+if (prdVal[0] > 0 && prdVal[1] !== "") {
     function lowPrd(a, b) {
         var vyLB = (a < 500)
         var lowB = (a < 1000 && a >= 500);
