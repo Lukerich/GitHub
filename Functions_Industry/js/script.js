@@ -29,7 +29,7 @@ if (prdVal[0] > 0) {
         if (vyLB) {
             console.log("Sorry no one gets a bonus tonight");
         } else {
-            if (lowB && lnB){
+            if (lowB && lnB || lnA){
                 console.log("Line B gets a bonus!");
                 var bonVal = a * .02;
                 console.log("Bonus is $" + bonVal);
