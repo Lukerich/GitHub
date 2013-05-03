@@ -31,7 +31,7 @@ if (prdVal[0] > 0) {
         if (medB && lnA || vyLB && lnB) {
             console.log("Sorry no bonus tonight");
         } else {
-            if (lowB && lnB){
+            if (lowB && lnB || lnA){
                 console.log("Line B gets bonus, sorry Line A");
             }
         }
