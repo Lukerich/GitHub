@@ -22,14 +22,15 @@ bonus = lowPrd(prdVal[0], prdVal[1]);
 if (prdVal[0] > 0) {
     function lowPrd(a, b) {
         var vyLB = (a < 500);
-        var lowB = (a < 1000 && a >= 500);
+        var lowB = (a <= 1000);
+        var medB = (a > 1000);
         var lnA = (b == "A" || b == "a");
         var lnB = (b == "B" || b == "b");
-        if (medB && lnA || vyLB && lnB) {
+        if (lowB && lnA || vyLB && lnB) {
             console.log("Sorry no bonus tonight");
         } else {
-            if (lowB && lnB || lnA){
-                console.log("Line B gets bonus, sorry Line A");
+            if (lowB && lnB || medB && lnA){
+                console.log("Everyone gets a bonus!");
                 var bonVal = a >= 1000 ? a * .02 : a * .01;
                 console.log("Bonus is $" + bonVal);
             }
