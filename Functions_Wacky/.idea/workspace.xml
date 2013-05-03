@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fb789a1-9f59-46bf-8485-6e3a5759bf83" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/script.js" afterPath="$PROJECT_DIR$/js/script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Functions_Wacky.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="8fb789a1-9f59-46bf-8485-6e3a5759bf83" time="1367551609322" ignored="false" />
+    <file path="/Dummy.txt" changelist="8fb789a1-9f59-46bf-8485-6e3a5759bf83" time="1367551657956" ignored="false" />
     <file path="/index.html" changelist="8fb789a1-9f59-46bf-8485-6e3a5759bf83" time="1367458572529" ignored="false" />
     <file path="/script.js" changelist="8fb789a1-9f59-46bf-8485-6e3a5759bf83" time="1367550867769" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,7 +40,7 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="69" selection-start="1208" selection-end="1208" vertical-scroll-proportion="0.6433409">
+            <state line="20" column="2" selection-start="1209" selection-end="1209" vertical-scroll-proportion="0.6772009">
               <folding />
             </state>
           </provider>
@@ -318,7 +317,11 @@
       <created>1367551613149</created>
       <updated>1367551613149</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Functions_Wacky">
+      <created>1367551662248</created>
+      <updated>1367551662248</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -443,7 +446,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="69" selection-start="1208" selection-end="1208" vertical-scroll-proportion="0.6433409">
+        <state line="20" column="2" selection-start="1209" selection-end="1209" vertical-scroll-proportion="0.6772009">
           <folding />
         </state>
       </provider>
