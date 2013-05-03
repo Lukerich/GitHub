@@ -7,7 +7,7 @@
     </list>
     <ignored path="Functions_Wacky.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="8fb789a1-9f59-46bf-8485-6e3a5759bf83" time="1367549206742" ignored="false" />
+    <file path="/Dummy.txt" changelist="8fb789a1-9f59-46bf-8485-6e3a5759bf83" time="1367549277679" ignored="false" />
     <file path="/index.html" changelist="8fb789a1-9f59-46bf-8485-6e3a5759bf83" time="1367458572529" ignored="false" />
     <file path="/script.js" changelist="8fb789a1-9f59-46bf-8485-6e3a5759bf83" time="1367548966375" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,7 +41,7 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="71" selection-start="804" selection-end="804" vertical-scroll-proportion="0.31770045">
+            <state line="14" column="47" selection-start="780" selection-end="780" vertical-scroll-proportion="0.3115727">
               <folding />
             </state>
           </provider>
@@ -230,7 +230,11 @@
       <created>1367549210596</created>
       <updated>1367549210596</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Functions_Wacky">
+      <created>1367549282751</created>
+      <updated>1367549282751</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -355,7 +359,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="71" selection-start="804" selection-end="804" vertical-scroll-proportion="0.31770045">
+        <state line="14" column="47" selection-start="780" selection-end="780" vertical-scroll-proportion="0.3115727">
           <folding />
         </state>
       </provider>
