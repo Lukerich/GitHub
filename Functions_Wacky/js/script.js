@@ -7,4 +7,4 @@
 
 var ants;
 var ipAnt = [];
-var ipAnt[0] = (Number(prompt("Enter the number of Ants marching", "")));
+ipAnt[0] = (Number(prompt("Enter the number of Ants marching", "")));
