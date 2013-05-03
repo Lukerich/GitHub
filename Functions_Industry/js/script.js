@@ -35,8 +35,6 @@ if (prdVal[0] > 0) {
         var lnB = (b == "B" || b == "b");
         if (medB && lnA || lowB && lnB) {
             console.log("Sorry no bonus tonight");
-        } else {
-            lowB && lnB ? console.log("Line B gets bonus") : console.log("Everyone gets a bonus!");
         }
     }
 } else {
