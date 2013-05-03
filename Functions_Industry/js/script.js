@@ -28,7 +28,7 @@ if (prdVal[0] > 0) {                    // if statement to validate a number gre
             console.log("Sorry no one gets a bonus tonight");  // output to console if prod count is too low
         } else {                                         // else  to evaluate prod counts above 499
             if (lowB && lnB || lowB && lnA) {           // if to test if prod count is good for line B but low for line A
-                console.log("Line B gets a bonus!");    // output if line B gets bonus
+                console.log("Line B gets a bonus! Sorry Line A.");    // output if line B gets bonus
                 var bonVal = a * .02;                   // variable assigned to calculation of bonus for line B
                 console.log("Bonus is $" + bonVal);     // output to console of bonus amount for line B
             } else {                                    // else to evaluate rest fo the prod counts
@@ -42,7 +42,6 @@ if (prdVal[0] > 0) {                    // if statement to validate a number gre
     }
 } else {                                                       // else part of if that evaluates user input validity
     console.log("You must enter a number greater then 0 and a Line letter:");  // output to console to let user know they need to put in a number greater the 0
-
 }
 
 
