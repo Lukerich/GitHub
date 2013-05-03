@@ -7,7 +7,7 @@
     </list>
     <ignored path="Functions_Wacky.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="8fb789a1-9f59-46bf-8485-6e3a5759bf83" time="1367550875298" ignored="false" />
+    <file path="/Dummy.txt" changelist="8fb789a1-9f59-46bf-8485-6e3a5759bf83" time="1367550953625" ignored="false" />
     <file path="/index.html" changelist="8fb789a1-9f59-46bf-8485-6e3a5759bf83" time="1367458572529" ignored="false" />
     <file path="/script.js" changelist="8fb789a1-9f59-46bf-8485-6e3a5759bf83" time="1367550867769" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,7 +41,7 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="63" selection-start="1035" selection-end="1035" vertical-scroll-proportion="0.408472">
+            <state line="13" column="64" selection-start="685" selection-end="685" vertical-scroll-proportion="0.29500756">
               <folding />
             </state>
           </provider>
@@ -294,7 +294,11 @@
       <created>1367550878492</created>
       <updated>1367550878492</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Functions_Wacky">
+      <created>1367550957179</created>
+      <updated>1367550957179</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -419,7 +423,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="63" selection-start="1035" selection-end="1035" vertical-scroll-proportion="0.408472">
+        <state line="13" column="64" selection-start="685" selection-end="685" vertical-scroll-proportion="0.29500756">
           <folding />
         </state>
       </provider>
