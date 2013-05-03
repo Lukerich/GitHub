@@ -18,9 +18,9 @@ var total;      // declared variable to use as output to the console
 
 var input = [];      // array to hold input values
 
-input[0] = (Number(prompt("Enter amount of weight in pounds you want to lose:", "")));  // user input to array index 0 for lbs to lose
-input[1] = (Number(prompt("Enter of calories you will reduce below base line of 2000:", ""))); // user input to array index 1 for reduction in calories
-input[2] = (Number(prompt("Enter number of miles you will walk at a 4miles/hr. pace per day:", ""))); //user input to array index 2 for miles per day to walk
+input[0] = Number(prompt("Enter amount of weight in pounds you want to lose:", ""));  // user input to array index 0 for lbs to lose
+input[1] = Number(prompt("Enter of calories you will reduce below base line of 2000:", "")); // user input to array index 1 for reduction in calories
+input[2] = Number(prompt("Enter number of miles you will walk at a 4miles/hr. pace per day:", "")); //user input to array index 2 for miles per day to walk
 input[3] = Number(prompt("Enter of days/week you will diet and exercise:", "")); //user input for number of days to exercise
 
 wgtTls = input[0];                          // variable to capture lbs to lose for output to console
