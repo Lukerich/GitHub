@@ -18,7 +18,7 @@ if (ban4Sl[0] == "" || ban4Sl[1] == "") { // 1st if statement to validate user i
             if (ban4Sl[0] == "N") {                       // if to evaluate when 1st input is N
                 console.log("Hmmm then why did you come to the Banana Store?:");  // output to user when 1st input is N
             } else {                                                              // else of if for last evaluation of user input
-                console.log("You enter a letter other then Y or N, this is not allowed:");   // output to user when all evaluations are false
+                console.log("You enter something other then Y or N, this is not allowed:");   // output to user when all evaluations are false
             }
         }
     }
