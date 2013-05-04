@@ -5,7 +5,7 @@
  */
 var ban4Sl = [];                      // variable assigned to array for user input
 ban4Sl[0] = prompt("Do you want bananas?:", "Y,N"); //array index 0 used for 1st user input
-ban4Sl[1] = prompt("Are there bananas for sale?:", "Y,N"); // array index 1 used for 2nd user input
+ban4Sl[1] = prompt("Are there bananas for sale?:", ""); // array index 1 used for 2nd user input
 if (ban4Sl[0] == "" || ban4Sl[1] == "") { // 1st if statement to validate user input is not blank
     console.log("Enter either Y or N:");    // output to user that blank is not allowed
 } else {                                    // else of if to evaluate user input
