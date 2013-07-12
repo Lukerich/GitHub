@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="512323df-c674-4637-859b-444f37b9ab5b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PWA1/Wk1/goal1_basics/js/main.js" afterPath="$PROJECT_DIR$/PWA1/Wk1/goal1_basics/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="GitHub.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="512323df-c674-4637-859b-444f37b9ab5b" time="1373639204942" ignored="false" />
+    <file path="/Dummy.txt" changelist="512323df-c674-4637-859b-444f37b9ab5b" time="1373640936560" ignored="false" />
     <file path="/index.html" changelist="512323df-c674-4637-859b-444f37b9ab5b" time="1366568540928" ignored="false" />
     <file path="/main.js" changelist="512323df-c674-4637-859b-444f37b9ab5b" time="1373640918948" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -328,7 +327,11 @@
       <created>1373639211356</created>
       <updated>1373639211356</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="updates&#10;">
+      <created>1373640941309</created>
+      <updated>1373640941309</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
