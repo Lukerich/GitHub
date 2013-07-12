@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="512323df-c674-4637-859b-444f37b9ab5b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PWA1/Wk1/goal1_basics/js/main.js" afterPath="$PROJECT_DIR$/PWA1/Wk1/goal1_basics/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="GitHub.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="512323df-c674-4637-859b-444f37b9ab5b" time="1373640947543" ignored="false" />
+    <file path="/Dummy.txt" changelist="512323df-c674-4637-859b-444f37b9ab5b" time="1373640952969" ignored="false" />
     <file path="/index.html" changelist="512323df-c674-4637-859b-444f37b9ab5b" time="1366568540928" ignored="false" />
     <file path="/main.js" changelist="512323df-c674-4637-859b-444f37b9ab5b" time="1373640918948" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -40,7 +41,7 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PWA1/Wk1/goal1_basics/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="194" column="44" selection-start="5279" selection-end="5279" vertical-scroll-proportion="0.9424184">
+            <state line="197" column="36" selection-start="5396" selection-end="5396" vertical-scroll-proportion="0.25143954">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -335,7 +336,11 @@
       <created>1373640950698</created>
       <updated>1373640950698</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="updates&#10;">
+      <created>1373640956596</created>
+      <updated>1373640956596</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -512,7 +517,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PWA1/Wk1/goal1_basics/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="194" column="44" selection-start="5279" selection-end="5279" vertical-scroll-proportion="0.9424184">
+        <state line="197" column="36" selection-start="5396" selection-end="5396" vertical-scroll-proportion="0.25143954">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
