@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="512323df-c674-4637-859b-444f37b9ab5b" name="Default" comment="refresh">
+    <list default="true" id="512323df-c674-4637-859b-444f37b9ab5b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PWA1/Wk1/goal1_basics/js/main.js" afterPath="$PROJECT_DIR$/PWA1/Wk1/goal1_basics/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conditional_Wk4_Reflection/.idea/workspace.xml" afterPath="$PROJECT_DIR$/Conditional_Wk4_Reflection/.idea/workspace.xml" />
     </list>
     <ignored path="GitHub.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="512323df-c674-4637-859b-444f37b9ab5b" time="1373630787625" ignored="false" />
+    <file path="/Dummy.txt" changelist="512323df-c674-4637-859b-444f37b9ab5b" time="1373634021894" ignored="false" />
     <file path="/index.html" changelist="512323df-c674-4637-859b-444f37b9ab5b" time="1366568540928" ignored="false" />
-    <file path="/main.js" changelist="512323df-c674-4637-859b-444f37b9ab5b" time="1373633939645" ignored="false" />
+    <file path="/main.js" changelist="512323df-c674-4637-859b-444f37b9ab5b" time="1373634750731" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +41,7 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PWA1/Wk1/goal1_basics/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="111" column="44" selection-start="3104" selection-end="3104" vertical-scroll-proportion="0.46875">
+            <state line="126" column="35" selection-start="3523" selection-end="3523" vertical-scroll-proportion="0.8035714">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -309,7 +308,11 @@
       <created>1373630776316</created>
       <updated>1373630776316</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="refresh">
+      <created>1373634042051</created>
+      <updated>1373634042051</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -484,7 +487,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PWA1/Wk1/goal1_basics/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="111" column="44" selection-start="3104" selection-end="3104" vertical-scroll-proportion="0.46875">
+        <state line="126" column="35" selection-start="3523" selection-end="3523" vertical-scroll-proportion="0.8035714">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
