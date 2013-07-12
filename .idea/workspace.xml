@@ -7,9 +7,9 @@
     </list>
     <ignored path="GitHub.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="512323df-c674-4637-859b-444f37b9ab5b" time="1373634021894" ignored="false" />
+    <file path="/Dummy.txt" changelist="512323df-c674-4637-859b-444f37b9ab5b" time="1373634811693" ignored="false" />
     <file path="/index.html" changelist="512323df-c674-4637-859b-444f37b9ab5b" time="1366568540928" ignored="false" />
-    <file path="/main.js" changelist="512323df-c674-4637-859b-444f37b9ab5b" time="1373634750731" ignored="false" />
+    <file path="/main.js" changelist="512323df-c674-4637-859b-444f37b9ab5b" time="1373634900962" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +41,7 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PWA1/Wk1/goal1_basics/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="126" column="35" selection-start="3523" selection-end="3523" vertical-scroll-proportion="0.8035714">
+            <state line="131" column="11" selection-start="3586" selection-end="3586" vertical-scroll-proportion="0.91071427">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -312,7 +312,11 @@
       <created>1373634042051</created>
       <updated>1373634042051</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="updates&#10;">
+      <created>1373634817968</created>
+      <updated>1373634817968</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -380,7 +384,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="refresh" />
+    <option name="LAST_COMMIT_MESSAGE" value="updates&#10;" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -395,6 +399,8 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="refresh" />
+    <MESSAGE value="&#10;" />
+    <MESSAGE value="updates&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -487,7 +493,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PWA1/Wk1/goal1_basics/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="126" column="35" selection-start="3523" selection-end="3523" vertical-scroll-proportion="0.8035714">
+        <state line="131" column="11" selection-start="3586" selection-end="3586" vertical-scroll-proportion="0.91071427">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
